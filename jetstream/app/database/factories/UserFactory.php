@@ -24,12 +24,15 @@ class UserFactory extends Factory
      */
     public function definition()
     {
+        $email = $this->faker->unique()->safeEmail();
         return [
             'name' => $this->faker->name(),
             'email' => $this->faker->unique()->safeEmail(),
             'email_verified_at' => now(),
-            'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+            'password' => '12345678', // email
             'remember_token' => Str::random(10),
+            'profile'=>$this->getProfile(),
+           
         ];
     }
 
@@ -66,4 +69,10 @@ class UserFactory extends Factory
             'ownedTeams'
         );
     }
+     private function getProfile():string{
+         $profiles=['administrator','user'];
+         shuffle($profiles);
+         return $profiles[0];
+     }
+    
 }

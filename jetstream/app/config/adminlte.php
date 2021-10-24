@@ -230,6 +230,7 @@ return [
             'type'         => 'navbar-search',
             'text'         => 'search',
             'topnav_right' => true,
+           
         ],
         [
             'type'         => 'fullscreen-widget',
@@ -244,14 +245,16 @@ return [
         [
             'text' => 'blog',
             'url'  => 'admin/blog',
-            'can'  => 'manage-blog',
+            'can'  =>'is_admin','user'
         ],
         [
-            'text'        => 'pages',
+            'text'        => 'Administração',
             'url'         => 'admin/pages',
             'icon'        => 'far fa-fw fa-file',
             'label'       => 4,
             'label_color' => 'success',
+            'can'  =>'is_admin','user'
+            
         ],
         ['header' => 'account_settings'],
         [
