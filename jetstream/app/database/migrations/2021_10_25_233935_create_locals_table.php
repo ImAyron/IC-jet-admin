@@ -16,6 +16,7 @@ class CreateLocalsTable extends Migration
         Schema::create('locals', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->varchar('descricao');
         });
     }
 
