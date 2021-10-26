@@ -16,6 +16,9 @@ class CreateAntenasTable extends Migration
         Schema::create('antenas', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string('codigo');
+            $table->unsignedBigInteger('local_id');
+            $table->foreign('local_id')->references('id')->on('locals');
         });
     }
 

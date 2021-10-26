@@ -15,7 +15,18 @@ class CreateOperacaosTable extends Migration
     {
         Schema::create('operacaos', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->unsignedBigInteger('tag_id');
+            $table->unsignedBigInteger('user_id');
+            $table->unsignedBigInteger('antena_id');
+            $table->unsignedBigInteger('tipo');
+            $table->unsignedBigInteger('quantidade');
+            $table->datetime('data_hora');
+
+
+            
+            $table->foreign('tag_id')->references('id')->on('tags');
+            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('antena_id')->references('id')->on('antenas');
         });
     }
 
