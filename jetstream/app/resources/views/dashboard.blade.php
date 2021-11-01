@@ -14,7 +14,7 @@
 @section('content')
 
 <section class="content">
-  @can('is_admin')
+  @canany(['is_admin', 'user'])
  
   <!-- /.row -->
   <div class="row">

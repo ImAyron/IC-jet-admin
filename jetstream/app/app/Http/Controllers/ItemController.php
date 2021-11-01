@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
+
 use App\Models\Item;
+
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class ItemController extends Controller
 {
@@ -12,9 +15,16 @@ class ItemController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+     public function index()
     {
-        //
+        if (Auth::check()) {
+
+            $items = Item::orderBy('codigo')->get();
+            return view('item.index', ['items' => $items]);
+        } else {
+            session()->flash('mensagem', 'Operação não permitida!');
+            return redirect()->route('login');
+        }
     }
 
     /**
@@ -24,62 +34,75 @@ class ItemController extends Controller
      */
     public function create()
     {
-        //
+        if (Auth::check()) {
+
+            return view('item.create');
+        } else {
+            session()->flash('mensagem', 'Operação não permitida!');
+            return redirect()->route('login');
+        }
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
+
     public function store(Request $request)
     {
-        //
+
+
+        if (Auth::check()) {
+            Item::create($request->all());
+            session()->flash('mensagem', 'Item cadastrado com sucesso!');
+            return redirect()->route('item.index');
+        } else {
+            session()->flash('mensagem', 'Operação não permitida!');
+            return redirect()->route('login');
+        }
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\Item  $item
-     * @return \Illuminate\Http\Response
-     */
     public function show(Item $item)
     {
-        //
+        if (Auth::check()) {
+            return view('item.show', ['item' => $item]);
+        } else {
+            session()->flash('mensagem', 'Operação não permitida!');
+            return redirect()->route('login');
+        }
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Item  $item
-     * @return \Illuminate\Http\Response
-     */
     public function edit(Item $item)
     {
-        //
+        if (Auth::check()) {
+            return view('item.edit', ['item' => $item]);
+        } else {
+            session()->flash('mensagem', 'Operação não permitida!');
+            return redirect()->route('login');
+        }
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Item  $item
-     * @return \Illuminate\Http\Response
-     */
+
     public function update(Request $request, Item $item)
     {
-        //
+        if (Auth::check()) {
+            $item->fill($request->all());
+            $item->save();
+            session()->flash('mensagem', 'Item atualizado com sucesso!');
+            return redirect()->route('item.index');
+        } else {
+            session()->flash('mensagem', 'Operação não permitida!');
+            return redirect()->route('login');
+        }
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Item  $item
-     * @return \Illuminate\Http\Response
-     */
     public function destroy(Item $item)
     {
-        //
+        if (Auth::check()) {
+                $item->delete();
+                session()->flash('mensagem', 'Item excluído com sucesso!');
+                return redirect()->route('item.index');
+            }
+           
+         else {
+            session()->flash('mensagem', 'Operação não permitida!');
+            return redirect()->route('login');
+        }
     }
 }

@@ -2,84 +2,79 @@
 
 namespace App\Http\Controllers;
 
+
+
+use App\Models\Item;
 use App\Models\Tag;
+
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class TagController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+ 
     public function index()
     {
-        //
+        $tags = Tag::orderBy('codigo')->get();
+        return view('tag.index', ['tags' => $tags]);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
+    public function create() // method=post action=store
     {
-        //
+        if (Auth::check()) {
+            $items = Item::orderBy('descricao')->get();
+            return view('tag.create', ['items' => $items]);
+        } else {
+            session()->flash('mensagem', 'Operação não permitida!');
+            return redirect()->route('login');
+        }
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
-        //
+        Tag::create($request->all()); 
+        session()->flash('mensagem','Tag cadastrada com sucesso!');
+        return redirect()->route('tag.index');
     }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\Tag  $tag
-     * @return \Illuminate\Http\Response
-     */
+ 
     public function show(Tag $tag)
-    {
-        //
+    { 
+        return view('tag.show',['tag'=>$tag]);
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Tag  $tag
-     * @return \Illuminate\Http\Response
-     */
     public function edit(Tag $tag)
     {
-        //
+        if (Auth::check()) {
+            $items = Item::orderBy('codigo')->get();
+            return view('tag.edit', ['operacao' => $operacao, 'items' => $items]);
+        } else {
+            session()->flash('mensagem', 'Operação não permitida!');
+            return redirect()->route('login');
+        }
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Tag  $tag
-     * @return \Illuminate\Http\Response
-     */
     public function update(Request $request, Tag $tag)
     {
-        //
+        //dd($request->all());
+        $tag->fill($request->all());
+        $tag->save();
+
+        session()->flash('mensagem', 'Tag atualizada com sucesso!');  
+        return redirect()->route('tag.index');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Tag  $tag
-     * @return \Illuminate\Http\Response
-     */
     public function destroy(Tag $tag)
     {
-        //
+     #   if($tag->item->count() > 0){
+
+      #      session()->flash('mensagem', 'Exclusão não permitida! Existem itens associadas.');
+      #      return redirect()->route('tag.index');
+      #  }else{
+
+        $tag->delete();
+        session()->flash('mensagem', 'Tag excluída com sucesso!');
+        return redirect()->route('tag.index');
+   
+     #   }
     }
 }

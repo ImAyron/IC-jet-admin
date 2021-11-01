@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Antena extends Model
 {
     use HasFactory;
+
+    protected $fillable = ['codigo', 'local'];
+
 }
