@@ -1,8 +1,13 @@
 @extends('principal')
 
 @section('conteudo')
+<div class="row">
+    <div class="col">
 
-     <table class="table table-bordered table-hover table-striped table-sm">
+    </div>
+    <div class="col-10">
+        
+     <table class="table table-bordered table-hover table-striped table-sm table-dark">
         <caption>Tabela de Itens</caption>
     <thead class="thead-dark">
        
@@ -28,6 +33,12 @@
         @endforeach
     </tbody>
     </table>
+    </div>
+
+    <div class="col">
+
+    </div>
+</div>
 
 
 @endsection

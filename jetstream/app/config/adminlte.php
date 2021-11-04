@@ -188,7 +188,7 @@ return [
     */
 
     'use_route_url' => false,
-    'dashboard_url' => 'home',
+    'dashboard_url' => '/',
     'logout_url' => 'logout',
     'login_url' => 'login',
     'register_url' => 'register',
@@ -245,7 +245,7 @@ return [
         [
             'text' => 'blog',
             'url'  => 'admin/blog',
-            'can'  =>'is_admin','user'
+            'can'  =>'is_admin'
         ],
         [
             'text'        => 'Administração',
@@ -253,7 +253,7 @@ return [
             'icon'        => 'far fa-fw fa-file',
             'label'       => 4,
             'label_color' => 'success',
-            'can'  =>'is_admin','user'
+            'can'  =>'is_admin'
             
         ],
         ['header' => 'account_settings'],
@@ -262,65 +262,70 @@ return [
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-user',
         ],
+        //item menu
         [
-            'text' => 'change_password',
-            'url'  => 'user/profile',
-            'icon' => 'fas fa-fw fa-lock',
-        ],
-        [
-            'text'    => 'multilevel',
-            'icon'    => 'fas fa-fw fa-share',
-            'submenu' => [
+            'text' => 'Item',
+            'url'  => 'item',
+            'icon' => 'fas fa-tshirt',
+            'submenu'=>[
+
                 [
-                    'text' => 'level_one',
-                    'url'  => '#',
+                'text' => 'Criar',
+                'url'  => 'item/create', 
+                'icon' => 'fas fa-plus',
                 ],
                 [
-                    'text'    => 'level_one',
-                    'url'     => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'level_two',
-                            'url'     => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                            ],
-                        ],
-                    ],
+                    'text' => 'Exibir itens',
+                    'url'  => 'item', 
+                    'icon' => 'far fa-eye',
+                    ]
+                
+                
+            ]
+        ],
+        //antena menu
+        [
+            'text' => 'Antena',
+            'url'  => 'antena',
+            'icon' => 'fas fa-broadcast-tower',
+            'submenu'=>[
+
+                [
+                'text' => 'Criar',
+                'url'  => 'antena/create', 
+                'icon' => 'fas fa-plus',
                 ],
                 [
-                    'text' => 'level_one',
-                    'url'  => '#',
+                    'text' => 'Exibir Antenas',
+                    'url'  => 'antena', 
+                    'icon' => 'far fa-eye',
+                    ]
+                
+                
+            ]
+        ],
+        //tag menu
+        [
+            'text' => 'Tag',
+            'url'  => 'tag',
+            'icon' => 'fas fa-tags',
+            'submenu'=>[
+
+                [
+                'text' => 'Cadastrar',
+                'url'  => 'tag/create', 
+                'icon' => 'fas fa-plus',
                 ],
-            ],
+                [
+                    'text' => 'Exibir Tags ativas',
+                    'url'  => 'tag', 
+                    'icon' => 'far fa-eye',
+                    ]
+                
+                
+            ]
         ],
-        ['header' => 'labels'],
-        [
-            'text'       => 'important',
-            'icon_color' => 'red',
-            'url'        => '#',
-        ],
-        [
-            'text'       => 'warning',
-            'icon_color' => 'yellow',
-            'url'        => '#',
-        ],
-        [
-            'text'       => 'information',
-            'icon_color' => 'cyan',
-            'url'        => '#',
-        ],
+       
     ],
 
     /*

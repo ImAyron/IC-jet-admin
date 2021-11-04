@@ -35,8 +35,11 @@ Route::get('/geral', function(){
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
+    $item=new ItemController;
+    $count=$item->count();
+    return view('dashboard',['count'=>$count]);
 })->name('dashboard');
+
 
 
 Route::resource('/operacao', OperacaoController::class);

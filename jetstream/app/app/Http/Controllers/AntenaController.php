@@ -97,4 +97,5 @@ class AntenaController extends Controller
             return redirect()->route('login');
         }
     }
+    
 }

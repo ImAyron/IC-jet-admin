@@ -3,7 +3,10 @@
 @section('conteudo')
 
      <table class="table table-bordered table-hover table-striped table-sm">
-        <caption>Tabela de antenas</caption>
+        <caption>Tabela de antenas
+    
+
+        </caption>
     <thead class="thead-dark">
        
         <tr>

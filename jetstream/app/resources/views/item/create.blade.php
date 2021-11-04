@@ -2,7 +2,13 @@
 
 @section('conteudo')
 
-<form action="{{ route('item.store')}}" method="post">
+<div class="container">
+<div class="rol">
+    <div class="col">
+
+    </div>
+    <div class="col">
+    <form action="{{ route('item.store')}}" method="post">
      @csrf
 
     <div class="form-group">
@@ -25,6 +31,13 @@
     <input type="submit" value="Cadastrar" class="btn btn-primary">
     <input type="reset" value="Limpar" class="btn btn-danger">
     </div>
-</form>
+    </form>
+    </div>
+    <div class="col">
+        
+    </div>
+
+</div>
+</div>
 
 @endsection('conteudo')

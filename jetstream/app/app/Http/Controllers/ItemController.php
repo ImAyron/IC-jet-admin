@@ -27,6 +27,13 @@ class ItemController extends Controller
         }
     }
 
+    public function count(){
+
+        $count=Item::all()->count();
+        
+        return $count;
+    }
+
     /**
      * Show the form for creating a new resource.
      *
@@ -42,6 +49,7 @@ class ItemController extends Controller
             return redirect()->route('login');
         }
     }
+    
 
 
     public function store(Request $request)

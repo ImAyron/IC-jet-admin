@@ -29,18 +29,19 @@
             </li>
             
 			<li class="nav-item col text-center">
-                    <a href="{{ url('/geral') }}">
+                    <a href="{{ url('/dashboard') }}">
                     <img src="/img/sair.png" alt="Área Geral" class="img-menu">
 					<h1>Geral</h1>
 				</a>
 			</li>
-        
+			@can('is_admin')
             <li class="nav-item col text-center">
 				<a href="{{route('adm')}}">
                     <img src="/img/sair.png" alt="Área do ADM" class="img-menu">
 					<h1>ADM</h1>
 				</a>
             </li>
+			@endcan
             
         
 
