@@ -3,6 +3,7 @@
 namespace Database\Factories;
 
 use App\Models\Tag;
+use App\Models\Item;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class TagFactory extends Factory
@@ -22,7 +23,8 @@ class TagFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'codigo' => $this->faker->md5(),
+            'item_id' => Item::factory(),
         ];
     }
 }

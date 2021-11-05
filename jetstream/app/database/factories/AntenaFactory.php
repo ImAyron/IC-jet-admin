@@ -22,7 +22,8 @@ class AntenaFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'local' => $this->faker->text(100),
+            'codigo' => strtoupper(substr($this->faker->text(10), 0, 4))
         ];
     }
 }
