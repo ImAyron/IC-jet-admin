@@ -22,7 +22,9 @@ class ItemFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'codigo' => strtoupper(substr($this->faker->text(10), 0, 4)),
+            'descricao' => $this->faker->text(100),
+            'dataFab' => $this->faker->date(),
         ];
     }
 }

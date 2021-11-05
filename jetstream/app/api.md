@@ -1,0 +1,1 @@
+https://laravel.com/docs/8.x/sanctum#api-token-authentication

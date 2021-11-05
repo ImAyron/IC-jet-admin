@@ -15,6 +15,12 @@ class CreateOperacaosTable extends Migration
     {
         Schema::create('operacaos', function (Blueprint $table) {
             $table->id();
+            $table->tinyInteger('tipo');
+
+            $table->foreignId('antena_id')->constrained();    
+            $table->foreignId('tag_id')->constrained();
+            $table->foreignId('user_id')->constrained();
+
             $table->timestamps();
         });
     }
