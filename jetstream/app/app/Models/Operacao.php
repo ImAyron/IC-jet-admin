@@ -9,7 +9,7 @@ class Operacao extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['tag_id', 'funcionario_id', 'antena_id'];
+    protected $fillable = ['tipo', 'tag_id', 'user_id', 'antena_id'];
 
     public function funcionario()
     {
