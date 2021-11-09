@@ -8,6 +8,7 @@ use App\Http\Controllers\FuncionarioController;
 use App\Http\Controllers\AntenaController;
 use App\Http\Controllers\ItemController;
 use App\Http\Controllers\TagController;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,9 +36,11 @@ Route::get('/geral', function(){
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    $antena=new AntenaController;
+    $countA=$antena->count();
     $item=new ItemController;
     $count=$item->count();
-    return view('dashboard',['count'=>$count]);
+    return view('dashboard',['count'=>$count],['countA'=>$countA]);
 })->name('dashboard');
 
 

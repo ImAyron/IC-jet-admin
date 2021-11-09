@@ -2,18 +2,52 @@
 
 @section ('conteudo')
 
-<h1>Dados do item</h1>
+<div class="container">
+    <div class="row">
+        <div class="col">
+        
+        
+        
+        </div>
+        <div class="col-8">
+           <table class="table table-bordered table-hover table-striped table-sm table-dark">
+            
+           <img src="/img/edredon.jpg" height="50%" width="50%"  alt="">
+            
+           <tr>
+                <th><p>ID: {{ $item->id}}</p></th>
+            </tr>
+            <tr>
+                <th><p><p>Código: {{ $item->codigo }}</p></p></th>
+            </tr>
+            <tr>
+                <th><p><p>Descricão: {{$item->descricao}}</p></p></th>
+            </tr>
+            <tr>
+                <th><p><p><p>Data de fabricação: {{$item->dataFab}}</p></p></p></th>
+            </tr>
+           </table>
+        </div>
+        <div class="col">
 
-<p>ID: {{ $item->id}}</p>
-<p>Código: {{ $item->codigo }}</p>
-<p>Descricão: {{$item->descricao}}</p>
-<p>Data de fabricação: {{$item->dataFab}}</p>
+        </div>
+    </div>
+</div>
+
+
+
+
 
 
 <div style="text-align: center">
+    <button class="btn-danger">
     <a href="{{route('item.edit', $item->id)}}">Editar</a>
+    </button>
 
-<a href= "{{route('item.index')}}">Voltar</a>
+    <button class="btn-primary">
+    <a href= "{{route('item.index')}}">Voltar</a>
+    </button>
+
 
 <form name="frmDelete"
     action="{{ route('item.destroy', $item->id)}}"

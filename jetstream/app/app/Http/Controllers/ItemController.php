@@ -41,6 +41,8 @@ class ItemController extends Controller
      */
     public function create()
     {
+        $this->authorize('is_admin');
+        
         if (Auth::check()) {
 
             return view('item.create');
