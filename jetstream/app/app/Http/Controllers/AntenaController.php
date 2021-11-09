@@ -24,9 +24,17 @@ class AntenaController extends Controller
         }
     }
 
+    public function count(){
+
+        $count=Antena::all()->count();
+        
+        return $count;
+    }
 
     public function create()
     {
+        $this->authorize('is_admin');
+        
         if (Auth::check()) {
 
             return view('antena.create');
