@@ -242,24 +242,12 @@ return [
             'type' => 'sidebar-menu-search',
             'text' => 'search',
         ],
-        [
-            'text' => 'blog',
-            'url'  => 'admin/blog',
-            'can'  =>'is_admin'
-        ],
-        [
-            'text'        => 'Administração',
-            'url'         => 'admin/pages',
-            'icon'        => 'far fa-fw fa-file',
-            'label'       => 4,
-            'label_color' => 'success',
-            'can'  =>'is_admin'
-            
-        ],
+       
+        
         ['header' => 'account_settings'],
         [
             'text' => 'profile',
-            'url'  => 'admin/settings',
+            'url'  => 'user/profile',
             'icon' => 'fas fa-fw fa-user',
         ],
         //item menu
@@ -270,9 +258,11 @@ return [
             'submenu'=>[
 
                 [
+                    
                 'text' => 'Criar',
                 'url'  => 'item/create', 
                 'icon' => 'fas fa-plus',
+                'can' =>'is_admin'
                 ],
                 [
                     'text' => 'Exibir itens',
@@ -294,6 +284,7 @@ return [
                 'text' => 'Criar',
                 'url'  => 'antena/create', 
                 'icon' => 'fas fa-plus',
+                'can' =>'is_admin'
                 ],
                 [
                     'text' => 'Exibir Antenas',
@@ -312,6 +303,7 @@ return [
             'submenu'=>[
 
                 [
+                'can' =>'is_admin',  
                 'text' => 'Cadastrar',
                 'url'  => 'tag/create', 
                 'icon' => 'fas fa-plus',

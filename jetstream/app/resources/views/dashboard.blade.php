@@ -99,12 +99,12 @@
               <div class="inner">
                 <h3>{{$count}}</h3>
 
-                <p>Intens cadastrados</p>
+                <p>Itens cadastrados</p>
               </div>
               <div class="icon">
                 <i class="ion ion-bag"></i>
               </div>
-              <a href="welcome" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="item" class="small-box-footer">Mais Informações <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -112,7 +112,7 @@
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3>1<sup style="font-size: 20px">%</sup></h3>
+                <h3>{{$countA}}<sup style="font-size: 20px"></sup></h3>
 
                 <p>Antenas cadastradas</p>
               </div>
@@ -127,7 +127,7 @@
             <!-- small box -->
             <div class="small-box bg-warning">
               <div class="inner">
-                <h3>1</h3>
+                <h3>{{$a=1}}</h3>
 
                 <p>Tags ativas</p>
               </div>
