@@ -43,9 +43,14 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard',['count'=>$count],['countA'=>$countA]);
 })->name('dashboard');
 
-
+Route::middleware(['auth:sanctum', 'verified'])->get('/teste', function () {
+  
+    return view('teste');
+})->name('teste');
 
 Route::resource('/operacao', OperacaoController::class);
 Route::resource('/antena', AntenaController::class);
 Route::resource('/item', ItemController::class);
 Route::resource('/tag', TagController::class);
+
+

@@ -1,6 +1,14 @@
-@extends('principal')
+@extends('adminlte::page')
 
-@section('conteudo')
+
+@section('title', 'Dashboard')
+
+@section('content_header')
+
+@stop
+
+
+@section('content')
 
 <div class="container">
 <div class="rol">
@@ -40,4 +48,15 @@
 </div>
 </div>
 
-@endsection('conteudo')
+@csrf
+        @stop
+
+        @section('css')
+        <link rel="stylesheet" href="/css/admin_custom.css">
+        @stop
+
+        @section('js')
+        <script>
+          console.log('Hi!');
+        </script>
+        @stop

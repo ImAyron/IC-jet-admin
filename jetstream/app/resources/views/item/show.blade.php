@@ -1,6 +1,15 @@
-@extends('principal')
+@extends('adminlte::page')
 
-@section ('conteudo')
+
+@section('title', 'Dashboard')
+
+@section('content_header')
+
+@stop
+
+
+@section('content')
+
 
 <div class="container">
     <div class="row">
@@ -13,7 +22,7 @@
            <table class="table table-bordered table-hover table-striped table-sm table-dark">
             
            <img src="/img/edredon.jpg" height="50%" width="50%"  alt="">
-            
+           <img src="/img/local.jpg" height="50%" width="50%"  alt="">
            <tr>
                 <th><p>ID: {{ $item->id}}</p></th>
             </tr>
@@ -65,4 +74,17 @@
 
 
 
-@endsection
+
+
+@csrf
+        @stop
+
+        @section('css')
+        <link rel="stylesheet" href="/css/admin_custom.css">
+        @stop
+
+        @section('js')
+        <script>
+          console.log('Hi!');
+        </script>
+        @stop

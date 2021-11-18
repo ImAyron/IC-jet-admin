@@ -24,7 +24,7 @@ curl_setopt_array($curl,[
     CURLOPT_URL   =>"http://localhost/github/IC-jet-admin/jetstream/app/app/api/example.php",
     CURLOPT_CUSTOMREQUEST =>'POST',
     CURLOPT_RETURNTRANSFER  =>true,
-    CURLOPT_POSTFIELDS =>$json
+    CURLOPT_POSTFIELDS =>$post
 ]);
 
 

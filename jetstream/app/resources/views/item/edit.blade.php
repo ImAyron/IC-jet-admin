@@ -1,6 +1,14 @@
-@extends('principal')
+@extends('adminlte::page')
 
-@section('conteudo')
+
+@section('title', 'Dashboard')
+
+@section('content_header')
+
+@stop
+
+
+@section('content')
 
 <form action="{{route('item.update', $item->id)}}" method="post">
      @csrf
@@ -27,4 +35,15 @@
     </div>
 </form>
 
-@endsection('conteudo')
+@csrf
+        @stop
+
+        @section('css')
+        <link rel="stylesheet" href="/css/admin_custom.css">
+        @stop
+
+        @section('js')
+        <script>
+          console.log('Hi!');
+        </script>
+        @stop

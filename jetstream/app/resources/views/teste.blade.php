@@ -1,0 +1,108 @@
+@extends('adminlte::page')
+
+
+@section('title', 'Dashboard')
+
+@section('content_header')
+
+
+
+
+
+@stop
+
+
+@section('content')
+
+
+<div class="container">
+    <div class="rol">
+        <div class="col">
+
+        </div>
+        <div class="col">
+            <form action="{{ route('item.store')}}" method="post">
+                @csrf
+
+                <div class="form-group">
+                    <label for="codigo">Código</label>
+                    <input type="text" class="form-control" name="codigo" id="codigo">
+                </div>
+
+                <div class="form-group">
+                    <label for="descricao">Descrição</label>
+                    <input type="text" class="form-control" name="descricao" id="descricao">
+                </div>
+
+                <div class="form-group">
+                    <label for="dataFab">Data de fabricação:</label>
+                    <input type="date" class="form-control" name="dataFab" id="dataFab">
+                </div>
+
+
+                <div class="text-right">
+                    <input type="submit" value="Cadastrar" class="btn btn-primary">
+                    <input type="reset" value="Limpar" class="btn btn-danger">
+                </div>
+            </form>
+        </div>
+        <div class="col">
+
+        </div>
+
+    </div>
+</div>
+
+<!-- jQuery -->
+<script src="../../plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- DataTables  & Plugins -->
+<script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="../../plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+<script src="../../plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+<script src="../../plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+<script src="../../plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+<script src="../../plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+<script src="../../plugins/jszip/jszip.min.js"></script>
+<script src="../../plugins/pdfmake/pdfmake.min.js"></script>
+<script src="../../plugins/pdfmake/vfs_fonts.js"></script>
+<script src="../../plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+<script src="../../plugins/datatables-buttons/js/buttons.print.min.js"></script>
+<script src="../../plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../../dist/js/demo.js"></script>
+<!-- Page specific script -->
+<script>
+    $(function() {
+        $("#example1").DataTable({
+            "responsive": true,
+            "lengthChange": false,
+            "autoWidth": false,
+            "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+        }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+        $('#example2').DataTable({
+            "paging": true,
+            "lengthChange": false,
+            "searching": false,
+            "ordering": true,
+            "info": true,
+            "autoWidth": false,
+            "responsive": true,
+        });
+    });
+</script>
+@csrf
+@stop
+
+@section('css')
+<link rel="stylesheet" href="/css/admin_custom.css">
+@stop
+
+@section('js')
+<script>
+    console.log('Hi!');
+</script>
+@stop

@@ -6,8 +6,8 @@ echo$_SERVER['REQUEST_METHOD'];
 //HEADERS
 echo "\nHeaders";
 $headers=getallheaders();
-print_r($headers);
+//print_r($headers);
 
-//HEADERS
+//POST
 echo "\nPost";
 print_r($_POST);
