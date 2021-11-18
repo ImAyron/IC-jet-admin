@@ -1,0 +1,17 @@
+### 
+GET http://localhost:8000/sanctum/csrf-cookie
+
+### 
+POST http://localhost:8000/login
+X-XSRF-TOKEN: eyJpdiI6IkxDenhmdnRVN0lkZGZTditrMkxMbVE9PSIsInZhbHVlIjoidXRiRjVyT2NCRktvc3hidnZxVXJEcVQzRXBhOVRydmdqaldFUjJpL3NuckV2QWZaVmszQUZRWTlwRFF4VVZ2QUNjK1NLbWx2ZXJ2R3B5MEFVQndiMk5TSEJ3eDVNMG42YXBDdEUwNXoxYy9Id0x6aEtDM3hTZE8xdkNEdnFKZTAiLCJtYWMiOiJhNTljZDMxZGVhOGY4ZGVmMjA4NDBhN2RmNDExOGQ3ZGQ0NmM2YmUxMTFkNDA1ZTNlYWFmNTM4Y2YwZjAzYTRjIiwidGFnIjoiIn0%3D
+
+###
+POST http://localhost:8000/api/operation
+Content-Type: application/json
+Authorization: Bearer 17ec761dbede2b094d6e2659ab0dfe7a7e54182486699183fdf88e18b2980dc2
+
+{
+    "token": "123456",
+    "operation": 1,
+    "antenna": 5
+}
