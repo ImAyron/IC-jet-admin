@@ -18,6 +18,7 @@ class CreateTagsTable extends Migration
             $table->string('codigo',45);
             $table->foreignId('item_id')->constrained();
             $table->timestamps();
+            $table->date('dataFab');
         });
     }
 

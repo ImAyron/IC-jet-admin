@@ -9,7 +9,6 @@
 
 
 @section('content')
-
 <!-- Google Font: Source Sans Pro -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
@@ -52,15 +51,7 @@
         </tr>
         @endforeach
       </tbody>
-      <tfoot>
-        <tr>
-          <th>Rendering engine</th>
-          <th>Browser</th>
-          <th>Platform(s)</th>
-          <th>Engine version</th>
-          <th>CSS grade</th>
-        </tr>
-      </tfoot>
+      
     </table>
   </div>
   <!-- /.card-body -->
@@ -79,6 +70,7 @@
 <script src="./plugins/datatables-buttons/js/buttons.html5.min.js"></script>
 <script src="./plugins/datatables-buttons/js/buttons.print.min.js"></script>
 <script src="./plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+
 
 <!-- Page specific script -->
 <script>
