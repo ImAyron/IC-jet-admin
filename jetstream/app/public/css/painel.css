@@ -133,5 +133,13 @@ a:hover{
 }
 
 body{
-    background-color: #cff7f6;
+    background-color: #343a40;
+}
+
+body{
+
+	background-image:url("/img/hosp.jpg");
+    Background-repeat:no-repeat;
+    background-size: 100%;
+    
 }

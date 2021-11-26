@@ -21,6 +21,7 @@ class TagController extends Controller
 
     public function create() // method=post action=store
     {
+        $this->authorize('is_admin');
         if (Auth::check()) {
             $items = Item::orderBy('descricao')->get();
             return view('tag.create', ['items' => $items]);

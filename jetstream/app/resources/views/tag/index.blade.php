@@ -25,7 +25,7 @@
 
 <div class="card">
   <div class="card-header">
-    <h3 class="card-title">Itens cadastrados</h3>
+    <h3 class="card-title">Tags cadastrados</h3>
   </div>
   <!-- /.card-header -->
   <div class="card-body">

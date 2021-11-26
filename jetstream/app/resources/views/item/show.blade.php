@@ -38,23 +38,13 @@
            </table>
         </div>
         <div class="col">
-
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-<div style="text-align: center">
+        <div style="text-align: center; color:white;">
     <button class="btn-danger">
-    <a href="{{route('item.edit', $item->id)}}">Editar</a>
+    <a style = ' color:white;' href="{{route('item.edit', $item->id)}}">Editar</a>
     </button>
 
     <button class="btn-primary">
-    <a href= "{{route('item.index')}}">Voltar</a>
+    <a style = ' color:white;' href= "{{route('item.index')}}">Voltar</a>
     </button>
 
 
@@ -66,11 +56,21 @@
 
     @csrf
     @method('DELETE')
-<input type="submit" value="Excluir">
+<input class='btn-primary'type="submit" value="Excluir">
 
 
 </form>
 </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
 
 
 

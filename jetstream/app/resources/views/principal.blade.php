@@ -97,7 +97,7 @@
 
         
     </div>
-
+	<img src="/img/hosp.jpg" class="img-fluid" alt="Imagem responsiva">
     
 
 
