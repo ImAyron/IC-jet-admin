@@ -1,7 +1,14 @@
-@extends('principal')
+@extends('adminlte::page')
 
-@section('conteudo')
-    
+
+@section('title', 'Dashboard')
+
+@section('content_header')
+
+@stop
+
+
+@section('content')    
     <table class="table table-bordered table-hover table-striped table-sm">
         <caption>Ultimas leituras</caption>
     <thead class="thead-dark">
@@ -37,5 +44,13 @@
     </div>
 
 
-@endsection
 
+@stop
+
+@section('css')
+
+@stop
+
+@section('js')
+
+@stop

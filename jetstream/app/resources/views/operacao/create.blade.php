@@ -1,6 +1,14 @@
-@extends('principal')
+@extends('adminlte::page')
 
-@section('conteudo')
+
+@section('title', 'Dashboard')
+
+@section('content_header')
+
+@stop
+
+
+@section('content')    
 
     <form action="{{ route('operacao.store') }}" method="post">
         @csrf
@@ -55,4 +63,12 @@
         </div>
     </form>
 
-@endsection('conteudo')
+    @stop
+
+@section('css')
+
+@stop
+
+@section('js')
+
+@stop

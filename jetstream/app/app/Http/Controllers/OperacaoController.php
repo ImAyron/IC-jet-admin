@@ -3,10 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Models\Operacao;
-use App\Models\Funcionario;
+
 use App\Models\Item;
 use App\Models\Antena;
 use App\Models\Tag;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -27,7 +28,7 @@ class OperacaoController extends Controller
     {
         if (Auth::check()) {
             $tags = Tag::orderBy('codigo')->get();
-            $funcionarios = Funcionario::orderBy('nome')->get();
+            $funcionarios = User::orderBy('nome')->get();
             $antenas = Antena::orderBy('codigo')->get();
             return view('operacao.create', ['tags' => $tags, 'funcionarios' => $funcionarios , 'antenas' => $antenas]);
         } else {
@@ -57,7 +58,7 @@ class OperacaoController extends Controller
     {
         if (Auth::check()) {
             $tags = Tag::orderBy('codigo')->get();
-            $funcionarios = Funcionario::orderBy('nome')->get();
+            $funcionarios = User::orderBy('nome')->get();
             $antenas = Antena::orderBy('codigo')->get();
             return view('operacao.edit', ['operacao' => $operacao, 'tags' => $tags, 'funcionarios' => $funcionarios , 'antenas' => $antenas]);
         } else {

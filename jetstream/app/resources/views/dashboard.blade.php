@@ -13,241 +13,298 @@
 
 
     @section('content')
-
-    <section class="content">
-
-
     <p></p>
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <!-- Small boxes (Stat box) -->
+        <div class="row">
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h3>{{$count}}</h3>
 
-      <!-- /.row -->
-      <div class="row">
-
-
-
-        <div class="container-fluid">
-          <!-- Small boxes (Stat box) -->
-          <div class="row">
-            <div class="col-lg-3 col-6">
-              <!-- small box -->
-              <div class="small-box bg-info">
-                <div class="inner">
-                  <h3>{{$count}}</h3>
-
-                  <p>Itens cadastrados</p>
-                </div>
-                <div class="icon">
-                  <i class="ion ion-bag"></i>
-                </div>
-                <a href="item" class="small-box-footer">Mais Informações <i class="fas fa-arrow-circle-right"></i></a>
+                <p>Itens cadastrados</p>
               </div>
-            </div>
-            <!-- ./col -->
-            <div class="col-lg-3 col-6">
-              <!-- small box -->
-              <div class="small-box bg-success">
-                <div class="inner">
-                  <h3>{{$countA}}<sup style="font-size: 20px"></sup></h3>
-
-                  <p>Antenas cadastradas</p>
-                </div>
-                <div class="icon">
-                  <i class="ion ion-stats-bars"></i>
-                </div>
-                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+              <div class="icon">
+                <i class="ion ion-bag"></i>
               </div>
+              <a href="item" class="small-box-footer">Mais Informações <i class="fas fa-arrow-circle-right"></i></a>
             </div>
-            <!-- ./col -->
-            <div class="col-lg-3 col-6">
-              <!-- small box -->
-              <div class="small-box bg-warning">
-                <div class="inner">
-                  <h3>{{$a=1}}</h3>
-
-                  <p>Tags ativas</p>
-                </div>
-                <div class="icon">
-                  <i class="ion ion-person-add"></i>
-                </div>
-                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-              </div>
-            </div>
-            <!-- ./col -->
-            <div class="col-lg-3 col-6">
-              <!-- small box -->
-              <div class="small-box bg-danger">
-                <div class="inner">
-                  <h3>1</h3>
-
-                  <p>Tags perdidas</p>
-                </div>
-                <div class="icon">
-                  <i class="ion ion-pie-graph"></i>
-                </div>
-                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-              </div>
-            </div>
-            <!-- ./col -->
           </div>
-          <!-- /.row -->
-          <!-- Main row -->
-          <div class="row">
-            @canany(['is_admin'])
-            <div class="col-8">
-              <div class="card">
-                <div class="card-header">
-                  <h3 class="card-title">Bordered Table</h3>
-                </div>
-                <!-- /.card-header -->
-                <div class="card-body">
-                  <table class="table table-bordered">
-                    <thead>
-                      <tr>
-                        <th style="width: 10px">#</th>
-                        <th>Task</th>
-                        <th>Progress</th>
-                        <th style="width: 40px">Label</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>1.</td>
-                        <td>Update software</td>
-                        <td>
-                          <div class="progress progress-xs">
-                            <div class="progress-bar progress-bar-danger" style="width: 55%"></div>
-                          </div>
-                        </td>
-                        <td><span class="badge bg-danger">55%</span></td>
-                      </tr>
-                      <tr>
-                        <td>2.</td>
-                        <td>Clean database</td>
-                        <td>
-                          <div class="progress progress-xs">
-                            <div class="progress-bar bg-warning" style="width: 70%"></div>
-                          </div>
-                        </td>
-                        <td><span class="badge bg-warning">70%</span></td>
-                      </tr>
-                      <tr>
-                        <td>3.</td>
-                        <td>Cron job running</td>
-                        <td>
-                          <div class="progress progress-xs progress-striped active">
-                            <div class="progress-bar bg-primary" style="width: 30%"></div>
-                          </div>
-                        </td>
-                        <td><span class="badge bg-primary">30%</span></td>
-                      </tr>
-                      <tr>
-                        <td>4.</td>
-                        <td>Fix and squish bugs</td>
-                        <td>
-                          <div class="progress progress-xs progress-striped active">
-                            <div class="progress-bar bg-success" style="width: 90%"></div>
-                          </div>
-                        </td>
-                        <td><span class="badge bg-success">90%</span></td>
-                      </tr>
-                    </tbody>
-                  </table>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-success">
+              <div class="inner">
+                <h3>{{$countA}}<sup style="font-size: 20px"></sup></h3>
+
+                <p>Antenas cadastradas</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-warning">
+              <div class="inner">
+                <h3>{{$a=1}}</h3>
+
+                <p>Tags ativas</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-person-add"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-danger">
+              <div class="inner">
+                <h3>1</h3>
+
+                <p>Tags perdidas</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-pie-graph"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+        </div>
+
+        <!-- /.row CARDS INICIAIS AQUIIIIIIIIIIIIIIIII-->
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-header border-0">
+                <div class="d-flex justify-content-between">
+                  <h3 class="card-title">Online Store Visitors</h3>
+                  <a href="javascript:void(0);">View Report</a>
                 </div>
               </div>
-              @endcan
-              <div class="col-8">
+              <div class="card-body">
+                <div class="d-flex">
+                  <p class="d-flex flex-column">
+                    <span class="text-bold text-lg">820</span>
+                    <span>Visitors Over Time</span>
+                  </p>
+                  <p class="ml-auto d-flex flex-column text-right">
+                    <span class="text-success">
+                      <i class="fas fa-arrow-up"></i> 12.5%
+                    </span>
+                    <span class="text-muted">Since last week</span>
+                  </p>
+                </div>
+                <!-- /.d-flex -->
+
+                <div class="position-relative mb-4">
+                  <canvas id="visitors-chart" height="200"></canvas>
+                </div>
+
+                <div class="d-flex flex-row justify-content-end">
+                  <span class="mr-2">
+                    <i class="fas fa-square text-primary"></i> This Week
+                  </span>
+
+                  <span>
+                    <i class="fas fa-square text-gray"></i> Last Week
+                  </span>
+                </div>
+              </div>
+            </div>
+            <!-- /.card -->
+
+            
+          </div>
+          <!-- /.col-md-6 -->
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-header border-0">
+                <h3 class="card-title">Produtos com alta taxa de extravio</h3>
+                <div class="card-tools">
+                  <a href="#" class="btn btn-tool btn-sm">
+                    <i class="fas fa-download"></i>
+                  </a>
+                  <a href="#" class="btn btn-tool btn-sm">
+                    <i class="fas fa-bars"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="card-body table-responsive p-0">
+                <table class="table table-striped table-valign-middle">
+                  <thead>
+                    <tr>
+                      <th>Produto</th>
+                      <th>Preço</th>
+                      <th>Porcentagem</th>
+                      <th>Estatísticas</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <img src="dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
+                        Lençol king
+                      </td>
+                      <td>R$150,00</td>
+                      <td>
+                        <small class="text-success mr-1">
+                          <i class="fas fa-arrow-up"></i>
+                          12%
+                        </small>
+                        35%
+                      </td>
+                      <td>
+                        <a href="item/1" class="text-muted">
+                          <i class="fas fa-search"></i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img src="dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
+                        Fronha Travesseiro
+                      </td>
+                      <td>R$150,00</td>
+                      <td>
+                        <small class="text-warning mr-1">
+                          <i class="fas fa-arrow-down"></i>
+                          0.5%
+                        </small>
+                        45%
+                      </td>
+                      <td>
+                        <a href="#" class="text-muted">
+                          <i class="fas fa-search"></i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img src="dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
+                        Cobertor Casal
+                      </td>
+                      <td>R$200,00</td>
+                      <td>
+                        <small class="text-danger mr-1">
+                          <i class="fas fa-arrow-down"></i>
+                          3%
+                        </small>
+                        10%
+                      </td>
+                      <td>
+                        <a href="#" class="text-muted">
+                          <i class="fas fa-search"></i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img src="dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
+                        Cobertor 
+                        <span class="badge bg-danger">NEW</span>
+                      </td>
+                      <td>R$123,30</td>
+                      <td>
+                        <small class="text-success mr-1">
+                          <i class="fas fa-arrow-up"></i>
+                          63%
+                        </small>
+                        87%
+                      </td>
+                      <td>
+                        <a href="#" class="text-muted">
+                          <i class="fas fa-search"></i>
+                        </a>
+                      </td>
+                      
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!-- /.card -->
 
               </div>
-              <div class="col-4">
+            </div>
+          </div>
+          <!-- /.col-md-6 -->
+        </div>
+        <!-- /.row sEGUNDA LINHAAAAAAAAAAAAAA-->
 
-                <!-- Info Boxes Style 2 -->
-                <div class="info-box mb-3 bg-warning">
-                  <span class="info-box-icon"><i class="fas fa-tag"></i></span>
+        <div class="row">
+          <div class="col">
+            a
+          </div>
+          <div class="col">
+            a
+          </div>
+        </div>
+       
 
-                  <div class="info-box-content">
-                    <span class="info-box-text">Inventory</span>
-                    <span class="info-box-number">5,200</span>
-                  </div>
-                  <!-- /.info-box-content -->
-                </div>
-                <!-- /.info-box -->
-                <div class="info-box mb-3 bg-success">
-                  <span class="info-box-icon"><i class="far fa-heart"></i></span>
+    </section>
 
-                  <div class="info-box-content">
-                    <span class="info-box-text">Mentions</span>
-                    <span class="info-box-number">92,050</span>
-                  </div>
-                  <!-- /.info-box-content -->
-                </div>
-                <!-- /.info-box -->
-                <div class="info-box mb-3 bg-danger">
-                  <span class="info-box-icon"><i class="fas fa-cloud-download-alt"></i></span>
 
-                  <div class="info-box-content">
-                    <span class="info-box-text">Downloads</span>
-                    <span class="info-box-number">114,381</span>
-                  </div>
-                  <!-- /.info-box-content -->
-                </div>
-                <!-- /.info-box -->
-                <div class="info-box mb-3 bg-info">
-                  <span class="info-box-icon"><i class="far fa-comment"></i></span>
 
-                  <div class="info-box-content">
-                    <span class="info-box-text">Direct Messages</span>
-                    <span class="info-box-number">163,921</span>
-                  </div>
-                  <!-- /.info-box-content -->
-                </div>
-                <!-- /.info-box -->
-                @csrf
-                @stop
 
-                @section('css')
-                <link rel="stylesheet" href="/css/admin_custom.css">
-                @stop
 
-                @section('js')
-                <script>
-                  $(function() {
-                    $("#example1").DataTable({
-                      "responsive": true,
-                      "lengthChange": false,
-                      "autoWidth": false,
-                      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-                    }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
-                    $('#example2').DataTable({
-                      "paging": true,
-                      "lengthChange": false,
-                      "searching": false,
-                      "ordering": true,
-                      "info": true,
-                      "autoWidth": false,
-                      "responsive": true,
-                    });
-                  });
-                </script>
-                <!-- jQuery -->
-                <script src="../../plugins/jquery/jquery.min.js"></script>
-                <!-- Bootstrap 4 -->
-                <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-                <!-- DataTables  & Plugins -->
-                <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
-                <script src="../../plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
-                <script src="../../plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
-                <script src="../../plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
-                <script src="../../plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
-                <script src="../../plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
-                <script src="../../plugins/jszip/jszip.min.js"></script>
-                <script src="../../plugins/pdfmake/pdfmake.min.js"></script>
-                <script src="../../plugins/pdfmake/vfs_fonts.js"></script>
-                <script src="../../plugins/datatables-buttons/js/buttons.html5.min.js"></script>
-                <script src="../../plugins/datatables-buttons/js/buttons.print.min.js"></script>
-                <script src="../../plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
-                <!-- AdminLTE App -->
-                <script src="../../dist/js/adminlte.min.js"></script>
-                <!-- AdminLTE for demo purposes -->
-                <script src="../../dist/js/demo.js"></script>
-                <!-- Page specific script -->
+    @csrf
+    @stop
 
-                @stop
+    @section('css')
+    <link rel="stylesheet" href="/css/admin_custom.css">
+    @stop
+
+    @section('js')
+    <script>
+      $(function() {
+        $("#example1").DataTable({
+          "responsive": true,
+          "lengthChange": false,
+          "autoWidth": false,
+          "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+        }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+        $('#example2').DataTable({
+          "paging": true,
+          "lengthChange": false,
+          "searching": false,
+          "ordering": true,
+          "info": true,
+          "autoWidth": false,
+          "responsive": true,
+        });
+      });
+    </script>
+    <!-- jQuery -->
+    <script src="../../plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- DataTables  & Plugins -->
+    <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="../../plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="../../plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="../../plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+    <script src="../../plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="../../plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+    <script src="../../plugins/jszip/jszip.min.js"></script>
+    <script src="../../plugins/pdfmake/pdfmake.min.js"></script>
+    <script src="../../plugins/pdfmake/vfs_fonts.js"></script>
+    <script src="../../plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+    <script src="../../plugins/datatables-buttons/js/buttons.print.min.js"></script>
+    <script src="../../plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../../dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="../../dist/js/demo.js"></script>
+    <!-- Page specific script -->
+
+    @stop

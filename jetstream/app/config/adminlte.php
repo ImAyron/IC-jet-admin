@@ -317,6 +317,28 @@ return [
                 
             ]
         ],
+         //operação menu
+        [
+            'text' => 'Operação',
+            'url'  => 'operacao',
+            'icon' => 'fas fa-rss',
+            'submenu'=>[
+
+                [
+                'can' =>'is_admin',  
+                'text' => 'Cadastrar',
+                'url'  => 'operacao/create', 
+                'icon' => 'fas fa-plus',
+                ],
+                [
+                    'text' => 'Exibir operações',
+                    'url'  => 'operacao', 
+                    'icon' => 'far fa-eye',
+                    ]
+                
+                
+            ]
+        ],
        
     ],
 
