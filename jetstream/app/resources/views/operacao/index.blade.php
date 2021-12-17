@@ -30,8 +30,8 @@
         @foreach($operacaos as $o)
             <tr>
                 <td>{{ $o->id }}</td>   
-                <td>{{ $o->data_hora }}</td>                   
-                <td>{{ $o->funcionario->nome }} </td>
+                <td>{{ $o->created_at }}</td>                   
+                <td>{{ $o->funcionario->name }} </td>
                 <td>{{ $o->tipo }} </td>
                 <td><a href="{{route('operacao.show', $o->id)}}">Exibir</a></td>
             </tr>

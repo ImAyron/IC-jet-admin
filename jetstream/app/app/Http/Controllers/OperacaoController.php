@@ -28,7 +28,7 @@ class OperacaoController extends Controller
     {
         if (Auth::check()) {
             $tags = Tag::orderBy('codigo')->get();
-            $funcionarios = User::orderBy('nome')->get();
+            $funcionarios = User::orderBy('name')->get();
             $antenas = Antena::orderBy('codigo')->get();
             return view('operacao.create', ['tags' => $tags, 'funcionarios' => $funcionarios , 'antenas' => $antenas]);
         } else {
