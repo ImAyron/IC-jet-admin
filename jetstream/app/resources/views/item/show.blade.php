@@ -13,54 +13,42 @@
 
 <div class="container">
     <div class="row">
-        <div class="col">
-        
-        
-        
+
+
+        <div class="col-6">
+            <br>
+
+            <img src="/img/edredon.jpg" class="img-fluid" alt="">
+
+
         </div>
-        <div class="col-8">
-           <table class="table table-bordered table-hover table-striped table-sm table-dark">
-            
-           <img src="/img/edredon.jpg" height="50%" width="50%"  alt="">
-           <img src="/img/local.jpg" height="50%" width="50%"  alt="">
-           <tr>
-                <th><p>ID: {{ $item->id}}</p></th>
-            </tr>
-            <tr>
-                <th><p><p>Código: {{ $item->codigo }}</p></p></th>
-            </tr>
-            <tr>
-                <th><p><p>Descricão: {{$item->descricao}}</p></p></th>
-            </tr>
-            <tr>
-                <th><p><p><p>Data de fabricação: {{$item->dataFab}}</p></p></p></th>
-            </tr>
-           </table>
-        </div>
+
         <div class="col">
-        <div style="text-align: center; color:white;">
-    <button class="btn-danger">
-    <a style = ' color:white;' href="{{route('item.edit', $item->id)}}">Editar</a>
-    </button>
+            <br>
+            <h2>Informações do Item</h2>
 
-    <button class="btn-primary">
-    <a style = ' color:white;' href= "{{route('item.index')}}">Voltar</a>
-    </button>
+            <p> <b>ID:</b> {{ $item->id}}</p>
+            <p> <b>Código:</b> {{ $item->codigo }}</p>
+            <p> <b>Descricão:</b> {{$item->descricao}}</p>
+            <p> <b>Data de fabricação:</b> {{$item->dataFab}}</p>
 
-
-<form name="frmDelete"
-    action="{{ route('item.destroy', $item->id)}}"
-    method="post"
-    onsubmit="return confirm('Confirma a exclusão do item?');">
+            <div style=" color:white;">
 
 
-    @csrf
-    @method('DELETE')
-<input class='btn-primary'type="submit" value="Excluir">
+                <form name="frmDelete" action="{{ route('item.destroy', $item->id)}}" method="post" onsubmit="return confirm('Confirma a exclusão do item?');">
 
 
-</form>
-</div>
+                    @csrf
+                    @method('DELETE')
+                    <br>
+                    <a style=' color:white;' href="{{route('item.edit', $item->id)}}"> <input class="btn btn-secondary" type="button" value="Editar"></a>
+                    <a style=' color:white;' href="{{route('item.index')}}"> <input class="btn btn-secondary" type="button" value="Voltar"></a>
+
+                    <input class='btn btn-danger' type="submit" value="Excluir">
+
+
+                </form>
+            </div>
         </div>
     </div>
 </div>
@@ -77,14 +65,14 @@
 
 
 @csrf
-        @stop
+@stop
 
-        @section('css')
-        <link rel="stylesheet" href="/css/admin_custom.css">
-        @stop
+@section('css')
+<link rel="stylesheet" href="/css/admin_custom.css">
+@stop
 
-        @section('js')
-        <script>
-          console.log('Hi!');
-        </script>
-        @stop
+@section('js')
+<script>
+    console.log('Hi!');
+</script>
+@stop

@@ -27,3 +27,5 @@ Route::post('/', function (\Illuminate\Http\Request $request) {
     );
 });
 
+
+Route::post('/operation', [App\Http\Controllers\operationController::class, 'addOperation']);
