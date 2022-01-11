@@ -13,7 +13,11 @@ class CreateOperationsTable extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('operations', function (Blueprint $table) {
+            $table->id();
+            $table->text('operations');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -23,6 +27,6 @@ class CreateOperationsTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('operations');
     }
 }
