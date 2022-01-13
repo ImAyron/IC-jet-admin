@@ -30,8 +30,8 @@
             
 			<li class="nav-item col text-center">
                     <a href="{{ url('/dashboard') }}">
-                    <img src="/img/sair.png" alt="Área Geral" class="img-menu img-thumbnail">
-					<h1>Iniciar</h1>
+                    <button class="btn btn-secondary">Iniciar </button>
+					
 				</a>
 			</li>
 			@can('is_admin')
