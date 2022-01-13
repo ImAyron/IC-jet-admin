@@ -67,11 +67,11 @@ void loop() {
     UIDresultSend = StrUID;
    
     //Post Data
-    postData = "UIDresult=" + UIDresultSend;
+    postData = UIDresultSend;
   
-    http.begin(client, "http://192.168.2.12:8000/api");  //Specify request destination
+    http.begin(client, "http://192.168.2.12:8000/api/operation");  //Specify request destination
     http.addHeader("Content-Type", "application/x-www-form-urlencoded"); //Specify content-type header
-    int httpCode = http.POST(postData);   //Send the request
+    int httpCode = http.POST("operations="+postData);   //Send the request
     String payload = http.getString();    //Get the response payload
   
     Serial.println(UIDresultSend);
