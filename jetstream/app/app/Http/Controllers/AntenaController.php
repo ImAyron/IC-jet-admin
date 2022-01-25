@@ -95,7 +95,7 @@ class AntenaController extends Controller
     public function destroy(Antena $antena)
     {
         if (Auth::check()) {
-                $antena>delete();
+                $antena->delete();
                 session()->flash('mensagem', 'Antena excluída com sucesso!');
                 return redirect()->route('antena.index');
             }

@@ -23,9 +23,9 @@
 
         </div>
 
-        <div class="col">
+        <div class="col text-center">
             <br>
-            <h2>Informações do Item</h2>
+            <h2 class="text-center">Informações do Item</h2>
 
             <p> <b>ID:</b> {{ $item->id}}</p>
             <p> <b>Código:</b> {{ $item->codigo }}</p>
