@@ -1,0 +1,1 @@
+<img src="{{asset('/img/logo.png')}}" alt="Área Geral" class="img-menu "style="width:128px;">

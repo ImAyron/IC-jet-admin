@@ -12,12 +12,13 @@
 
     <form action="{{ route('operacao.store') }}" method="post">
         @csrf
+      
        
- 
+
         <div class="form-group">
             <label for="antena_id">Antena</label>
             <select name="antena_id" id="antena_id" class="form-control">
-
+                
                 @foreach ($antenas as $a)
                     <option value="{{ $a->id }}">{{ $a->local }}</option>
                 @endforeach
@@ -27,14 +28,9 @@
         </div>
 
         <div class="form-group">
-            <label for="user_id">Funcionario</label>
-            <select name="user_id" id="user_id" class="form-control">
+            
+            <input type="hidden" name="user_id" id="user_id" class="form-control" value="{{ $nome }}">
 
-                @foreach ($funcionarios as $f)
-                    <option value="{{ $f->id }}">{{ $f->name }}</option>
-                @endforeach
-
-            </select>
         </div>
 
         <div class="form-group">

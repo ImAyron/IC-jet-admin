@@ -23,14 +23,11 @@
     <div class="menu">
 		<ul class="nav">
 			<li class="nav-item col-1 text-center">
-				<a href="/">
-                    <img src="https://raw.githubusercontent.com/twbs/icons/main/icons/basket3-fill.svg" alt="Logo">
-				</a>
+				
             </li>
             
 			<li class="nav-item col text-center">
-                    <a href="{{ url('/dashboard') }}">
-                    <button class="btn btn-secondary">Iniciar </button>
+                   
 					
 				</a>
 			</li>
@@ -48,11 +45,11 @@
 
 			@guest
 			<li class="nav-item">
-				<a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+				<a class="nav-link" href="{{ route('login') }}">{{ __('Entrar') }}</a>
 			</li>
 			@if (Route::has('register'))
 				<li class="nav-item">
-					<a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+					<a class="nav-link" href="{{ route('register') }}">{{ __('Registrar') }}</a>
 				</li>
 			@endif
 		@else

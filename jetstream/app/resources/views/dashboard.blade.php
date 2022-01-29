@@ -5,7 +5,7 @@
 
     @section('content_header')
 
-
+    
 
 
 
@@ -123,7 +123,7 @@
             </div>
             <!-- /.card -->
 
-            
+
           </div>
           <!-- /.col-md-6 -->
           <div class="col-lg-6">
@@ -210,7 +210,7 @@
                     <tr>
                       <td>
                         <img src="dist/img/default-150x150.png" alt="Product 1" class="img-circle img-size-32 mr-2">
-                        Cobertor 
+                        Cobertor
                         <span class="badge bg-danger">NEW</span>
                       </td>
                       <td>R$123,30</td>
@@ -226,7 +226,7 @@
                           <i class="fas fa-search"></i>
                         </a>
                       </td>
-                      
+
                     </tr>
                   </tbody>
                 </table>
@@ -234,22 +234,22 @@
             </div>
             <!-- /.card -->
 
-              </div>
-            </div>
           </div>
-          <!-- /.col-md-6 -->
         </div>
-        <!-- /.row sEGUNDA LINHAAAAAAAAAAAAAA-->
+      </div>
+      <!-- /.col-md-6 -->
+      </div>
+      <!-- /.row sEGUNDA LINHAAAAAAAAAAAAAA-->
 
-        <div class="row">
-          <div class="col">
-            a
-          </div>
-          <div class="col">
-            a
-          </div>
+      <div class="row">
+        <div class="col">
+          <!--a-->
         </div>
-       
+        <div class="col">
+          <!--a-->
+        </div>
+      </div>
+
 
     </section>
 
@@ -261,9 +261,9 @@
     @stop
 
     @section('css')
-   
+    
     @stop
 
     @section('js')
-  
+
     @stop

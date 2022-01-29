@@ -1,7 +1,12 @@
-@extends('principal')
+@extends('adminlte::page')
 
-@section ('conteudo')
 
+@section('title', 'Dashboard')
+
+@section('content_header')
+
+@stop
+@section('content')  
 <h1>Dados da operação</h1>
 <p>Id: {{$operacao->id}}</p>
 <p>Data: {{$operacao->data_hora}}</p>
@@ -18,4 +23,12 @@
 
 
 
-@endsection
+@stop
+
+@section('css')
+
+@stop
+
+@section('js')
+
+@stop

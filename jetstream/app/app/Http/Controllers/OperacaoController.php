@@ -27,10 +27,11 @@ class OperacaoController extends Controller
     public function create()
     {
         if (Auth::check()) {
+            $nome = Auth::user()->id;
             $tags = Tag::orderBy('codigo')->get();
             $funcionarios = User::orderBy('name')->get();
             $antenas = Antena::orderBy('codigo')->get();
-            return view('operacao.create', ['tags' => $tags, 'funcionarios' => $funcionarios , 'antenas' => $antenas]);
+            return view('operacao.create', ['nome'=>$nome, 'tags' => $tags, 'funcionarios' => $funcionarios , 'antenas' => $antenas]);
         } else {
             session()->flash('mensagem', 'Operação não permitida!');
             return redirect()->route('login');
