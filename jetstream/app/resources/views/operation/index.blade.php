@@ -31,9 +31,9 @@
             <tr>
                 <td>{{ $o->id }}</td>   
                 <td>{{ $o->created_at }}</td>                   
-                <td>{{ $o->funcionario->name }} </td>
+                <td>{{ $o->funcionario }} </td>
                 <td>{{ $o->tipo }} </td>
-                <td><a href="{{route('operacao.show', $o->id)}}">Exibir</a></td>
+                <td><a href="{{route('operation.show', $o->id)}}">Exibir</a></td>
             </tr>
         @endforeach
     </tbody>

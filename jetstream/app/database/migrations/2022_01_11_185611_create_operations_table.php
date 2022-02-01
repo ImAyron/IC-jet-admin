@@ -3,6 +3,8 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\Auth;
+
 
 class CreateOperationsTable extends Migration
 {
@@ -13,10 +15,33 @@ class CreateOperationsTable extends Migration
      */
     public function up()
     {
+        
         Schema::create('operations', function (Blueprint $table) {
+            if (Auth::check()) {
+                $nome = Auth::user()->id;
+                
+            }
+            else{
+                $nome='Deslogado';    
+            }
+
+            $tipo='';
+
+            if ($tipo=='' || $tipo=='Saida') {
+                $tipo = 'Entrada';
+                
+            }
+            else if($tipo=='Entrada'){
+                $tipo = 'Saida';    
+            }
+            
             $table->id();
             $table->text('operations');
+            $table->text('tipo')->default($tipo);
+            $table->text('antena');
+            $table->text('funcionario')->default($nome);
             $table->timestamps();
+            
         });
     }
 

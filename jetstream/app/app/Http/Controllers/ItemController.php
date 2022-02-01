@@ -7,6 +7,8 @@ use App\Models\Item;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+
 
 class ItemController extends Controller
 {
@@ -15,7 +17,7 @@ class ItemController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-     public function index()
+    public function index()
     {
         if (Auth::check()) {
 
@@ -26,11 +28,19 @@ class ItemController extends Controller
             return redirect()->route('login');
         }
     }
+    public function lavanderia()
+    {
+        //DB::SELECT('select count(*) from items where codigo="QUIS"')
+       $result='a';
+       
+       return $result;
+      
+    }
+    public function count()
+    {
 
-    public function count(){
+        $count = Item::all()->count();
 
-        $count=Item::all()->count();
-        
         return $count;
     }
 
@@ -42,7 +52,7 @@ class ItemController extends Controller
     public function create()
     {
         $this->authorize('is_admin');
-        
+
         if (Auth::check()) {
 
             return view('item.create');
@@ -51,7 +61,7 @@ class ItemController extends Controller
             return redirect()->route('login');
         }
     }
-    
+
 
 
     public function store(Request $request)
@@ -105,12 +115,10 @@ class ItemController extends Controller
     public function destroy(Item $item)
     {
         if (Auth::check()) {
-                $item->delete();
-                session()->flash('mensagem', 'Item excluído com sucesso!');
-                return redirect()->route('item.index');
-            }
-           
-         else {
+            $item->delete();
+            session()->flash('mensagem', 'Item excluído com sucesso!');
+            return redirect()->route('item.index');
+        } else {
             session()->flash('mensagem', 'Operação não permitida!');
             return redirect()->route('login');
         }

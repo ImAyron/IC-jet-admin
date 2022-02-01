@@ -43,11 +43,20 @@ class TagController extends Controller
         return view('tag.show',['tag'=>$tag]);
     }
 
+    
+    public function count(){
+
+        $count=Tag::all()->count();
+        
+        return $count;
+    }
+    
+
     public function edit(Tag $tag)
     {
         if (Auth::check()) {
             $items = Item::orderBy('codigo')->get();
-            return view('tag.edit', ['operacao' => $operacao, 'items' => $items]);
+            return view('tag.edit', [ 'items' => $items]);
         } else {
             session()->flash('mensagem', 'Operação não permitida!');
             return redirect()->route('login');

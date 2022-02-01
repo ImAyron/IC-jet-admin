@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Operacao;
+use App\Http\Controllers\operationController;
 use App\Http\Controllers\OperacaoController;
 use App\Http\Controllers\FuncionarioController;
 use App\Http\Controllers\AntenaController;
@@ -36,11 +37,19 @@ Route::get('/geral', function(){
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+
     $antena=new AntenaController;
     $countA=$antena->count();
+
     $item=new ItemController;
     $count=$item->count();
-    return view('dashboard',['count'=>$count],['countA'=>$countA]);
+
+    $countLavanderia=$item->lavanderia();
+
+    $tag=new TagController;
+    $countTag=$tag->count();
+
+    return view('dashboard',['lav'=>$countLavanderia,'countTag'=>$countTag,'count'=>$count,'countA'=>$countA]);
 })->name('dashboard');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/teste', function () {
@@ -48,6 +57,9 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/teste', function () {
     return view('teste');
 })->name('teste');
 
+
+
+Route::resource('/operation',operationController::class);
 Route::resource('/operacao', OperacaoController::class);
 Route::resource('/antena', AntenaController::class);
 Route::resource('/item', ItemController::class);

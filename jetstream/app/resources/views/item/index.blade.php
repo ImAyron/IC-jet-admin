@@ -17,7 +17,7 @@
   </div>
   <!-- /.card-header -->
   <div class="card-body">
-    <table id="example1" class="table table-bordered table-striped">
+    <table id="example1" class="table table-bordered table-striped table-responsive-sm">
       <thead>
         <tr>
           <th scope="col">#</th>
@@ -36,7 +36,7 @@
           <td>{{ $i->codigo }}</td>
           <td>{{ $i->descricao }} </td>
           <td>{{ $i->dataFab }} </td>
-          <td><span class="badge bg-danger">Ativo</span></td>
+          <td><span class="badge bg-success">Ativo</span></td>
           <td><a href="{{route('item.show', $i->id)}}">Exibir</a></td>
 
         </tr>

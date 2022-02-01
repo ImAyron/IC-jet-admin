@@ -324,15 +324,15 @@ return [
             'icon' => 'fas fa-rss',
             'submenu'=>[
 
-                [
-                'can' =>'is_admin',  
-                'text' => 'Cadastrar',
-                'url'  => 'operacao/create', 
-                'icon' => 'fas fa-plus',
-                ],
+                //[
+                //'can' =>'is_admin',  
+                //'text' => 'Cadastrar',
+                //'url'  => 'operation/create', 
+                //'icon' => 'fas fa-plus',
+                //],
                 [
                     'text' => 'Exibir operações',
-                    'url'  => 'operacao', 
+                    'url'  => 'operation', 
                     'icon' => 'far fa-eye',
                     ]
                 
@@ -382,7 +382,7 @@ return [
             'files' => [
                 [
                     'type' => 'js',
-                    'asset' => false,
+                    'asset' => true,
                     'location' => '//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js',
                 ],
                 [
@@ -392,7 +392,7 @@ return [
                 ],
                 [
                     'type' => 'css',
-                    'asset' => false,
+                    'asset' => true,
                     'location' => '//cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css',
                 ],
             ],

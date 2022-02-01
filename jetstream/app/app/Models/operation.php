@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class operation extends Model
 {
     use HasFactory;
-    protected $fillable = ['operations'];
+    protected $fillable = ['operations','antena'];
 
    
 }

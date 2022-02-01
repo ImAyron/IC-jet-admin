@@ -45,7 +45,7 @@
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
               </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="antena" class="small-box-footer">Mais Informações <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -53,14 +53,14 @@
             <!-- small box -->
             <div class="small-box bg-warning">
               <div class="inner">
-                <h3>{{$a=1}}</h3>
+                <h3>{{$countTag}}</h3>
 
                 <p>Tags ativas</p>
               </div>
               <div class="icon">
                 <i class="ion ion-person-add"></i>
               </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="tag" class="small-box-footer">Mais Informações <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -68,14 +68,14 @@
             <!-- small box -->
             <div class="small-box bg-danger">
               <div class="inner">
-                <h3>1</h3>
+                <h3><?php echo $lav?></h3>
 
-                <p>Tags perdidas</p>
+                <p>Itens na lavanderia </p>
               </div>
               <div class="icon">
                 <i class="ion ion-pie-graph"></i>
               </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="#" class="small-box-footer">Mais Informações <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -87,7 +87,7 @@
             <div class="card">
               <div class="card-header border-0">
                 <div class="d-flex justify-content-between">
-                  <h3 class="card-title">Online Store Visitors</h3>
+                  <h3 class="card-title">Quantidade de itens es</h3>
                   <a href="javascript:void(0);">View Report</a>
                 </div>
               </div>
