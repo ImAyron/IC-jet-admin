@@ -4,7 +4,7 @@
     </x-slot>
 
     <x-slot name="description">
-        {{ __('Aqui sua conta está usando uma senha longa e aleatória para se manter seguro.') }}
+        {{ __('Aqui sua conta deverá usar uma senha longa e aleatória para se manter seguro.') }}
     </x-slot>
 
     <x-slot name="form">

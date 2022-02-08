@@ -25,19 +25,31 @@
           <th scope="col">Descrição</th>
           <th scope="col">Data de fabricação</th>
           <th style="width: 40px">Situação</th>
-          <th scope="col">Exibir</th>
+       
 
         </tr>
       </thead>
       <tbody>
         @foreach($items as $i)
         <tr>
-          <td>{{ $i->id}}</td>
-          <td>{{ $i->codigo }}</td>
+          <td>{{ $i->id}}</a></td>
+          <td><a style="color:red;" href="{{route('item.show', $i->id)}}"><b>{{ $i->codigo }}</b></a></td>
           <td>{{ $i->descricao }} </td>
           <td>{{ $i->dataFab }} </td>
-          <td><span class="badge bg-success">Ativo</span></td>
-          <td><a href="{{route('item.show', $i->id)}}">Exibir</a></td>
+          <?php $aleatorio = rand(1, 100);
+          if ($aleatorio >= 50) {
+          ?>
+
+            <td><span class="badge bg-success">Ativo</span></td>
+          <?php }; ?>
+          <?php
+          if ($aleatorio < 50) {
+          ?>
+
+            <td><span class="badge bg-danger">inativo</span></td>
+          <?php }; ?>
+
+         
 
         </tr>
         @endforeach
@@ -82,17 +94,17 @@
   $(document).ready(function() {
     $("#example1").DataTable({
       "responsive": true,
-      "lengthChange": false,
-      "autoWidth": false,
+      "lengthChange": true,
+      "autoWidth": true,
       "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
     }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
     $('#example2').DataTable({
       "paging": true,
-      "lengthChange": false,
-      "searching": false,
+      "lengthChange": true,
+      "searching": truee,
       "ordering": true,
       "info": true,
-      "autoWidth": false,
+      "autoWidth": true,
       "responsive": true,
     });
   });

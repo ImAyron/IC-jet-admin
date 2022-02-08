@@ -24,20 +24,9 @@ class CreateOperationsTable extends Migration
             else{
                 $nome='Deslogado';    
             }
-
-            $tipo='';
-
-            if ($tipo=='' || $tipo=='Saida') {
-                $tipo = 'Entrada';
-                
-            }
-            else if($tipo=='Entrada'){
-                $tipo = 'Saida';    
-            }
-            
             $table->id();
             $table->text('operations');
-            $table->text('tipo')->default($tipo);
+            $table->text('tipo');
             $table->text('antena');
             $table->text('funcionario')->default($nome);
             $table->timestamps();

@@ -34,7 +34,7 @@
             <th scope="col">#</th>
             <th scope="col">Código</th>
             <th scope="col">Local</th>
-            <th scope="col">Exibir</th>
+           
 
         </tr>
       </thead>
@@ -42,9 +42,9 @@
       @foreach($antenas as $a)
             <tr>
                 <td>{{ $a->id}}</td>
-                <td>{{ $a->codigo }}</td>
+                <td><a style="color:red;" href="{{route('antena.show', $a->id)}}"><b>{{ $a->codigo }}</b></a></td>
                 <td>{{ $a->local }} </td>
-                <td><a href="{{route('antena.show', $a->id)}}">Exibir</a></td>
+             
             </tr>
         @endforeach
       </tbody>

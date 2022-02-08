@@ -17,7 +17,7 @@ class operationController extends Controller
 
         // Retornar
         return [$request->operations,
-      $request->antena];
+      $request->antena,$request->tipo];
 
     }
     public function index()

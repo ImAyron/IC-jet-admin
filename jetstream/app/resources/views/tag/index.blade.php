@@ -36,7 +36,7 @@
             <th scope="col">Código</th> 
             <th scope="col">Data de fabricação</th> 
             <th scope="col">Id do item associado</th>
-            <th>Exibir</th>
+            
 
               
             
@@ -47,10 +47,9 @@
       @foreach($tags as $t)
             <tr>
                 <td>{{ $t->id }}</td>   
-                <td>{{ $t->codigo }}</td>                   
+                <td><a style="color:red;" href="{{route('tag.show', $t->id)}}"><b>{{ $t->codigo }}</b></a></td>                   
                 <td>{{ $t->dataFab }} </td>
                 <td>{{ $t->item_id }} </td>
-                <td><a href="{{route('tag.show', $t->id)}}">Exibir</a></td>
             </tr>
         @endforeach
       </tbody>

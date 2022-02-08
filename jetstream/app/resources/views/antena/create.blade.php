@@ -17,12 +17,12 @@
     <div class="form-group">
         <br>
     <label for="codigo">Código</label>
-    <input type="text" class="form-control" name="codigo" id="codigo">
+    <input type="text" class="form-control" name="codigo" id="codigo" required>
     </div>
 
     <div class="form-group">
         <label for="local">Local</label>
-        <input type="text" class="form-control" name="local" id="local">
+        <input type="text" class="form-control" name="local" id="local"required>
     </div>
  
     <div class="text-right">

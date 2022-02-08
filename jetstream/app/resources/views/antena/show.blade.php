@@ -1,5 +1,3 @@
-
-
 @extends('adminlte::page')
 
 
@@ -16,28 +14,46 @@
 <div class="container">
     <div class="row">
         <div class="col">
-        
-        
-        
+
         </div>
         <div class="col-8">
-           <table class="table table-bordered table-hover table-striped table-sm table-dark">
-            
-           <img src="/img/antena.jpg" height="50%" width="50%"  alt="">
-           <img src="/img/local.jpg" height="50%" width="50%"  alt="">
-           <tr>
-                <th><p>ID: {{ $antena->id}}</p></th>
-            </tr>
-            <tr>
-                <th><p><p>Código: {{ $antena->codigo }}</p></p></th>
-            </tr>
-            <tr>
-                <th><p><p>Local: {{$antena->local}}</p></p></th>
-            </tr>
+
+
            
-           </table>
+            <div style="text-align: center">
+            <img src="/img/antena.jpg" class="img-fluid" alt="">
+
+                <h2 class="text-center">Informações da Antena</h2>
+                <br>
+                <p>ID: {{ $antena->id}}</p>
+
+
+                <p>
+                <p>Código: {{ $antena->codigo }}</p>
+                </p>
+
+
+                <p>
+                <p>Local: {{$antena->local}}</p>
+                </p>
+
+
+                <form name="frmDelete" action="{{ route('antena.destroy', $antena->id)}}" method="post" onsubmit="return confirm('Confirma a exclusão da antena?');">
+                    <a href="{{route('antena.edit', $antena->id)}}"><input class="btn btn-secondary" type="button" value="Editar"></a>
+                    <a href="{{route('antena.index')}}"><input class="btn btn-secondary" type="button" value="Voltar"></a>
+                    @csrf
+                    @method('DELETE')
+                    <input class='btn btn-danger' type="submit" value="Excluir">
+                </form>
+            </div>
+
         </div>
         <div class="col">
+
+
+
+
+
 
         </div>
     </div>
@@ -47,38 +63,20 @@
 
 
 
-<div style="text-align: center">
-    <a href="{{route('antena.edit', $antena->id)}}">Editar</a>
-
-<a href= "{{route('antena.index')}}">Voltar</a>
-
-<form name="frmDelete"
-    action="{{ route('antena.destroy', $antena->id)}}"
-    method="post"
-    onsubmit="return confirm('Confirma a exclusão da antena?');">
-
-
-    @csrf
-    @method('DELETE')
-<input type="submit" value="Excluir">
-
-
-</form>
-</div>
 
 
 
 
 
 @csrf
-        @stop
+@stop
 
-        @section('css')
-        <link rel="stylesheet" href="/css/admin_custom.css">
-        @stop
+@section('css')
+<link rel="stylesheet" href="/css/admin_custom.css">
+@stop
 
-        @section('js')
-        <script>
-          console.log('Hi!');
-        </script>
-        @stop
+@section('js')
+<script>
+    console.log('Hi!');
+</script>
+@stop
