@@ -22,7 +22,11 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="./dist/css/adminlte.min.css">
 <br>
-
+<p><?php echo $teste;
+foreach ($teste as $tes){
+  echo $tes->operations;
+  echo ' -';
+}  ?></p>
 <table id="example1" class="table table-bordered table-striped table-responsive-sm">
     <caption>Ultimas leituras</caption>
     <thead>
@@ -62,7 +66,7 @@
 @stop
 
 @section('css')
-<meta http-equiv='refresh' content='5'>
+<meta http-equiv='refresh' content='15'>
 @stop
 
 @section('js')

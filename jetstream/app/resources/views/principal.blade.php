@@ -31,15 +31,15 @@
 					
 				</a>
 			</li>
-			@can('is_admin')
+		
             <li class="nav-item col text-center">
-				<a href="{{route('adm')}}">
-				<img src="/img/sair.png" alt="Área Geral" class="img-menu ">
+				<a href="{{route('dashboard')}}">
+			
                  
 					<h1>ADM</h1>
 				</a>
             </li>
-			@endcan
+		
             
         
 

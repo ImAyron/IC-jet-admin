@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Operacao;
 use App\Http\Controllers\operationController;
@@ -49,7 +51,11 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     $tag=new TagController;
     $countTag=$tag->count();
 
-    return view('dashboard',['lav'=>$countLavanderia,'countTag'=>$countTag,'count'=>$count,'countA'=>$countA]);
+    
+    $teste= DB::table('operations')->where('antena','lavanderia')->count();
+    
+
+    return view('dashboard',['lav'=>$countLavanderia,'countTag'=>$countTag,'count'=>$count,'countA'=>$countA,'lavanderia'=>$teste]);
 })->name('dashboard');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/teste', function () {
