@@ -23,11 +23,12 @@ class operationController extends Controller
     public function index()
     {
         if (Auth::check()) {
-            $teste= DB::table('operations')->select('operations')->where('tipo','Entrada')->distinct()->get();
+            $teste= DB::table('operations')->select('operations','created_at')->where('tipo','Entrada')->distinct()->get();
+            $teste2= DB::table('operations')->select('operations','created_at')->where('tipo','Saida')->distinct()->get();
             $maior= DB::table('operations')->max('created_at'); 
             $hor=DB::table('operations')->where('operations','A351409D')->max('created_at'); 
             //$teste1=DB::table('operations')->select('tipo',DB::raw('MAX(created_at) as last_entrada'))->groupBy('operations');
-            print_r($hor);
+           
            
             $operacaos = operation::orderBy('created_at')->get();
             return view('operation.index', ['operacaos' => $operacaos,'teste'=>$teste]);

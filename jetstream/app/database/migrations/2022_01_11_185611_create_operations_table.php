@@ -24,6 +24,7 @@ class CreateOperationsTable extends Migration
             else{
                 $nome='Deslogado';    
             }
+            
             $table->id();
             $table->text('operations');
             $table->text('tipo');

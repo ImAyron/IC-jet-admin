@@ -36,7 +36,7 @@
 				<a href="{{route('dashboard')}}">
 			
                  
-					<h1>ADM</h1>
+					
 				</a>
             </li>
 		
