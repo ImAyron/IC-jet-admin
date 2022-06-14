@@ -27,11 +27,10 @@ class operationController extends Controller
             $teste2= DB::table('operations')->select('operations','created_at')->where('tipo','Saida')->distinct()->get();
             $maior= DB::table('operations')->max('created_at'); 
             $hor=DB::table('operations')->where('operations','A351409D')->max('created_at'); 
-            //$teste1=DB::table('operations')->select('tipo',DB::raw('MAX(created_at) as last_entrada'))->groupBy('operations');
-           
-           
-            $operacaos = operation::orderBy('created_at')->get();
-            return view('operation.index', ['operacaos' => $operacaos,'teste'=>$teste]);
+        ;
+            $operacaos=DB::table('operations')->distinct('operations')->get();    
+            ##$operacaos = operation::orderBy('created_at')->distinct()->get();
+            return view('operation.index', ['operacaos' => $operacaos,'teste'=>$teste,'teste2'=>$teste2]);
         } else {
             session()->flash('mensagem', 'Operação não permitida!');
             return redirect()->route('login');

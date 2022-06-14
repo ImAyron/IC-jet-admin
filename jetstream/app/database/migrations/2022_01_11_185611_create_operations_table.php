@@ -24,7 +24,9 @@ class CreateOperationsTable extends Migration
             else{
                 $nome='Deslogado';    
             }
-            
+            $table->foreignId('antena_id')->constrained();    
+            $table->foreignId('tag_id')->constrained();
+            $table->foreignId('user_id')->constrained();
             $table->id();
             $table->text('operations');
             $table->text('tipo');

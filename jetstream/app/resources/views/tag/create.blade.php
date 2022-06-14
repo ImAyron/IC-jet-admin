@@ -17,12 +17,12 @@
     <div class="form-group">
         <br>
     <label for="codigo">Código</label>
-    <input type="text" class="form-control" name="codigo" id="codigo">
+    <input type="text" class="form-control" name="codigo" id="codigo"required>
     </div>
 
     <div class="form-group">
         <label for="item_id">Item</label>
-        <select name="item_id" id="item_id" class="form-control">
+        <select name="item_id" id="item_id" class="form-control"required>
 
             @foreach ($items as $i)
             <option value="{{$i->id}}">{{$i->codigo}} - {{$i->descricao}}</option>
@@ -34,7 +34,7 @@
 
     <div class="form-group">
         <label for="dataFab">Data de fabricação:</label>
-        <input type="date" class="form-control" name="dataFab" id="dataFab">
+        <input type="date" class="form-control" name="dataFab" id="dataFab"required>
     </div>
 
  

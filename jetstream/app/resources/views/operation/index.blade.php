@@ -22,7 +22,7 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="./dist/css/adminlte.min.css">
 <br>
- <button onclick="mostrarTabela()">Entrada</button>
+ <button onclick="mostrarTabela(4)">Entrada</button>
  <table style="display: none;"id="example4" class="table table-bordered table-striped table-responsive-sm">
     <caption>Ultimas leituras</caption>
     <thead>
@@ -36,6 +36,29 @@
     <tbody>
 
       @foreach($teste as $tes)
+        <tr>
+            <td>{{ $tes->operations }}</td>
+            <td>{{ $tes->created_at }}</td>
+            
+         
+        </tr>
+        @endforeach
+    </tbody>
+</table>
+<button onclick="mostrarTabela(5)">Saida</button>
+ <table style="display: none;"id="example5" class="table table-bordered table-striped table-responsive-sm">
+    <caption>Ultimas leituras</caption>
+    <thead>
+   
+        <tr>
+            <th scope="col">Tag</th>
+            <th scope="col">Data</th>
+         
+        </tr>
+    </thead>
+    <tbody>
+
+      @foreach($teste2 as $tes)
         <tr>
             <td>{{ $tes->operations }}</td>
             <td>{{ $tes->created_at }}</td>
@@ -68,7 +91,7 @@
 
         @foreach($operacaos as $o)
         <tr>
-            <td>{{ $o->operations }}</td>
+            <td><a href="{{route('tag.show', $o->tag_id)}}">{{ $o->operations }}</a></td>
             <td>{{ $o->created_at }}</td>
             <td>{{ $o->funcionario }}</td>
             <td>{{ $o->antena }}</td>
@@ -91,8 +114,9 @@
 
 @section('js')
 <script>
-function mostrarTabela(){
-    document.getElementById('example4').style.display = '';
+function mostrarTabela(num){
+    
+    document.getElementById('example'+num).style.display = '';
 }
 </script>
 <!-- jQuery -->
