@@ -13,7 +13,7 @@
 <h1>Dados da tag</h1>
 <p>Id: {{$tag->id}}</p>
 <p>Código: {{$tag->codigo}}</p>
-<p>Data de fabricação: {{$tag->dataFab}}</p>
+<p>Data de fabricação: {{date( 'd/m/Y' , strtotime($tag->dataFab))}}</p>
 
 <p>Id do item associado: {{$tag->item->id}}</p>
 
@@ -31,7 +31,7 @@
         @method('DELETE')
         <a href="{{route('tag.edit', $tag->id)}}"><input class='btn btn-secondary'type="button" value="Editar"></a>
         <a href="{{route('tag.index')}}"><input class='btn btn-secondary' type="button" value="Voltar"></a>
-        <input type="submit" value="Excluir">
+        <input class='btn btn-danger'type="submit" value="Excluir">
 
 
 

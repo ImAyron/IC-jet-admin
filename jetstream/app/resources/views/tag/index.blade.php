@@ -48,7 +48,7 @@
             <tr>
                 <td>{{ $t->id }}</td>   
                 <td><a style="color:red;" href="{{route('tag.show', $t->id)}}"><b>{{ $t->codigo }}</b></a></td>                   
-                <td>{{ $t->dataFab }} </td>
+                <td>{{date( 'd/m/Y' , strtotime($t->dataFab))}}</td>
                 <td>{{ $t->item_id }} </td>
             </tr>
         @endforeach

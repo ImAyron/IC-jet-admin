@@ -30,7 +30,7 @@
             <p> <b>ID:</b> {{ $item->id}}</p>
             <p> <b>Código:</b> {{ $item->codigo }}</p>
             <p> <b>Descricão:</b> {{$item->descricao}}</p>
-            <p> <b>Data de fabricação:</b> {{$item->dataFab}}</p>
+            <p> <b>Data de fabricação:</b>  {{date( 'd/m/Y' , strtotime($item->dataFab))}}</p>
 
             <div style=" color:white;">
 
@@ -73,6 +73,6 @@
 
 @section('js')
 <script>
-    console.log('Hi!');
+   
 </script>
 @stop

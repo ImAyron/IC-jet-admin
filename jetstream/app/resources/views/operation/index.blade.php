@@ -38,7 +38,7 @@
       @foreach($teste as $tes)
         <tr>
             <td>{{ $tes->operations }}</td>
-            <td>{{ $tes->created_at }}</td>
+            <td>{{date( 'd/m/Y' , strtotime($tes->created_at))}}</td>
             
          
         </tr>
@@ -92,7 +92,7 @@
         @foreach($operacaos as $o)
         <tr>
             <td><a href="{{route('tag.show', $o->tag_id)}}">{{ $o->operations }}</a></td>
-            <td>{{ $o->created_at }}</td>
+            <td>{{date( 'd/m/Y H:i:s' , strtotime($o->created_at))}}</td>
             <td>{{ $o->funcionario }}</td>
             <td>{{ $o->antena }}</td>
             <td>{{ $o->tipo }} </td>
