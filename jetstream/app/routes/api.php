@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\operationController;
+use App\Http\Controllers\LeituraController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -29,3 +29,4 @@ Route::post('/', function (\Illuminate\Http\Request $request) {
 });
 
 Route::post('/operation', [App\Http\Controllers\operationController::class, 'addOperation']);
+Route::post('/leitura', [App\Http\Controllers\LeituraController::class, 'enviarTag']);
