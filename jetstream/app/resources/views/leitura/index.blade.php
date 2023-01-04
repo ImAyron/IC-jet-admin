@@ -1,6 +1,3 @@
-
-
-
 @extends('adminlte::page')
 
 
@@ -12,6 +9,8 @@
 
 
 @section('content')
+
+<!-- Reload Página-->
 <!-- Google Font: Source Sans Pro -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
@@ -22,59 +21,60 @@
   <link rel="stylesheet" href="./plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="./dist/css/adminlte.min.css">
+<br>
 
-<div class="card">
-  <div class="card-header">
-    <h3 class="card-title">Tags cadastrados</h3>
-  </div>
-  <!-- /.card-header -->
-  <div class="card-body">
-    <table id="example1" class="table table-bordered table-striped table-responsive-sm">
-      <thead>
-      <tr>
-            <th scope="col">Id</th> 
-            <th scope="col">Código</th> 
-            <th scope="col">Data de fabricação</th> 
-            <th scope="col">Id do item associado</th>
-            
+ 
 
-              
-            
-            
+
+<table id="example1" class="table table-bordered table-striped table-responsive-sm">
+    <caption>Ultimas leituras</caption>
+    <thead>
+   
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Tag</th>
+            <th scope="col">Data</th>
+            <th scope="col">Antena</th>
+           
+          
+
+
+
+
         </tr>
-      </thead>
-      <tbody>
-      @foreach($tags as $t)
-            <tr>
-                <td>{{ $t->id }}</td>   
-                <td><a style="color:red;" href="{{route('tag.show', $t->id)}}"><b>{{ $t->codigo }}</b></a></td>                   
-                <td>{{date( 'd/m/Y' , strtotime($t->dataFab))}}</td>
-                <td>{{ $t->item_id }} </td>
-            </tr>
+    </thead>
+    <tbody>
+
+        @foreach($leituras as $o)
+        <tr>
+          
+            <td>{{ $o->id}}</td>
+            <td><a href="{{route('tag.show', $o->EPC)}}">{{$o->EPC}}</a></td>
+            <td>{{ $o->Data }}</td>
+            <td>{{ $o->company_id }} </td>
+         
+        </tr>
         @endforeach
-      </tbody>
-      
-    </table>
-  </div>
-  <!-- /.card-body -->
-</div>
-<!-- /.card -->
-</div>
-<!-- /.col -->
-</div>
-<!-- /.row -->
-</div>
-<!-- /.container-fluid -->
+    </tbody>
+</table>
+
+
 
 
 
 @stop
 
 @section('css')
-
+<meta http-equiv='refresh' content='15'>
 @stop
 
 @section('js')
+<script>
+function mostrarTabela(num){
+    
+    document.getElementById('example'+num).style.display = '';
+}
+</script>
 <!-- jQuery -->
 <script src="./plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
 <script src="./plugins/datatables-buttons/js/buttons.html5.min.js"></script>
@@ -85,14 +85,18 @@
 <script src="./plugins/jszip/jszip.min.js"></script>
 <!-- Page specific script -->
 <script>
+
   $(document).ready(function() {
     $("#example1").DataTable({
-      "responsive": true, "lengthChange": false, "autoWidth": false,
-      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+      
+      "responsive": true, "lengthChange": true, "autoWidth": false,
+      
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"], 
+     
     }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
     $('#example2').DataTable({
       "paging": true,
-      "lengthChange": false,
+      "lengthChange": true,
       "searching": false,
       "ordering": true,
       "info": true,

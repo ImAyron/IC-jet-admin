@@ -23,7 +23,7 @@
 <body>
 
 	<div class="menu">
-		<ul class="nav bg-info">
+		<ul class="nav bg-dark">
 			<li class="nav-item col-1 text-center">
 
 			</li>
@@ -36,8 +36,6 @@
 
 			<li class="nav-item col text-center">
 				<a href="{{route('dashboard')}}">
-
-
 
 				</a>
 			</li>
@@ -55,7 +53,7 @@
 			</li>
 			@endif
 			@else
-			<ul class="nav bg-info">
+			<ul class="nav bg-dark">
 			<li class="nav-item col-1 text-center">
 
 			</li>
@@ -65,17 +63,17 @@
 			<li class="nav-item col ">
 				<a href="{{route('dashboard')}}">
 
-						<button class="btn-primary">dashboard</button>
+						<button class="btn btn-success">Dashboard</button>
 
 				</a>
 			</li>
 		
 			<li class="nav-item dropdown">
-				<a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+				<a id="navbarDropdown" class="nav-link dropdown-toggle btn-success" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
 					{{ Auth::user()->name }}
 				</a>
 
-				<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+				<div class="dropdown-menu dropdown-menu-right btn-danger" aria-labelledby="navbarDropdown">
 					<a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
 									 document.getElementById('logout-form').submit();">
 						{{ __('Logout') }}

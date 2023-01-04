@@ -12,6 +12,7 @@ use App\Http\Controllers\AntenaController;
 use App\Http\Controllers\ItemController;
 use App\Http\Controllers\TagController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LeituraController;
 
 /*
 |--------------------------------------------------------------------------
@@ -70,6 +71,7 @@ Route::resource('/operacao', OperacaoController::class);
 Route::resource('/antena', AntenaController::class);
 Route::resource('/item', ItemController::class);
 Route::resource('/tag', TagController::class);
+Route::resource('/leitura', LeituraController::class);
 
 Route::post('/leitura', [App\Http\Controllers\LeituraController::class, 'enviarTag']);
 

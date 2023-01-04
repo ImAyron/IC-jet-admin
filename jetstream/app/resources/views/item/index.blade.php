@@ -4,8 +4,7 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-
-
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.3.2/css/buttons.dataTables.min.css">
 @stop
 
 

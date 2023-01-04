@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'Gestão Hosp',
+    'title' => 'GESTMI',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'logo' => '<b>Gestão </b>HOSP',
+    'logo' => '<b>GESTMI</b>',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -327,12 +327,12 @@ return [
                 //[
                 //'can' =>'is_admin',  
                 //'text' => 'Cadastrar',
-                //'url'  => 'operation/create', 
+                //'url'  => 'operation/create',  
                 //'icon' => 'fas fa-plus',
                 //],
                 [
                     'text' => 'Exibir operações',
-                    'url'  => 'operation', 
+                    'url'  => 'leitura', 
                     'icon' => 'far fa-eye',
                     ]
                 
