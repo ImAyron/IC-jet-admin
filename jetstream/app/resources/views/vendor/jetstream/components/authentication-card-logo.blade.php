@@ -1,1 +1,1 @@
-<img src="{{asset('/img/logo.png')}}" alt="Área Geral" class="img-menu "style="width:128px;">
+<img src="{{asset('/img/Gestmi_Logo.png')}}" alt="Área Geral" class="img-menu "style="width:175px;">

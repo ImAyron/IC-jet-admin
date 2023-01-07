@@ -23,7 +23,7 @@
 <body>
 
 	<div class="menu">
-		<ul class="nav">
+		<ul class="nav bg-dark">
 			<li class="nav-item col-1 text-center">
 
 			</li>
@@ -53,7 +53,7 @@
 			</li>
 			@endif
 			@else
-			<ul class="nav ">
+			<ul class="nav bg-dark">
 			<li class="nav-item col-1 text-center">
 
 			</li>
@@ -113,37 +113,42 @@
 
 
 	</div>
-	{{-- <!--<img src="/img/principal.jpg" class="img-fluid" alt="Imagem responsiva">-->
-	<div class="row align-items-center">
-		<div class="col-6" >
-			<p></p>
-			<br><br><br><br><br><br><br><br><br>
-			<div class="row">
-				<div class="col-3"></div>
-				<div class="col">
-					<img src="/img/Gestmi_Logo.jpg" class="img-fluid" alt="Imagem responsiva">	
-					
-				</div>
-				<div class="col-6">
-					<br><br>
-					<p style="color:black;text-align: justify; font-size:25px;">Gestão de Materias e Inventários, trazendo soluções em diversos setores !!!</p>		
-				</div>
-			</div>
-			
-			
-		
+	<!--<img src="/img/principal.jpg" class="img-fluid" alt="Imagem responsiva">-->
+	<div class="container">
+		<div class="row align-items-start">
+		  <div class="col">
+			One of three columns
+		  </div>
+		  <div class="col">
+			One of three columns
+		  </div>
+		  <div class="col">
+			One of three columns
+		  </div>
 		</div>
-		<div class="col-6">
-			<img src="/img/principal.jpg" class="img-fluid" alt="Imagem responsiva">
-			{{-- <br><br><br><br><br><br><br><br><br>
-			<p style="color:black;text-align: justify; font-size:25px;">Entre agora , ou se cadastre se não tiver uma conta</p>
-			<a  href="{{ route('login') }}" ><button class="btn btn-primary">{{ __('Entrar') }}</button></a>
-			<a  href="{{ route('register') }}"  ><button class="btn btn-primary">{{ __('Registrar') }}</button></a> --}}
-			
+		<div class="row align-items-center">
+		  <div class="col">
+			One of three columns
+		  </div>
+		  <div class="col">
+			One of three columns
+		  </div>
+		  <div class="col">
+			One of three columns
+		  </div>
 		</div>
-
-	</div>
-
+		<div class="row align-items-end">
+		  <div class="col">
+			One of three columns
+		  </div>
+		  <div class="col">
+			One of three columns
+		  </div>
+		  <div class="col">
+			One of three columns
+		  </div>
+		</div>
+	  </div>
 
 
 	<!--jQuery-->
