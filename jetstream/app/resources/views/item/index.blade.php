@@ -32,7 +32,7 @@
         @foreach($items as $i)
         <tr>
           <td>{{ $i->id}}</a></td>
-          <td><a style="color:red;" href="{{route('item.show', $i->id)}}"><b>{{ $i->codigo }}</b></a></td>
+          <td><a class="text-info" href="{{route('item.show', $i->id)}}"><b>{{ $i->codigo }}</b></a></td>
           <td>{{ $i->descricao }} </td>
           <td>  {{date( 'd/m/Y' , strtotime($i->dataFab))}} </td>
           <?php $aleatorio = rand(1, 100);

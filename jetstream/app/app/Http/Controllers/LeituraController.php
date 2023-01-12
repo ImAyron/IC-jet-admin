@@ -41,4 +41,14 @@ class LeituraController extends Controller
             return redirect()->route('login');
         }
     }
+    public static function ExibirTag($epc){
+        if (Auth::check()) {
+          $o = DB::table('tags')->select()->where('codigo',$epc)->get();
+        
+            return redirect()->route('tag.show', $o[0]->id);
+        } else {
+            session()->flash('mensagem', 'Operação não permitida!');
+            return redirect()->route('login');
+        }
+    }
 }

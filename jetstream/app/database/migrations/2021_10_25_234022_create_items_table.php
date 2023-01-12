@@ -14,7 +14,7 @@ class CreateItemsTable extends Migration
     public function up()
     {
         Schema::create('items', function (Blueprint $table) {
-            $table->id();
+            $table->id()->onDelete('cascade');
             $table->string('codigo',4);
             $table->string('descricao',100);        
             $table->date('dataFab');

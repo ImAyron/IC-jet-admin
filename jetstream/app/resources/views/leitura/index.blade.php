@@ -49,7 +49,7 @@
         <tr>
           
             <td>{{ $o->id}}</td>
-            <td><a href="{{route('tag.show', $o->EPC)}}">{{$o->EPC}}</a></td>
+            <td><a href="{{App\Http\Controllers\LeituraController::ExibirTag($o->EPC)}}">{{$o->EPC}}</a></td>
             <td>{{ $o->Data }}</td>
             <td>{{ $o->company_id }} </td>
          
