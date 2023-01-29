@@ -42,7 +42,7 @@
       @foreach($antenas as $a)
             <tr>
                 <td>{{ $a->id}}</td>
-                <td><a style="color:red;" href="{{route('antena.show', $a->id)}}"><b>{{ $a->codigo }}</b></a></td>
+                <td><a class="text-info" href="{{route('antena.show', $a->id)}}"><b>{{ $a->codigo }}</b></a></td>
                 <td>{{ $a->local }} </td>
              
             </tr>

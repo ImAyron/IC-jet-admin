@@ -14,6 +14,9 @@ return [
     |
     */
 
+
+    'preloader_enabled'=>false,
+
     'title' => 'GESTMI',
     'title_prefix' => '',
     'title_postfix' => '',

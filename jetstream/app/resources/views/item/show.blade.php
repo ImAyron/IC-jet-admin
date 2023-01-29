@@ -16,7 +16,7 @@
 
         </div>
         <div class="col-8">
-    <P></P>
+            <P></P>
             <div class="card card-info card-outline">
                 <div class="card-body box-profile card-responsive-sm">
                     <div class="text-center">
@@ -36,7 +36,7 @@
                                 class="float-right text-info">{{ date('d/m/Y', strtotime($item->dataFab)) }}</a>
                         </li>
                     </ul>
-                   
+
 
                     <form name="frmDelete" action="{{ route('item.destroy', $item->id) }}" method="post"
                         onsubmit="return confirm('Confirma a exclusão do item?');">
@@ -45,8 +45,8 @@
                         @csrf
                         @method('DELETE')
                         <br>
-                        <a style=' color:white;' href="{{ route('item.edit', $item->id) }}"> <input
-                                class="btn btn-info" type="button" value="Editar"></a>
+                        <a style=' color:white;' href="{{ route('item.edit', $item->id) }}"> <input class="btn btn-info"
+                                type="button" value="Editar"></a>
                         <a style=' color:white;' href="{{ route('item.index') }}"> <input class="btn btn-info"
                                 type="button" value="Voltar"></a>
 
@@ -57,11 +57,11 @@
                 </div>
 
             </div>
-            </div>
-            <div class="col">
-
-            </div>
         </div>
+        <div class="col">
+
+        </div>
+    </div>
 
 
 
@@ -75,13 +75,13 @@
 
 
 
-        @csrf
-    @stop
+    @csrf
+@stop
 
-    @section('css')
-        <link rel="stylesheet" href="/css/admin_custom.css">
-    @stop
+@section('css')
+    <link rel="stylesheet" href="/css/admin_custom.css">
+@stop
 
-    @section('js')
-        <script></script>
-    @stop
+@section('js')
+    <script></script>
+@stop

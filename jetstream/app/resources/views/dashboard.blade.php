@@ -13,6 +13,7 @@
 
 
     @section('content')
+    
     <p></p>
     <!-- Main content -->
     <section class="content">
@@ -244,12 +245,6 @@
 
     </section>
 
-<footer class="main-footer">
-<div class="float-right d-none d-sm-block">
-<b>Version</b> 1.0.0
-</div>
-<strong>Copyright &copy; 2021-2022 <a href="https://www.linkedin.com/in/ayron-luigi-873317193/">Ayron Luigi de Paiva</a>.</strong> All rights reserved.
-</footer>
 
 
 

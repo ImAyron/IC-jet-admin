@@ -49,8 +49,9 @@
         <tr>
           
             <td>{{ $o->id}}</td>
-            <td><a href="{{App\Http\Controllers\LeituraController::ExibirTag($o->EPC)}}">{{$o->EPC}}</a></td>
-            <td>{{ $o->Data }}</td>
+            {{-- <td><a href="{{App\Http\Controllers\LeituraController::ExibirTag($o->EPC)}}">{{$o->EPC}}</a></td> --}}
+            <td><a class="text-info" href="{{ route('tag.show', $o->EPC) }}">{{$o->EPC}}</a></td> 
+            <td> {{date( 'd/m/Y' , strtotime($o->Data))  }}</td>
             <td>{{ $o->company_id }} </td>
          
         </tr>

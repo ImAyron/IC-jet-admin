@@ -15,7 +15,7 @@ class CreateTagsTable extends Migration
     {
         Schema::create('tags', function (Blueprint $table) {
             $table->id();
-            $table->string('codigo',45);
+            $table->string('codigo',45)->unique();
             $table->foreignId('item_id')->constrained();
             $table->timestamps();
             $table->date('dataFab');

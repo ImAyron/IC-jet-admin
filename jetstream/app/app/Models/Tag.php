@@ -8,7 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Tag extends Model
 {
     use HasFactory;
-
+    protected $primaryKey = 'codigo';
+    public $incrementing = false;
     protected $fillable = ['codigo','dataFab','item_id'];
 
     public function item()

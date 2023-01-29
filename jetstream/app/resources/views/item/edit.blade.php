@@ -60,7 +60,7 @@
                         <div class="col-sm-6">
 
                             <div class="text-right">
-                                <input type="submit" value="Cadastrar" class="btn btn-primary">
+                                <input type="submit" value="Atualizar" class="btn btn-primary">
                                 <input type="reset" value="Limpar" class="btn btn-danger">
                             </div>
                         </div>
