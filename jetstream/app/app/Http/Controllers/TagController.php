@@ -6,7 +6,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Item;
 use App\Models\Tag;
-
+use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -49,6 +49,21 @@ class TagController extends Controller
         $count=Tag::all()->count();
         
         return $count;
+    }
+    public function cadastroAutomatico(Request $request){
+        foreach ($request->json() as $leitura1) {
+         //se a tag não existir no sistema cadastra automatico   
+         if(DB::table('tags')->where('codigo', $leitura1["reading_epc_hex"])->count() == 0)            
+            $leitura = new Tag;
+            $leitura->codigo = $leitura1["reading_epc_hex"];
+            $leitura->item_id=1;       
+            $leitura->dataFab = $leitura1["reading_created_at"];
+            $leitura->save();
+        }
+
+        return response()->json([
+            "message" => "leitura record created"
+        ], 200);
     }
     
 

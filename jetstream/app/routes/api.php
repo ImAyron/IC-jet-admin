@@ -30,3 +30,4 @@ Route::post('/', function (\Illuminate\Http\Request $request) {
 
 Route::post('/operation', [App\Http\Controllers\operationController::class, 'addOperation']);
 Route::post('/leitura', [App\Http\Controllers\LeituraController::class, 'enviarTag']);
+Route::post('/tag', [App\Http\Controllers\TagController::class,'cadastroAutomatico']);
