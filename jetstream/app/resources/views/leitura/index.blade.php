@@ -24,7 +24,13 @@
 <br>
 
  
-
+<p>Numero de itens na Lavanderia {{$lavanderia}}</p>
+<p>Total de tags {{$tagsLidas2}}</p>
+<select name="" id="">
+  @foreach ($tagsLidas as $i)
+  <option value="">{{$i->EPC}}</option>
+  @endforeach
+</select>
 
 <table id="example1" class="table table-bordered table-striped table-responsive-sm">
     <caption>Ultimas leituras</caption>
@@ -51,7 +57,7 @@
             <td>{{ $o->id}}</td>
             {{-- <td><a href="{{App\Http\Controllers\LeituraController::ExibirTag($o->EPC)}}">{{$o->EPC}}</a></td> --}}
             <td><a class="text-info" href="{{ route('tag.show', $o->EPC) }}">{{$o->EPC}}</a></td> 
-            <td> {{date( 'd/m/Y' , strtotime($o->Data))  }}</td>
+            <td> {{date( 'd/m/Y  H:i:s' , strtotime($o->created_at))  }}</td>
             <td>{{ $o->company_id }} </td>
          
         </tr>

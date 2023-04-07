@@ -56,7 +56,7 @@ class TagController extends Controller
          if(DB::table('tags')->where('codigo', $leitura1["reading_epc_hex"])->count() == 0)            
             $leitura = new Tag;
             $leitura->codigo = $leitura1["reading_epc_hex"];
-            $leitura->item_id=1;       
+            $leitura->item_id= 1;       
             $leitura->dataFab = $leitura1["reading_created_at"];
             $leitura->save();
         }

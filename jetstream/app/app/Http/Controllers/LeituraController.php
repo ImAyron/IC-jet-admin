@@ -32,10 +32,12 @@ class LeituraController extends Controller
     public function index()
     {
         if (Auth::check()) {;
-
+         $lavanderia=leitura::where('company_id','Lavanderia')->distinct('EPC')->count();   
+         $tagsLidas=leitura::select('EPC')->distinct()->get();
+         $tagsLidas2=leitura::distinct()->count('EPC');   
          
          $leituras1  = leitura::orderBy('created_at', 'desc')->get();   
-            return view('leitura.index', ['leituras'=>$leituras1]);
+            return view('leitura.index', ['leituras'=>$leituras1,'lavanderia'=>$lavanderia,'tagsLidas'=>$tagsLidas,'tagsLidas2'=>$tagsLidas2]);
         } else {
             session()->flash('mensagem', 'Operação não permitida!');
             return redirect()->route('login');

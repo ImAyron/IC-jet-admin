@@ -29,7 +29,7 @@
                             <div class="form-group">
                                 <label>Código</label>
                                 <input type="text" class="form-control" placeholder="Enter ..."name="codigo"
-                                    id="codigo"  value="{{$tag->codigo}}"required>
+                                    id="codigo"  value="{{$tag->codigo}}"disabled>
                             </div>
                         </div>
                         <div class="col-sm-6">

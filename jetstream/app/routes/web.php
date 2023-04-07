@@ -5,13 +5,12 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Operacao;
+use App\Models\leitura;
 use App\Http\Controllers\operationController;
 use App\Http\Controllers\OperacaoController;
-use App\Http\Controllers\FuncionarioController;
 use App\Http\Controllers\AntenaController;
 use App\Http\Controllers\ItemController;
 use App\Http\Controllers\TagController;
-use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LeituraController;
 
 /*
@@ -47,16 +46,13 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     $item=new ItemController;
     $count=$item->count();
 
-    $countLavanderia=$item->lavanderia();
-
     $tag=new TagController;
     $countTag=$tag->count();
 
-    
-    $teste= DB::table('operations')->where('antena','lavanderia')->count();
-    
+    $lavanderia=leitura::where('company_id','Lavanderia')->distinct()->count('EPC');  
+   
 
-    return view('dashboard',['lav'=>$countLavanderia,'countTag'=>$countTag,'count'=>$count,'countA'=>$countA,'lavanderia'=>$teste]);
+    return view('dashboard',['countTag'=>$countTag,'count'=>$count,'countA'=>$countA,'lavanderia'=>$lavanderia]);
 })->name('dashboard');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/teste', function () {
