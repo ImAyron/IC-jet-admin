@@ -34,7 +34,7 @@
                             <b>Código</b> <a class="float-right text-info "> {{ $tag->codigo  }}</a>
                         </li>
                         <li class="list-group-item">
-                            <b>Descrição do Item Associado - ID</b> <a class="float-right text-info "> {{ $tag->item->id ." - ".  $tag->item->descricao }}</a>
+                            <b>Descrição do Item Associado - ID</b> <a class="float-right text-info " href="{{ route('item.show', $tag->item->id) }}"> {{ $tag->item->id ." - ".  $tag->item->descricao }}</a>
                         </li>
                         <li class="list-group-item">
                             <b>Data de fabricação</b> <a class="float-right text-info "> {{  $tag->dataFab }}</a>

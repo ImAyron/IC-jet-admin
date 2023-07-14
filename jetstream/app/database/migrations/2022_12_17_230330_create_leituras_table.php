@@ -15,11 +15,13 @@ class CreateLeiturasTable extends Migration
     {
         Schema::create('leituras', function (Blueprint $table) {
             $table->id();
+            $table->text('tipo');
             $table->json('EPC');
             $table->text('Data');
             $table->text('company_id');
             $table->timestamps();
         });
+    
     }
 
     /**

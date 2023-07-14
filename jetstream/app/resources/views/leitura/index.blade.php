@@ -13,56 +13,72 @@
 <!-- Reload Página-->
 <!-- Google Font: Source Sans Pro -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="./plugins/fontawesome-free/css/all.min.css">
-  <!-- DataTables -->
-  <link rel="stylesheet" href="./plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
-  <link rel="stylesheet" href="./plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
-  <link rel="stylesheet" href="./plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="./dist/css/adminlte.min.css">
-<br>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="./plugins/fontawesome-free/css/all.min.css">
+<!-- DataTables -->
+<link rel="stylesheet" href="./plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" href="./plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+<link rel="stylesheet" href="./plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+<!-- Theme style -->
+<link rel="stylesheet" href="./dist/css/adminlte.min.css">
 
- 
-<p>Numero de itens na Lavanderia {{$lavanderia}}</p>
-<p>Total de tags {{$tagsLidas2}}</p>
-<select name="" id="">
-  @foreach ($tagsLidas as $i)
-  <option value="">{{$i->EPC}}</option>
-  @endforeach
-</select>
+<div class="row">
+  <div class="col">
+    <!--<p>Numero de itens na Lavanderia {{$lavanderia}}</p>-->
+    <p>Total de tags {{$tagsLidas2}}</p>
+    <select class="form-select form-select-lg mb-3" name="" id="">
+      <option selected>Tags do Sistema</option>
+      @foreach ($tagsLidas as $i)
+      <option value="">{{$i->EPC}}</option>
+      @endforeach
+    </select>
+
+  </div>
+  <div class="col">
+
+  </div>
+  <div class="col">
+
+  </div>
+</div>
+
 
 <table id="example1" class="table table-bordered table-striped table-responsive-sm">
-    <caption>Ultimas leituras</caption>
-    <thead>
-   
-        <tr>
-            <th scope="col">Id</th>
-            <th scope="col">Tag</th>
-            <th scope="col">Data</th>
-            <th scope="col">Antena</th>
-           
-          
+  <caption>Ultimas leituras</caption>
+  <thead>
+
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Tag</th>
+      <th scope="col">Data</th>
+      <th scope="col">Antena</th>
+      <th scope="col">Tipo</th>
+      
 
 
+    </tr>
+  </thead>
+  <tbody>
 
+    @foreach($leituras as $o)
+    <tr>
 
-        </tr>
-    </thead>
-    <tbody>
-
-        @foreach($leituras as $o)
-        <tr>
-          
-            <td>{{ $o->id}}</td>
-            {{-- <td><a href="{{App\Http\Controllers\LeituraController::ExibirTag($o->EPC)}}">{{$o->EPC}}</a></td> --}}
-            <td><a class="text-info" href="{{ route('tag.show', $o->EPC) }}">{{$o->EPC}}</a></td> 
-            <td> {{date( 'd/m/Y  H:i:s' , strtotime($o->created_at))  }}</td>
-            <td>{{ $o->company_id }} </td>
-         
-        </tr>
-        @endforeach
-    </tbody>
+      <td>{{ $o->id}}</td>
+      {{-- <td><a href="{{App\Http\Controllers\LeituraController::ExibirTag($o->EPC)}}">{{$o->EPC}}</a></td> --}}
+      <td><a class="text-info" href="{{ route('tag.show', $o->EPC) }}">{{$o->EPC}}</a></td>
+      <td> {{date( 'd/m/Y  H:i:s' , strtotime($o->created_at))  }}</td>
+      <td>{{ $o->company_id }} </td>
+      <?php
+      if($o->tipo =='Entrada'){ ?>
+      <td><span class="badge bg-success">{{ $o->tipo }}</span> </td>
+      <?php  }  else { ?>
+      
+    
+        <td ><span class="badge bg-danger">{{ $o->tipo }}</span> </td>
+      <?php  }?>
+    </tr>
+    @endforeach
+  </tbody>
 </table>
 
 
@@ -77,10 +93,10 @@
 
 @section('js')
 <script>
-function mostrarTabela(num){
-    
-    document.getElementById('example'+num).style.display = '';
-}
+  function mostrarTabela(num) {
+
+    document.getElementById('example' + num).style.display = '';
+  }
 </script>
 <!-- jQuery -->
 <script src="./plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
@@ -92,14 +108,15 @@ function mostrarTabela(num){
 <script src="./plugins/jszip/jszip.min.js"></script>
 <!-- Page specific script -->
 <script>
-
   $(document).ready(function() {
     $("#example1").DataTable({
-      
-      "responsive": true, "lengthChange": true, "autoWidth": false,
-      
-      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"], 
-     
+
+      "responsive": true,
+      "lengthChange": true,
+      "autoWidth": false,
+
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
+
     }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
     $('#example2').DataTable({
       "paging": true,

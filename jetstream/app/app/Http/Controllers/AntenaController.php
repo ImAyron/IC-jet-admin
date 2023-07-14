@@ -46,7 +46,7 @@ class AntenaController extends Controller
 
     public function store(Request $request)
     {
-       
+        $this->authorize('is_admin');
 
         if (Auth::check()) {
             Antena::create($request->all());
@@ -69,7 +69,9 @@ class AntenaController extends Controller
     }
 
     public function edit(Antena $antena)
+    
     {
+        $this->authorize('is_admin');
         if (Auth::check()) {
             return view('antena.edit', ['antena' => $antena]);
         } else {
@@ -81,6 +83,7 @@ class AntenaController extends Controller
 
     public function update(Request $request, Antena $antena)
     {
+        $this->authorize('is_admin');
         if (Auth::check()) {
             $antena->fill($request->all());
             $antena->save();
@@ -94,6 +97,7 @@ class AntenaController extends Controller
 
     public function destroy(Antena $antena)
     {
+        $this->authorize('is_admin');
         if (Auth::check()) {
                 $antena->delete();
                 session()->flash('mensagem', 'Antena excluída com sucesso!');
