@@ -263,10 +263,9 @@
                         <div class="card mb-2 bg-gradient-dark">
                             <img class="card-img-top" src="../dist/img/photo1.png" alt="Dist Photo 1">
                             <div class="card-img-overlay d-flex flex-column justify-content-end">
-                                <h5 class="card-title text-primary text-white">Card Title</h5>
-                                <p class="card-text text-white pb-2 pt-1">Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit sed do eiusmod tempor.</p>
-                                <a href="#" class="text-white">Last update 2 mins ago</a>
+                                <h5 class="card-title text-primary text-white"></h5>
+                                <p class="card-text text-white pb-2 pt-1"></p>
+                                <a href="#" class="text-white"></a>
                             </div>
                         </div>
                     </div>
@@ -274,13 +273,13 @@
                         <div class="card mb-2">
                             <img class="card-img-top" src="../dist/img/photo2.png" alt="Dist Photo 2">
                             <div class="card-img-overlay d-flex flex-column justify-content-center">
-                                <h5 class="card-title text-white mt-5 pt-2">Card Title</h5>
+                                <h5 class="card-title text-white mt-5 pt-2"><a href=""></a></h5>
                                 <p class="card-text pb-2 pt-1 text-white">
-                                    Lorem ipsum dolor sit amet, <br>
-                                    consectetur adipisicing elit <br>
-                                    sed do eiusmod tempor.
+                                     <br>
+                                     <br>
+                                    
                                 </p>
-                                <a href="#" class="text-white">Last update 15 hours ago</a>
+                                <a href="#" class="text-white"></a>
                             </div>
                         </div>
                     </div>
@@ -288,13 +287,16 @@
                         <div class="card mb-2">
                             <img class="card-img-top" src="../dist/img/photo3.jpg" alt="Dist Photo 3">
                             <div class="card-img-overlay">
-                                <h5 class="card-title text-primary">Card Title</h5>
-                                <p class="card-text pb-1 pt-1 text-white">
-                                    Lorem ipsum dolor <br>
-                                    sit amet, consectetur <br>
-                                    adipisicing elit sed <br>
-                                    do eiusmod tempor. </p>
-                                <a href="#" class="text-primary">Last update 3 days ago</a>
+                                <br>
+                                <br>
+                                <h5 class="card-title text-white">Os melhores hospitais</h5>
+                                <p class="card-text pb-0.5 pt-0.5 text-white">
+                                    
+                                Premiação inédita revela   <br>
+                                os melhores hospitais públicos <br>
+                                do Brasil <br>
+                                   
+                                <a class="color:red;"href="https://www.conass.org.br/ranking-inedito-revela-os-melhores-hospitais-publicos-do-brasil/" class="text-primary">Saiba mais</a>
                             </div>
                         </div>
                     </div>
