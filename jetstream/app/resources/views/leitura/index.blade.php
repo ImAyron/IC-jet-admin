@@ -88,7 +88,7 @@
 @stop
 
 @section('css')
-<meta http-equiv='refresh' content='15'>
+<meta http-equiv='refresh' content='8'>
 @stop
 
 @section('js')
