@@ -55,7 +55,7 @@ class TagController extends Controller
          //se a tag não existir no sistema cadastra automatico   
          
          if(DB::table('tags')->where('codigo', $leitura1["reading_epc_hex"])->count() == 0) {     
-            dd('teste');      
+             
             $leitura = new Tag;
             $leitura->codigo = $leitura1["reading_epc_hex"];
             $leitura->item_id= 1;       
