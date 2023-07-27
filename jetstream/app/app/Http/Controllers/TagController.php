@@ -53,12 +53,14 @@ class TagController extends Controller
     public function cadastroAutomatico(Request $request){
         foreach ($request->json() as $leitura1) {
          //se a tag não existir no sistema cadastra automatico   
-         if(DB::table('tags')->where('codigo', $leitura1["reading_epc_hex"])->count() == 0)            
+         
+         if(DB::table('tags')->where('codigo', $leitura1["reading_epc_hex"])->count() == 0) {     
+            dd('teste');      
             $leitura = new Tag;
             $leitura->codigo = $leitura1["reading_epc_hex"];
             $leitura->item_id= 1;       
             $leitura->dataFab = $leitura1["reading_created_at"];
-            $leitura->save();
+            $leitura->save();}
         }
 
         return response()->json([
@@ -81,7 +83,7 @@ class TagController extends Controller
 
     public function update(Request $request, Tag $tag)
     {
-        //dd($request->all());
+       
         $tag->fill($request->all());
         $tag->save();
 

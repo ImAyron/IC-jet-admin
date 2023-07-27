@@ -22,9 +22,9 @@ class LeituraController extends Controller
             //A consulta está correta?;
             $lastPassage1 = leitura::select('tipo')->where('EPC', $leitura1["reading_epc_hex"])->max('created_at');
             
-            //$lastPassage =leitura::select('tipo')->where('created_at', $lastPassage1)->get;
-            $lastPassage = DB::table('leituras')->select('tipo')->where('created_at', $lastPassage1)->distinct()->get();
-          
+            
+            $lastPassage = DB::table('leituras')->select('tipo')->where('created_at', $lastPassage1)->get();
+           
             if ($lastPassage1 != NULL) {
                
                 if ($lastPassage->get('0')->tipo == 'Saída' || $lastPassage->get('0')->tipo == NULL || NAN) {
