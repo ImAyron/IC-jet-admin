@@ -1,4 +1,8 @@
 <x-guest-layout>
+
+    
+    
+    
     <x-jet-authentication-card>
         <x-slot name="logo">
             <x-jet-authentication-card-logo />
@@ -7,9 +11,9 @@
         <x-jet-validation-errors class="mb-4" />
 
         @if (session('status'))
-            <div class="mb-4 font-medium text-sm text-green-600">
-                {{ session('status') }}
-            </div>
+        <div class="mb-4 font-medium text-sm text-green-600">
+            {{ session('status') }}
+        </div>
         @endif
 
         <form method="POST" action="{{ route('login') }}">
@@ -34,15 +38,32 @@
 
             <div class="flex items-center justify-end mt-4">
                 @if (Route::has('password.request'))
-                    <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
-                        {{ __('Esqueceu sua senha?') }}
-                    </a>
+                <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
+                    {{ __('Esqueceu sua senha?') }}
+                </a>
                 @endif
 
                 <x-jet-button class="ml-4">
                     {{ __('Entrar') }}
                 </x-jet-button>
             </div>
+            <div class="row" >
+        <div class="col-6">
+
+        </div>
+        <div class="col-6">
+            <br>
+            
+        <a class="underline text-sm text-gray-600 hover:text-gray-900" href="http://127.0.0.1:8000/register">
+                {{ __('Não Possui uma conta ainda? Registre-se') }}
+            </a>
+        </div>   
+        <div class="col">
+
+        </div>
+
+    </div>
         </form>
     </x-jet-authentication-card>
+
 </x-guest-layout>
