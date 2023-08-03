@@ -54,7 +54,7 @@
         <div class="col-6">
             <br>
             
-        <a class="underline text-sm text-gray-600 hover:text-gray-900" href="http://127.0.0.1:8000/register">
+        <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('register')}}">
                 {{ __('Não Possui uma conta ainda? Registre-se') }}
             </a>
         </div>   
