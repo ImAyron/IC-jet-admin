@@ -22,26 +22,7 @@
 <!-- Theme style -->
 <link rel="stylesheet" href="./dist/css/adminlte.min.css">
 
-<div class="row">
-  <div class="col">
-    <!--<p>Numero de itens na Lavanderia {{$lavanderia}}</p>-->
-    <p>Total de tags {{$tagsLidas2}}</p>
-    <form action="">
-      <select class="form-select form-select-lg mb-3" name="" id="">
-        <option selected>Tags do Sistema</option>
-        @foreach ($tagsLidas as $i)
-        <option value="{{$i->EPC}}">{{$i->EPC}}</option>
-        @endforeach
-      </select>
-    </form>
-  </div>
-  <div class="col">
 
-  </div>
-  <div class="col">
-
-  </div>
-</div>
 
 
 <table id="example1" class="table table-bordered table-striped table-responsive-sm">
@@ -89,7 +70,7 @@
 @stop
 
 @section('css')
-<meta http-equiv='refresh' content='8'>
+
 @stop
 
 @section('js')
