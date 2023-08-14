@@ -20,7 +20,7 @@
             </div>
 
             <div class="card-body">
-                <form action="{{ route('tag.update', $tag->id)}}"method="post">
+                <form action="{{ route('tag.update', $tag->codigo)}}"method="post">
                     @csrf
                     @method('PUT')
                     <div class="row">
@@ -92,6 +92,6 @@
 
         @section('js')
         <script>
-          console.log('Hi!');
+          
         </script>
         @stop
