@@ -27,10 +27,10 @@
     <!--<p>Numero de itens na Lavanderia {{$lavanderia}}</p>-->
     <p>Total de tags {{$tagsLidas2}}</p>
     <form action="">
-      <select class="form-select form-select-lg mb-3" name="" id="">
+      <select  onchange="location.href=this.value" class="form-select form-select-lg mb-3" name="" id="">
         <option selected>Tags do Sistema</option>
         @foreach ($tagsLidas as $i)
-        <option value="{{$i->EPC}}">{{$i->EPC}}</option>
+        <option value="{{route('leitura.show', $i->id)}}">{{$i->EPC}} {{$i->item}}</option>
         @endforeach
       </select>
     </form>
@@ -65,7 +65,7 @@
     <tr>
 
       <td>{{ $o->id}}</td>
-      {{-- <td><a href="{{App\Http\Controllers\LeituraController::ExibirTag($o->EPC)}}">{{$o->EPC}}</a></td> --}}
+
       <td><a class="text-info" href="{{ route('tag.show', $o->EPC) }}">{{$o->EPC}}</a></td>
       <td> {{date( 'd/m/Y  H:i:s' , strtotime($o->created_at))  }}</td>
       <td>{{ $o->company_id }} </td>

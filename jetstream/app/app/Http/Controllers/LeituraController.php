@@ -9,15 +9,13 @@ use Illuminate\Http\Request;
 
 class LeituraController extends Controller
 {
-    public function show(Leitura $leitura){
+    public function show(leitura $leitura){
 
-        if (Auth::check()) {;
-            $lavanderia = leitura::where('company_id', 'Lavanderia')->distinct('EPC')->count();
-            $tagsLidas = leitura::select('EPC')->distinct()->get();
-            $tagsLidas2 = leitura::distinct()->count('EPC');
-
-            $leituras1  = leitura::orderBy('created_at', 'desc')->get();
-            return view('leitura.index', ['leituras' => $leituras1, 'lavanderia' => $lavanderia, 'tagsLidas' => $tagsLidas, 'tagsLidas2' => $tagsLidas2]);
+        if (Auth::check()) {
+            $leituras2 = leitura::where('id', $leitura->id)->get();
+            $leituras1 = leitura::where('EPC', $leituras2[0]->EPC)->orderBy('created_at','desc')->get();
+    
+            return view('leitura.show', ['leitura'=>$leitura,'leituras' => $leituras1]);
         } else {
             session()->flash('mensagem', 'Operação não permitida!');
             return redirect()->route('login');
@@ -71,7 +69,7 @@ class LeituraController extends Controller
     {
         if (Auth::check()) {;
             $lavanderia = leitura::where('company_id', 'Lavanderia')->distinct('EPC')->count();
-            $tagsLidas = leitura::select('EPC')->distinct()->get();
+            $tagsLidas = leitura::select()->distinct()->get();
             $tagsLidas2 = leitura::distinct()->count('EPC');
 
             $leituras1  = leitura::orderBy('created_at', 'desc')->get();

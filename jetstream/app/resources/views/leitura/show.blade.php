@@ -91,7 +91,7 @@
 <!-- Page specific script -->
 <script>
   $(document).ready(function() {
-    $("#example1").DataTable({
+    $("#example2").DataTable({
 
       "responsive": true,
       "lengthChange": true,
@@ -100,12 +100,8 @@
       "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"],
 
     }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
-    $('#example2').DataTable({
-      "paging": true,
-      "lengthChange": true,
-      "searching": false,
-      "ordering": true,
-      "info": true,
+    $('#example1').DataTable({
+     
       "autoWidth": false,
       "responsive": true,
     });

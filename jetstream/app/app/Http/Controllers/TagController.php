@@ -50,6 +50,7 @@ class TagController extends Controller
         
         return $count;
     }
+    
     public function cadastroAutomatico(Request $request){
         foreach ($request->json() as $leitura1) {
          //se a tag não existir no sistema cadastra automatico   
@@ -93,16 +94,11 @@ class TagController extends Controller
 
     public function destroy(Tag $tag)
     {
-     #   if($tag->item->count() > 0){
-
-      #      session()->flash('mensagem', 'Exclusão não permitida! Existem itens associadas.');
-      #      return redirect()->route('tag.index');
-      #  }else{
 
         $tag->delete();
         session()->flash('mensagem', 'Tag excluída com sucesso!');
         return redirect()->route('tag.index');
    
-     #   }
+   
     }
 }
