@@ -13,7 +13,7 @@ class LeituraController extends Controller
 
         if (Auth::check()) {
             $leituras2 = leitura::where('id', $leitura->id)->get();
-            $leituras1 = leitura::where('EPC', $leituras2[0]->EPC)->orderBy('created_at','desc')->get();
+            $leituras1 = leitura::where('EPC', $leituras2[0]->EPC)->orderBy('Data')->get();
     
             return view('leitura.show', ['leitura'=>$leitura,'leituras' => $leituras1]);
         } else {
@@ -33,10 +33,10 @@ class LeituraController extends Controller
 
 
             //A consulta está correta?;
-            $lastPassage1 = leitura::select('tipo')->where('EPC', $leitura1["reading_epc_hex"])->max('created_at');
+            $lastPassage1 = leitura::select('tipo')->where('EPC', $leitura1["reading_epc_hex"])->max('Data');
             
             
-            $lastPassage = DB::table('leituras')->select('tipo')->where('created_at', $lastPassage1)->get();
+            $lastPassage = DB::table('leituras')->select('tipo')->where('Data', $lastPassage1)->get();
            
             if ($lastPassage1 != NULL) {
                
@@ -69,7 +69,8 @@ class LeituraController extends Controller
     {
         if (Auth::check()) {;
             $lavanderia = leitura::where('company_id', 'Lavanderia')->distinct('EPC')->count();
-            $tagsLidas = leitura::select()->distinct()->get();
+            $tagsLidas = leitura::all()->unique('EPC');
+           
             $tagsLidas2 = leitura::distinct()->count('EPC');
 
             $leituras1  = leitura::orderBy('created_at', 'desc')->get();

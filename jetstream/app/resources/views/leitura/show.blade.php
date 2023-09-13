@@ -48,7 +48,7 @@
       <td>{{ $o->id}}</td>
       {{-- <td><a href="{{App\Http\Controllers\LeituraController::ExibirTag($o->EPC)}}">{{$o->EPC}}</a></td> --}}
       <td><a class="text-info" href="{{ route('tag.show', $o->EPC) }}">{{$o->EPC}}</a></td>
-      <td> {{date( 'd/m/Y  H:i:s' , strtotime($o->created_at))  }}</td>
+      <td> {{date( 'd/m/Y  H:i:s' , strtotime($o->Data))  }}</td>
       <td>{{ $o->company_id }} </td>
       <?php
       if ($o->tipo == 'Entrada') { ?>

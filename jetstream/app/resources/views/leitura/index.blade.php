@@ -67,7 +67,7 @@
       <td>{{ $o->id}}</td>
 
       <td><a class="text-info" href="{{ route('tag.show', $o->EPC) }}">{{$o->EPC}}</a></td>
-      <td> {{date( 'd/m/Y  H:i:s' , strtotime($o->created_at))  }}</td>
+      <td> {{date( 'd/m/Y  H:i:s' , strtotime($o->Data))  }}</td>
       <td>{{ $o->company_id }} </td>
       <?php
       if ($o->tipo == 'Entrada') { ?>
@@ -89,7 +89,7 @@
 @stop
 
 @section('css')
-<meta http-equiv='refresh' content='8'>
+<meta http-equiv='refresh' content='80'>
 @stop
 
 @section('js')
