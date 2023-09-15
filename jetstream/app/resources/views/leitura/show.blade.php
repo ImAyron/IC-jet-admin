@@ -23,7 +23,7 @@
 <link rel="stylesheet" href="./dist/css/adminlte.min.css">
 
 
-
+<a href="{{route('leitura.index')}}">Voltar</a>
 
 <table id="example1" class="table table-bordered table-striped table-responsive-sm">
   <caption>Ultimas leituras</caption>
