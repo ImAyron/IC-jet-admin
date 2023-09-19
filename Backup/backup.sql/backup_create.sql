@@ -1,5 +1,5 @@
 --
--- Arquivo gerado com SQLiteStudio v3.4.4 em sex set 15 13:51:15 2023
+-- Arquivo gerado com SQLiteStudio v3.4.4 em ter set 19 12:17:35 2023
 --
 -- Codificação de texto usada: System
 --
@@ -25,6 +25,16 @@ INSERT INTO items (id, codigo, descricao, dataFab, created_at, updated_at) VALUE
 INSERT INTO items (id, codigo, descricao, dataFab, created_at, updated_at) VALUES (9, '9', 'Blusa Privativo CTI (G)', '2023-09-04', '2023-09-04 09:12:35', '2023-09-04 09:12:35');
 INSERT INTO items (id, codigo, descricao, dataFab, created_at, updated_at) VALUES (10, '10', 'Blusa Privativo CTI (GG)', '2023-09-04', '2023-09-04 09:14:27', '2023-09-04 09:14:27');
 INSERT INTO items (id, codigo, descricao, dataFab, created_at, updated_at) VALUES (11, '11', 'Blusa Privativo CTI (P)', '2023-09-04', '2023-09-04 09:18:00', '2023-09-04 09:18:00');
+INSERT INTO items (id, codigo, descricao, dataFab, created_at, updated_at) VALUES (12, '12', 'Blusa Privativo CTI (EXG) 11', '2023-09-19', '2023-09-19 10:34:27', '2023-09-19 10:34:27');
+INSERT INTO items (id, codigo, descricao, dataFab, created_at, updated_at) VALUES (13, '13', 'Blusa Privativo CTI (GG)-12', '2023-09-19', '2023-09-19 10:35:08', '2023-09-19 10:35:08');
+INSERT INTO items (id, codigo, descricao, dataFab, created_at, updated_at) VALUES (14, '14', 'Blusa Privativo CTI (GG)-13', '2023-09-19', '2023-09-19 10:35:36', '2023-09-19 10:35:36');
+INSERT INTO items (id, codigo, descricao, dataFab, created_at, updated_at) VALUES (15, '15', 'Blusa Privativo CTI (P)-14', '2023-09-19', '2023-09-19 10:35:59', '2023-09-19 10:35:59');
+INSERT INTO items (id, codigo, descricao, dataFab, created_at, updated_at) VALUES (16, '16', 'Blusa Privativo CTI (GG)-15', '2023-09-19', '2023-09-19 10:36:27', '2023-09-19 10:36:27');
+INSERT INTO items (id, codigo, descricao, dataFab, created_at, updated_at) VALUES (17, '17', 'Blusa Privativo CTI (G)-16', '2023-09-19', '2023-09-19 10:36:49', '2023-09-19 10:38:32');
+INSERT INTO items (id, codigo, descricao, dataFab, created_at, updated_at) VALUES (18, '18', 'Blusa Privativo CTI (P)-17', '2023-09-19', '2023-09-19 10:37:41', '2023-09-19 10:37:41');
+INSERT INTO items (id, codigo, descricao, dataFab, created_at, updated_at) VALUES (19, '19', 'Blusa Privativo CTI (m)-18', '2023-09-19', '2023-09-19 10:39:05', '2023-09-19 10:39:05');
+INSERT INTO items (id, codigo, descricao, dataFab, created_at, updated_at) VALUES (20, '20', 'Blusa Privativo CTI (G)-19', '2023-09-19', '2023-09-19 10:39:42', '2023-09-19 10:39:42');
+INSERT INTO items (id, codigo, descricao, dataFab, created_at, updated_at) VALUES (21, '21', 'Blusa Privativo CTI (G)-20', '2023-09-19', '2023-09-19 10:40:05', '2023-09-19 10:40:05');
 
 -- Tabela: leituras
 CREATE TABLE "leituras" ("id" integer not null primary key autoincrement, "tipo" text not null, "EPC" text not null, "Data" text not null, "company_id" text not null, "created_at" datetime, "updated_at" datetime);
@@ -133,6 +143,66 @@ INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) V
 INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (261, 'Saída', 'E28068900000400598D77559', '2023-09-15 10:22:21', 'CTI', '2023-09-15 12:01:19', '2023-09-15 12:01:19');
 INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (262, 'Saída', 'E2806890000040030B64AE2A', '2023-09-15 11:25:40', 'CTI', '2023-09-15 12:01:19', '2023-09-15 12:01:19');
 INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (263, 'Entrada', 'E2806890000040030B64AE2A', '2023-09-15 11:32:58', 'CTI', '2023-09-15 12:01:19', '2023-09-15 12:01:19');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (264, 'Saída', 'E2806890000040030B64AE2A', '2023-09-15 13:56:33', 'CTI', '2023-09-15 13:56:40', '2023-09-15 13:56:40');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (265, 'Saída', 'E2806890000040030B64E05B', '2023-09-15 14:09:01', 'CTI', '2023-09-15 14:09:09', '2023-09-15 14:09:09');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (266, 'Entrada', 'E28068900000400598D77559', '2023-09-15 14:09:02', 'CTI', '2023-09-15 14:09:09', '2023-09-15 14:09:09');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (267, 'Entrada', 'E2806890000040030B64AE2A', '2023-09-15 14:09:08', 'CTI', '2023-09-15 14:09:16', '2023-09-15 14:09:16');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (268, 'Entrada', 'E2806890000040030B64E05B', '2023-09-15 14:12:08', 'CTI', '2023-09-15 14:12:16', '2023-09-15 14:12:16');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (269, 'Saída', 'E2806890000040030B64AE2A', '2023-09-15 14:12:29', 'CTI', '2023-09-15 14:12:37', '2023-09-15 14:12:37');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (270, 'Entrada', 'E2806890000040030B64AE2A', '2023-09-15 14:12:53', 'CTI', '2023-09-15 14:13:00', '2023-09-15 14:13:00');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (271, 'Saída', 'E2806890000040030B64AE2A', '2023-09-15 14:15:29', 'CTI', '2023-09-15 14:15:37', '2023-09-15 14:15:37');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (272, 'Saída', 'E28068900000400598D7CDE2', '2023-09-15 15:17:01', 'CTI', '2023-09-15 15:17:16', '2023-09-15 15:17:16');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (273, 'Entrada', 'E28068900000400598D7CDE2', '2023-09-15 15:17:01', 'CTI', '2023-09-15 15:17:17', '2023-09-15 15:17:17');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (274, 'Entrada', 'E2806890000040030B64AE2A', '2023-09-15 15:17:16', 'CTI', '2023-09-15 15:17:23', '2023-09-15 15:17:23');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (275, 'Saída', 'E2806890000040030B64AE2A', '2023-09-15 15:27:10', 'CTI', '2023-09-15 15:27:17', '2023-09-15 15:27:17');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (276, 'Entrada', 'E2806890000040030B64AE2A', '2023-09-15 15:57:23', 'CTI', '2023-09-15 15:57:30', '2023-09-15 15:57:30');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (277, 'Saída', 'E2806890000040030B64AE2A', '2023-09-15 17:10:52', 'CTI', '2023-09-15 17:10:59', '2023-09-15 17:10:59');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (278, 'Entrada', 'E2806890000040030B64AE2A', '2023-09-15 18:07:00', 'CTI', '2023-09-15 18:07:08', '2023-09-15 18:07:08');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (279, 'Saída', 'E28068900000500598D64849', '2023-09-15 19:39:33', 'CTI', '2023-09-15 19:39:49', '2023-09-15 19:39:49');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (280, 'Entrada', 'E28068900000500598D64849', '2023-09-15 19:39:33', 'CTI', '2023-09-15 19:39:50', '2023-09-15 19:39:50');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (281, 'Entrada', 'E28068900000500598D5B522', '2023-09-15 22:16:05', 'CTI', '2023-09-15 22:16:11', '2023-09-15 22:16:11');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (282, 'Saída', 'E28068900000500598D5B522', '2023-09-15 22:50:46', 'CTI', '2023-09-15 22:50:52', '2023-09-15 22:50:52');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (283, 'Entrada', 'E28068900000500598D5B522', '2023-09-16 00:18:26', 'CTI', '2023-09-16 00:18:32', '2023-09-16 00:18:32');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (284, 'Entrada', 'E28068900000400598D808F0', '2023-09-18 10:30:10', 'CTI', '2023-09-18 10:30:13', '2023-09-18 10:30:13');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (285, 'Saída', 'E28068900000400598D808F0', '2023-09-18 10:33:32', 'CTI', '2023-09-18 10:33:35', '2023-09-18 10:33:35');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (300, 'Entrada', 'E28068900000400598D808F0', '2023-09-18 10:44:20', 'CTI', '2023-09-18 10:44:23', '2023-09-18 10:44:23');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (301, 'Saída', 'E28068900000400598D808F0', '2023-09-18 10:52:27', 'CTI', '2023-09-18 10:52:31', '2023-09-18 10:52:31');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (302, 'Entrada', 'E28068900000400598D808F0', '2023-09-18 10:52:27', 'CTI', '2023-09-18 10:52:31', '2023-09-18 10:52:31');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (303, 'Entrada', 'E28068900000400598D808F0', '2023-09-18 10:54:03', 'CTI', '2023-09-18 10:54:07', '2023-09-18 10:54:07');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (304, 'Entrada', '300F4F573AD001C0C46C23BE', '2023-09-18 14:11:07', 'CTI', '2023-09-18 14:11:18', '2023-09-18 14:11:18');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (305, 'Saída', 'E2806890000040030B64E05B', '2023-09-18 22:56:35', 'CTI', '2023-09-19 01:20:36', '2023-09-19 01:20:36');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (306, 'Entrada', 'E28068900000500598D72D24', '2023-09-18 23:00:12', 'CTI', '2023-09-19 01:20:36', '2023-09-19 01:20:36');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (307, 'Entrada', 'E2806890000040030B64E05B', '2023-09-19 04:00:59', 'CTI', '2023-09-19 04:01:09', '2023-09-19 04:01:09');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (308, 'Saída', 'E2806890000040030B64E05B', '2023-09-19 05:54:00', 'CTI', '2023-09-19 05:54:11', '2023-09-19 05:54:11');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (309, 'Saída', 'E28068900000500598D72D24', '2023-09-19 06:40:07', 'CTI', '2023-09-19 06:40:17', '2023-09-19 06:40:17');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (310, 'Entrada', 'E2806890000040030B64E05B', '2023-09-19 09:32:43', 'CTI', '2023-09-19 09:32:52', '2023-09-19 09:32:52');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (311, 'Saída', 'E28068900000400598D808F0', '2023-09-19 10:32:30', 'CTI', '2023-09-19 10:32:40', '2023-09-19 10:32:40');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (312, 'Entrada', 'E28068900000400598D8192B', '2023-09-19 10:32:40', 'CTI', '2023-09-19 10:32:50', '2023-09-19 10:32:50');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (313, 'Saída', 'E28068900000400598D8192B', '2023-09-19 10:37:02', 'CTI', '2023-09-19 10:37:11', '2023-09-19 10:37:11');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (314, 'Entrada', 'E28068900000400598D8192B', '2023-09-19 10:40:17', 'CTI', '2023-09-19 10:40:26', '2023-09-19 10:40:26');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (315, 'Entrada', 'E28068900000400598D808F0', '2023-09-19 10:40:24', 'CTI', '2023-09-19 10:40:34', '2023-09-19 10:40:34');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (316, 'Saída', 'E28068900000400598D8192B', '2023-09-19 10:40:37', 'CTI', '2023-09-19 10:40:46', '2023-09-19 10:40:46');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (317, 'Entrada', 'E28068900000400598D61106', '2023-09-19 10:41:00', 'CTI', '2023-09-19 10:41:10', '2023-09-19 10:41:10');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (318, 'Saída', 'E28068900000400598D808F0', '2023-09-19 10:41:01', 'CTI', '2023-09-19 10:41:10', '2023-09-19 10:41:10');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (319, 'Entrada', 'E28068900000500598D7319E', '2023-09-19 10:41:01', 'CTI', '2023-09-19 10:41:10', '2023-09-19 10:41:10');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (320, 'Entrada', 'E2806890000050030B649D63', '2023-09-19 10:41:01', 'CTI', '2023-09-19 10:41:10', '2023-09-19 10:41:10');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (321, 'Entrada', 'E28068900000500598D788D7', '2023-09-19 10:41:01', 'CTI', '2023-09-19 10:41:10', '2023-09-19 10:41:10');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (322, 'Entrada', 'E2806890000040030B64CE64', '2023-09-19 10:41:08', 'CTI', '2023-09-19 10:41:18', '2023-09-19 10:41:18');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (323, 'Entrada', 'E28068900000500598D5D1DA', '2023-09-19 10:41:28', 'CTI', '2023-09-19 10:41:38', '2023-09-19 10:41:38');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (324, 'Entrada', 'E28068900000400598D808F0', '2023-09-19 10:41:41', 'CTI', '2023-09-19 10:41:50', '2023-09-19 10:41:50');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (325, 'Entrada', 'E28068900000400598D8192B', '2023-09-19 10:59:27', 'CTI', '2023-09-19 10:59:32', '2023-09-19 10:59:32');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (326, 'Saída', 'E28068900000400598D8192B', '2023-09-19 11:00:17', 'CTI', '2023-09-19 11:00:22', '2023-09-19 11:00:22');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (327, 'Entrada', 'E28068900000500598D75060', '2023-09-19 11:00:36', 'CTI', '2023-09-19 11:00:40', '2023-09-19 11:00:40');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (328, 'Saída', 'E2806890000040030B64CE64', '2023-09-19 11:01:16', 'CTI', '2023-09-19 11:01:20', '2023-09-19 11:01:20');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (329, 'Saída', 'E28068900000500598D75060', '2023-09-19 11:01:17', 'CTI', '2023-09-19 11:01:20', '2023-09-19 11:01:20');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (330, 'Entrada', 'E28068900000400598D8192B', '2023-09-19 11:01:18', 'CTI', '2023-09-19 11:01:22', '2023-09-19 11:01:22');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (331, 'Saída', 'E28068900000400598D61106', '2023-09-19 11:01:18', 'CTI', '2023-09-19 11:01:22', '2023-09-19 11:01:22');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (332, 'Saída', 'E28068900000400598D808F0', '2023-09-19 11:01:19', 'CTI', '2023-09-19 11:01:22', '2023-09-19 11:01:22');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (333, 'Entrada', 'E28068900000400598D808F0', '2023-09-19 11:01:57', 'CTI', '2023-09-19 11:02:01', '2023-09-19 11:02:01');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (334, 'Entrada', 'E2806890000050030B649D63', '2023-09-19 11:02:11', 'CTI', '2023-09-19 11:02:15', '2023-09-19 11:02:15');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (335, 'Saída', 'E28068900000400598D8192B', '2023-09-19 11:02:11', 'CTI', '2023-09-19 11:02:15', '2023-09-19 11:02:15');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (336, 'Entrada', 'E2806890000040030B64CE64', '2023-09-19 11:02:13', 'CTI', '2023-09-19 11:02:17', '2023-09-19 11:02:17');
+INSERT INTO leituras (id, tipo, EPC, Data, company_id, created_at, updated_at) VALUES (337, 'Entrada', 'E28068900000500598D84D3A', '2023-09-19 11:02:17', 'CTI', '2023-09-19 11:02:21', '2023-09-19 11:02:21');
 
 -- Tabela: locals
 CREATE TABLE "locals" ("id" integer not null primary key autoincrement, "created_at" datetime, "updated_at" datetime);
@@ -170,8 +240,7 @@ CREATE TABLE "personal_access_tokens" ("id" integer not null primary key autoinc
 
 -- Tabela: sessions
 CREATE TABLE "sessions" ("id" varchar not null, "user_id" integer, "ip_address" varchar, "user_agent" text, "payload" text not null, "last_activity" integer not null, primary key ("id"));
-INSERT INTO sessions (id, user_id, ip_address, user_agent, payload, last_activity) VALUES ('d6k33j0Flhd2BMycNgXBqC5CPk4YoRswuqc5Np2f', 1, '192.168.1.103', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiRWdsVnVZMlRUSlloU01abG9MYnVvRjFTc25IWmJzaHdIODdWNnBCRCI7czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEwJDJJMGhzWFFHRVBjZVM2NHRqUzZuZy5XT2ZVRC5OcTB1QkJmeDlkbGJaa0YvTFdWaWV4VHhlIjtzOjk6Il9wcmV2aW91cyI7YToxOntzOjM6InVybCI7czozMzoiaHR0cDovLzE5Mi4xNjguMS4xMDM6ODAwMC9sZWl0dXJhIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czoyMToicGFzc3dvcmRfaGFzaF9zYW5jdHVtIjtzOjYwOiIkMnkkMTAkMkkwaHNYUUdFUGNlUzY0dGpTNm5nLldPZlVELk5xMHVCQmZ4OWRsYlprRi9MV1ZpZXhUeGUiO30=', 1694741140);
-INSERT INTO sessions (id, user_id, ip_address, user_agent, payload, last_activity) VALUES ('uxiby3XNSTAuEgciaZKfpA7uEgBE49VOJhshzx00', 1, '192.168.1.103', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiSzlsbERwQTBITmxiN2VPOWlkZDBVaU1WMm9LakpuMFJrbERZWkw4dyI7czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEwJDJJMGhzWFFHRVBjZVM2NHRqUzZuZy5XT2ZVRC5OcTB1QkJmeDlkbGJaa0YvTFdWaWV4VHhlIjtzOjk6Il9wcmV2aW91cyI7YToxOntzOjM6InVybCI7czozMzoiaHR0cDovLzE5Mi4xNjguMS4xMDM6ODAwMC9sZWl0dXJhIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319fQ==', 1694796651);
+INSERT INTO sessions (id, user_id, ip_address, user_agent, payload, last_activity) VALUES ('P9NyURjE6yH9jbH8FoPWzfx019HZbrORFbJ6yLA1', 1, '192.168.1.104', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiZHp0M0IzSWlHcldkNzRtbU1pQ3V4SWN6TXpSVG9XeDJMbzNPcURjTCI7czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEwJDJJMGhzWFFHRVBjZVM2NHRqUzZuZy5XT2ZVRC5OcTB1QkJmeDlkbGJaa0YvTFdWaWV4VHhlIjtzOjk6Il9wcmV2aW91cyI7YToxOntzOjM6InVybCI7czo1NDoiaHR0cDovLzE5Mi4xNjguMS4xMDQ6ODAwMC90YWcvRTI4MDY4OTAwMDAwNTAwNTk4RDg0RDNBIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czoyMToicGFzc3dvcmRfaGFzaF9zYW5jdHVtIjtzOjYwOiIkMnkkMTAkMkkwaHNYUUdFUGNlUzY0dGpTNm5nLldPZlVELk5xMHVCQmZ4OWRsYlprRi9MV1ZpZXhUeGUiO30=', 1695136555);
 
 -- Tabela: tags
 CREATE TABLE "tags" ("id" integer not null primary key autoincrement, "codigo" varchar not null, "item_id" integer not null, "created_at" datetime, "updated_at" datetime, "dataFab" date not null, foreign key("item_id") references "items"("id"));
@@ -186,6 +255,16 @@ INSERT INTO tags (id, codigo, item_id, created_at, updated_at, dataFab) VALUES (
 INSERT INTO tags (id, codigo, item_id, created_at, updated_at, dataFab) VALUES (9, 'E28068900000400598D5F621', 9, '2023-09-04 09:12:54', '2023-09-04 09:12:54', '2023-09-04 09:12:49');
 INSERT INTO tags (id, codigo, item_id, created_at, updated_at, dataFab) VALUES (10, 'E2806890000040030B64AE2A', 10, '2023-09-04 09:14:36', '2023-09-04 09:15:24', '2023-09-04');
 INSERT INTO tags (id, codigo, item_id, created_at, updated_at, dataFab) VALUES (11, 'E2806890000040030B64E05B', 11, '2023-09-04 09:19:31', '2023-09-04 09:19:31', '2023-09-04 09:19:27');
+INSERT INTO tags (id, codigo, item_id, created_at, updated_at, dataFab) VALUES (14, 'E28068900000500598D5D1DA', 12, '2023-09-19 10:45:07', '2023-09-19 10:45:26', '2023-09-19');
+INSERT INTO tags (id, codigo, item_id, created_at, updated_at, dataFab) VALUES (15, 'E28068900000500598D788D7', 13, '2023-09-19 10:45:49', '2023-09-19 10:46:51', '2023-09-19');
+INSERT INTO tags (id, codigo, item_id, created_at, updated_at, dataFab) VALUES (16, 'E28068900000500598D7319E', 14, '2023-09-19 10:47:42', '2023-09-19 10:48:15', '2023-09-19');
+INSERT INTO tags (id, codigo, item_id, created_at, updated_at, dataFab) VALUES (17, 'E2806890000050030B649D63', 15, '2023-09-19 10:49:44', '2023-09-19 10:50:06', '2023-09-19');
+INSERT INTO tags (id, codigo, item_id, created_at, updated_at, dataFab) VALUES (18, 'E28068900000500598D84D3A', 16, '2023-09-19 10:50:29', '2023-09-19 10:51:11', '2023-09-19');
+INSERT INTO tags (id, codigo, item_id, created_at, updated_at, dataFab) VALUES (19, 'E28068900000400598D661A1', 17, '2023-09-19 10:51:27', '2023-09-19 10:51:53', '2023-09-19');
+INSERT INTO tags (id, codigo, item_id, created_at, updated_at, dataFab) VALUES (20, 'E28068900000400598D61106', 18, '2023-09-19 10:52:11', '2023-09-19 10:52:46', '2023-09-19');
+INSERT INTO tags (id, codigo, item_id, created_at, updated_at, dataFab) VALUES (21, 'E28068900000500598D75060', 19, '2023-09-19 10:53:03', '2023-09-19 10:53:20', '2023-09-19');
+INSERT INTO tags (id, codigo, item_id, created_at, updated_at, dataFab) VALUES (22, 'E28068900000400598D8192B', 21, '2023-09-19 10:53:07', '2023-09-19 11:00:08', '2023-09-19');
+INSERT INTO tags (id, codigo, item_id, created_at, updated_at, dataFab) VALUES (23, 'E2806890000040030B64CE64', 20, '2023-09-19 10:55:32', '2023-09-19 10:57:58', '2023-09-19');
 
 -- Tabela: team_invitations
 CREATE TABLE "team_invitations" ("id" integer not null primary key autoincrement, "team_id" integer not null, "email" varchar not null, "role" varchar, "created_at" datetime, "updated_at" datetime, foreign key("team_id") references "teams"("id") on delete cascade);
