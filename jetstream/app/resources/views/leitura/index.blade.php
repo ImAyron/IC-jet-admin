@@ -24,13 +24,22 @@
 
 <div class="row">
   <div class="col">
-    <!--<p>Numero de itens na Lavanderia {{$lavanderia}}</p>-->
-    <p>Total de tags {{$tagsLidas2}}</p>
+
+
+
+    <p style="color:blue;text-align:center;">Tags Cadastradas {{$count}}</p>
+    <p style="color:Red;text-align:center;">Total de tags {{$tagsLidas2}}</p>
     <form action="">
-      <select  onchange="location.href=this.value" class="form-select form-select-lg mb-3" name="" id="">
-        <option selected>Tags do Sistema</option>
-        @foreach ($tagsLidas as $i)
-        <option value="{{route('leitura.show', $i->id)}}">{{$i->EPC}} {{$i->item}}</option>
+      <select onchange="location.href=this.value" class="form-select form-select-lg mb-3" name="" id="">
+        <option selected style="color: #17A2B8;">Tags do Sistema</option>
+
+
+        @foreach($tags as $t){
+
+        <option class="option" value="{{route('leitura.show',$tagName[$t->id][0]->id)}}">{{$t->codigo}} {{$t->item->descricao}}</option>
+
+        }
+
         @endforeach
       </select>
     </form>
@@ -90,6 +99,16 @@
 
 @section('css')
 <meta http-equiv='refresh' content='80'>
+<style>
+  select:hover {
+    background-color: white;
+  }
+
+  .option {
+    color: white;
+    background-color: #17A2B8;
+  }
+</style>
 @stop
 
 @section('js')

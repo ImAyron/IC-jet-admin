@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\DB;
 use App\Models\leitura;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
+use App\Models\Tag;
 
 class LeituraController extends Controller
 {
@@ -14,7 +15,9 @@ class LeituraController extends Controller
         if (Auth::check()) {
             $leituras2 = leitura::where('id', $leitura->id)->get();
             $leituras1 = leitura::where('EPC', $leituras2[0]->EPC)->orderBy('Data')->get();
-    
+            
+
+
             return view('leitura.show', ['leitura'=>$leitura,'leituras' => $leituras1]);
         } else {
             session()->flash('mensagem', 'Operação não permitida!');
@@ -68,13 +71,22 @@ class LeituraController extends Controller
     public function index()
     {
         if (Auth::check()) {;
-            $lavanderia = leitura::where('company_id', 'Lavanderia')->distinct('EPC')->count();
+           
             $tagsLidas = leitura::all()->unique('EPC');
            
+            $tags=Tag::orderBy('id')->get();
+            
             $tagsLidas2 = leitura::distinct()->count('EPC');
 
+            foreach($tags as $t){
+                
+                $tagName[$t->id]=leitura::select()->Where('EPC',$t->codigo)->get();
+                
+            }
+           
+            $tagsCadastrads=Tag::orderBy('id')->count();
             $leituras1  = leitura::orderBy('created_at', 'desc')->get();
-            return view('leitura.index', ['leituras' => $leituras1, 'lavanderia' => $lavanderia, 'tagsLidas' => $tagsLidas, 'tagsLidas2' => $tagsLidas2]);
+            return view('leitura.index', ['count'=>$tagsCadastrads,'tagName'=>$tagName,'tags'=>$tags,'leituras' => $leituras1, 'tagsLidas' => $tagsLidas, 'tagsLidas2' => $tagsLidas2]);
         } else {
             session()->flash('mensagem', 'Operação não permitida!');
             return redirect()->route('login');
