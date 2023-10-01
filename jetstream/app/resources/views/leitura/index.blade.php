@@ -36,7 +36,7 @@
 
         @foreach($tags as $t){
 
-        <option class="option" value="{{route('leitura.show',$tagName[$t->id][0]->id)}}">{{$t->codigo}} {{$t->item->descricao}}</option>
+        <option class="option" value="{{route('leitura.show',$tagName[$t->id][0]->id)}}">{{$t->codigo}} - {{$t->item->descricao}}</option>
 
         }
 
