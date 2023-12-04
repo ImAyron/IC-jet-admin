@@ -91,7 +91,7 @@
 <!-- Page specific script -->
 <script>
   $(document).ready(function() {
-    $("#example2").DataTable({
+    $("#example1").DataTable({
 
       "responsive": true,
       "lengthChange": true,
