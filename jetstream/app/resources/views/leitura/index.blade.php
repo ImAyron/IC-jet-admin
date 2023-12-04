@@ -9,11 +9,6 @@
 
 
 @section('content')
-<!-- Data Table para portugues-->
-<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.11.6/css/jquery.dataTables.min.css">
-<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.11.6/js/jquery.dataTables.js"></script>
-<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/plug-ins/1.11.6/i18n/Portuguese.json"></script>
-
 
 <!-- Reload Página-->
 <!-- Google Font: Source Sans Pro -->
@@ -116,9 +111,6 @@
 @stop
 
 @section('css')
-
-
-
 <meta http-equiv='refresh' content='80'>
 <style>
   select:hover {
@@ -162,9 +154,6 @@
 <script>
   $(document).ready(function() {
     $("#example1").DataTable({
-    "language": {
-      "url": "//cdn.datatables.net/plug-ins/1.11.6/i18n/Portuguese.json"
-    },
 
       "responsive": true,
       "lengthChange": true,
