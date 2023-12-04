@@ -10,6 +10,32 @@ use App\Models\Tag;
 
 class LeituraController extends Controller
 {
+
+    public function filter(Request $request){
+
+        //data Inicio
+        $data1 = $request->input('data');
+        $time = $request->input('time');
+        $data_begin=$data1 . ' ' .$time.':00';
+        
+        //data Fim
+        $data2 = $request->input('data2');
+        $time1 = $request->input('time1');
+        $data_end=$data2 . ' ' .$time1.':00';
+
+        //dd($data1 . ' ' .$time.':33');
+        //dd($data2 . ' ' .$time1.':33');
+        // $leituras= DB::table('leituras')->whereDate('created_at', '=', '2023-09-06 06:53:33')->get();
+        //$leituras1  = leitura::select()->where('created_at', '=', $data1 . ' ' .$time.':33')->orderBy('created_at', 'desc')->get();
+        $leituras1 = DB::table('leituras')->whereBetween('data', [$data_begin, $data_end])->get();
+        
+        
+        return view("leitura.filter",['leituras1'=>$leituras1]);
+        
+    }
+
+
+
     public function show(leitura $leitura){
 
         if (Auth::check()) {

@@ -51,13 +51,15 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/teste', function () {
     return view('teste');
 })->name('teste');
 
-
-
+Route::post('/leitura/filter','App\Http\Controllers\LeituraController@filter')->name('route_post.php');
+Route::get('/leitura/filter','App\Http\Controllers\LeituraController@filter');
 
 Route::resource('/antena', AntenaController::class);
 Route::resource('/item', ItemController::class);
 Route::resource('/tag', TagController::class);
 Route::resource('/leitura', LeituraController::class);
+
+
 
 Route::post('/leitura', [App\Http\Controllers\LeituraController::class, 'enviarTag']);
 
