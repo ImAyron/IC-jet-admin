@@ -1,5 +1,5 @@
 --
--- Arquivo gerado com SQLiteStudio v3.4.4 em seg dez 4 01:10:38 2023
+-- Arquivo gerado com SQLiteStudio v3.4.4 em qui jan 4 00:34:32 2024
 --
 -- Codificação de texto usada: System
 --
@@ -44283,6 +44283,19861 @@ INSERT INTO leituras (
                          '2023-12-03 22:47:38'
                      );
 
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2482,
+                         'Entrada',
+                         'E28068900000500598D7319E',
+                         '2023-12-04 08:06:03',
+                         'CTI',
+                         '2023-12-04 08:06:20',
+                         '2023-12-04 08:06:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2483,
+                         'Saída',
+                         'E28068900000500598D7319E',
+                         '2023-12-04 08:06:03',
+                         'CTI',
+                         '2023-12-04 08:06:20',
+                         '2023-12-04 08:06:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2484,
+                         'Saída',
+                         'E28068900000500598D7319E',
+                         '2023-12-04 10:42:52',
+                         'CTI',
+                         '2023-12-04 10:43:01',
+                         '2023-12-04 10:43:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2485,
+                         'Entrada',
+                         'E28068900000500598D7319E',
+                         '2023-12-04 10:47:04',
+                         'CTI',
+                         '2023-12-04 10:47:12',
+                         '2023-12-04 10:47:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2486,
+                         'Saída',
+                         'E28068900000500598D7319E',
+                         '2023-12-04 12:41:29',
+                         'CTI',
+                         '2023-12-04 12:41:38',
+                         '2023-12-04 12:41:38'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2487,
+                         'Entrada',
+                         'E28068900000500598D7319E',
+                         '2023-12-04 12:43:38',
+                         'CTI',
+                         '2023-12-04 12:43:46',
+                         '2023-12-04 12:43:46'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2488,
+                         'Saída',
+                         'E28068900000500598D7319E',
+                         '2023-12-04 12:52:44',
+                         'CTI',
+                         '2023-12-04 12:52:51',
+                         '2023-12-04 12:52:51'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2489,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-04 13:43:36',
+                         'CTI',
+                         '2023-12-04 13:43:43',
+                         '2023-12-04 13:43:43'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2490,
+                         'Saída',
+                         'E2806890000040030B64CE64',
+                         '2023-12-04 13:43:43',
+                         'CTI',
+                         '2023-12-04 13:43:51',
+                         '2023-12-04 13:43:51'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2491,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-04 13:43:44',
+                         'CTI',
+                         '2023-12-04 13:43:51',
+                         '2023-12-04 13:43:51'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2492,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-04 13:43:47',
+                         'CTI',
+                         '2023-12-04 13:43:55',
+                         '2023-12-04 13:43:55'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2493,
+                         'Entrada',
+                         'E28068900000500598D7319E',
+                         '2023-12-04 13:47:35',
+                         'CTI',
+                         '2023-12-04 13:47:42',
+                         '2023-12-04 13:47:42'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2494,
+                         'Saída',
+                         'E28068900000500598D7319E',
+                         '2023-12-04 17:04:53',
+                         'CTI',
+                         '2023-12-04 17:05:00',
+                         '2023-12-04 17:05:00'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2495,
+                         'Entrada',
+                         'E28068900000500598D7319E',
+                         '2023-12-04 17:06:44',
+                         'CTI',
+                         '2023-12-04 17:06:51',
+                         '2023-12-04 17:06:51'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2496,
+                         'Saída',
+                         'E28068900000500598D7319E',
+                         '2023-12-04 17:06:57',
+                         'CTI',
+                         '2023-12-04 17:07:05',
+                         '2023-12-04 17:07:05'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2497,
+                         'Entrada',
+                         'E28068900000500598D7319E',
+                         '2023-12-04 17:08:47',
+                         'CTI',
+                         '2023-12-04 17:08:54',
+                         '2023-12-04 17:08:54'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2498,
+                         'Saída',
+                         'E28068900000500598D7319E',
+                         '2023-12-04 17:14:39',
+                         'CTI',
+                         '2023-12-04 17:14:48',
+                         '2023-12-04 17:14:48'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2499,
+                         'Entrada',
+                         'E28068900000500598D7319E',
+                         '2023-12-04 17:40:25',
+                         'CTI',
+                         '2023-12-04 17:40:32',
+                         '2023-12-04 17:40:32'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2500,
+                         'Saída',
+                         'E28068900000500598D7319E',
+                         '2023-12-04 17:42:08',
+                         'CTI',
+                         '2023-12-04 17:42:17',
+                         '2023-12-04 17:42:17'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2501,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-04 19:05:05',
+                         'CTI',
+                         '2023-12-04 19:05:12',
+                         '2023-12-04 19:05:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2502,
+                         'Entrada',
+                         'E28068900000400598D824EF',
+                         '2023-12-04 19:09:01',
+                         'CTI',
+                         '2023-12-04 19:09:10',
+                         '2023-12-04 19:09:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2503,
+                         'Entrada',
+                         'E28068900000500598D7319E',
+                         '2023-12-04 19:35:08',
+                         'CTI',
+                         '2023-12-04 19:35:16',
+                         '2023-12-04 19:35:16'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2504,
+                         'Saída',
+                         'E28068900000500598D5B522',
+                         '2023-12-04 21:51:20',
+                         'CTI',
+                         '2023-12-04 21:51:27',
+                         '2023-12-04 21:51:27'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2505,
+                         'Entrada',
+                         'E28068900000500598D5B522',
+                         '2023-12-04 21:57:13',
+                         'CTI',
+                         '2023-12-04 21:57:20',
+                         '2023-12-04 21:57:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2506,
+                         'Saída',
+                         'E28068900000400598D824EF',
+                         '2023-12-04 21:57:38',
+                         'CTI',
+                         '2023-12-04 21:57:46',
+                         '2023-12-04 21:57:46'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2507,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-04 22:17:47',
+                         'CTI',
+                         '2023-12-04 22:17:55',
+                         '2023-12-04 22:17:55'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2508,
+                         'Entrada',
+                         'E28068900000400598D824EF',
+                         '2023-12-04 22:31:49',
+                         'CTI',
+                         '2023-12-04 22:31:56',
+                         '2023-12-04 22:31:56'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2509,
+                         'Saída',
+                         'E28068900000400598D824EF',
+                         '2023-12-04 22:52:16',
+                         'CTI',
+                         '2023-12-04 22:52:23',
+                         '2023-12-04 22:52:23'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2510,
+                         'Entrada',
+                         'E28068900000400598D824EF',
+                         '2023-12-04 22:57:22',
+                         'CTI',
+                         '2023-12-04 22:57:29',
+                         '2023-12-04 22:57:29'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2511,
+                         'Saída',
+                         'E28068900000500598D5B522',
+                         '2023-12-04 22:57:38',
+                         'CTI',
+                         '2023-12-04 22:57:45',
+                         '2023-12-04 22:57:45'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2512,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-04 23:17:19',
+                         'CTI',
+                         '2023-12-04 23:17:27',
+                         '2023-12-04 23:17:27'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2513,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-05 01:11:21',
+                         'CTI',
+                         '2023-12-05 01:11:29',
+                         '2023-12-05 01:11:29'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2514,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-05 01:12:21',
+                         'CTI',
+                         '2023-12-05 01:12:29',
+                         '2023-12-05 01:12:29'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2515,
+                         'Entrada',
+                         'E28068900000500598D5B522',
+                         '2023-12-05 04:00:57',
+                         'CTI',
+                         '2023-12-05 04:01:14',
+                         '2023-12-05 04:01:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2516,
+                         'Saída',
+                         'E28068900000500598D5B522',
+                         '2023-12-05 04:00:57',
+                         'CTI',
+                         '2023-12-05 04:01:14',
+                         '2023-12-05 04:01:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2517,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-05 07:17:03',
+                         'CTI',
+                         '2023-12-05 07:17:10',
+                         '2023-12-05 07:17:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2518,
+                         'Saída',
+                         'E28068900000500598D5B522',
+                         '2023-12-05 08:03:10',
+                         'CTI',
+                         '2023-12-05 08:03:23',
+                         '2023-12-05 08:03:23'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2519,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-05 08:03:11',
+                         'CTI',
+                         '2023-12-05 08:03:23',
+                         '2023-12-05 08:03:23'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2520,
+                         'Saída',
+                         'E28068900000400598D824EF',
+                         '2023-12-05 08:03:11',
+                         'CTI',
+                         '2023-12-05 08:03:23',
+                         '2023-12-05 08:03:23'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2521,
+                         'Entrada',
+                         'E28068900000500598D5B522',
+                         '2023-12-05 08:03:10',
+                         'CTI',
+                         '2023-12-05 08:03:23',
+                         '2023-12-05 08:03:23'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2522,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-05 08:03:11',
+                         'CTI',
+                         '2023-12-05 08:03:23',
+                         '2023-12-05 08:03:23'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2523,
+                         'Saída',
+                         'E28068900000400598D824EF',
+                         '2023-12-05 08:03:11',
+                         'CTI',
+                         '2023-12-05 08:03:23',
+                         '2023-12-05 08:03:23'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2524,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-05 09:35:45',
+                         'CTI',
+                         '2023-12-05 09:35:51',
+                         '2023-12-05 09:35:51'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2525,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-05 13:35:32',
+                         'CTI',
+                         '2023-12-05 13:35:38',
+                         '2023-12-05 13:35:38'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2526,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-05 13:57:47',
+                         'CTI',
+                         '2023-12-05 13:57:54',
+                         '2023-12-05 13:57:54'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2527,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-05 13:58:05',
+                         'CTI',
+                         '2023-12-05 13:58:10',
+                         '2023-12-05 13:58:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2528,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-05 14:32:50',
+                         'CTI',
+                         '2023-12-05 14:32:57',
+                         '2023-12-05 14:32:57'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2529,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-05 14:33:12',
+                         'CTI',
+                         '2023-12-05 14:33:19',
+                         '2023-12-05 14:33:19'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2530,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-05 15:12:38',
+                         'CTI',
+                         '2023-12-05 15:12:43',
+                         '2023-12-05 15:12:43'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2531,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-05 15:16:16',
+                         'CTI',
+                         '2023-12-05 15:16:22',
+                         '2023-12-05 15:16:22'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2532,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-05 15:16:50',
+                         'CTI',
+                         '2023-12-05 15:16:56',
+                         '2023-12-05 15:16:56'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2533,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-05 15:25:44',
+                         'CTI',
+                         '2023-12-05 15:25:51',
+                         '2023-12-05 15:25:51'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2534,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-05 15:45:33',
+                         'CTI',
+                         '2023-12-05 15:45:39',
+                         '2023-12-05 15:45:39'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2535,
+                         'Entrada',
+                         'E28068900000500598D5B522',
+                         '2023-12-05 15:45:47',
+                         'CTI',
+                         '2023-12-05 15:45:53',
+                         '2023-12-05 15:45:53'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2536,
+                         'Saída',
+                         'E28068900000500598D7319E',
+                         '2023-12-05 15:45:48',
+                         'CTI',
+                         '2023-12-05 15:45:53',
+                         '2023-12-05 15:45:53'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2537,
+                         'Saída',
+                         'E28068900000400598D824EF',
+                         '2023-12-05 15:45:50',
+                         'CTI',
+                         '2023-12-05 15:45:55',
+                         '2023-12-05 15:45:55'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2538,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-05 16:01:07',
+                         'CTI',
+                         '2023-12-05 16:01:14',
+                         '2023-12-05 16:01:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2539,
+                         'Entrada',
+                         'E2806890000050030B649D63',
+                         '2023-12-05 19:32:36',
+                         'CTI',
+                         '2023-12-05 19:32:41',
+                         '2023-12-05 19:32:41'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2540,
+                         'Saída',
+                         'E2806890000050030B649D63',
+                         '2023-12-05 19:48:06',
+                         'CTI',
+                         '2023-12-05 19:48:11',
+                         '2023-12-05 19:48:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2541,
+                         'Entrada',
+                         'E2806890000050030B649D63',
+                         '2023-12-05 19:48:15',
+                         'CTI',
+                         '2023-12-05 19:48:21',
+                         '2023-12-05 19:48:21'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2542,
+                         'Saída',
+                         'E2806890000050030B649D63',
+                         '2023-12-05 19:50:36',
+                         'CTI',
+                         '2023-12-05 19:50:42',
+                         '2023-12-05 19:50:42'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2543,
+                         'Entrada',
+                         'E2806890000050030B649D63',
+                         '2023-12-05 23:11:23',
+                         'CTI',
+                         '2023-12-05 23:11:29',
+                         '2023-12-05 23:11:29'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2544,
+                         'Saída',
+                         'E2806890000050030B649D63',
+                         '2023-12-06 01:24:38',
+                         'CTI',
+                         '2023-12-06 01:24:44',
+                         '2023-12-06 01:24:44'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2545,
+                         'Entrada',
+                         'E2806890000050030B649D63',
+                         '2023-12-06 01:27:50',
+                         'CTI',
+                         '2023-12-06 01:27:55',
+                         '2023-12-06 01:27:55'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2546,
+                         'Saída',
+                         'E2806890000050030B649D63',
+                         '2023-12-06 01:37:49',
+                         'CTI',
+                         '2023-12-06 01:37:55',
+                         '2023-12-06 01:37:55'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2547,
+                         'Entrada',
+                         'E2806890000050030B649D63',
+                         '2023-12-06 02:12:07',
+                         'CTI',
+                         '2023-12-06 02:12:21',
+                         '2023-12-06 02:12:21'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2548,
+                         'Saída',
+                         'E2806890000050030B649D63',
+                         '2023-12-06 02:12:07',
+                         'CTI',
+                         '2023-12-06 02:12:21',
+                         '2023-12-06 02:12:21'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2549,
+                         'Saída',
+                         'E2806890000050030B649D63',
+                         '2023-12-06 02:12:54',
+                         'CTI',
+                         '2023-12-06 02:13:00',
+                         '2023-12-06 02:13:00'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2550,
+                         'Entrada',
+                         'E2806890000050030B649D63',
+                         '2023-12-06 06:16:23',
+                         'CTI',
+                         '2023-12-06 06:16:28',
+                         '2023-12-06 06:16:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2551,
+                         'Saída',
+                         'E2806890000050030B649D63',
+                         '2023-12-06 08:12:08',
+                         'CTI',
+                         '2023-12-06 08:12:14',
+                         '2023-12-06 08:12:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2552,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-06 15:08:16',
+                         'CTI',
+                         '2023-12-06 15:08:21',
+                         '2023-12-06 15:08:21'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2553,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-06 15:08:18',
+                         'CTI',
+                         '2023-12-06 15:08:23',
+                         '2023-12-06 15:08:23'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2554,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-06 15:08:21',
+                         'CTI',
+                         '2023-12-06 15:08:27',
+                         '2023-12-06 15:08:27'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2555,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-06 19:08:06',
+                         'CTI',
+                         '2023-12-06 19:08:11',
+                         '2023-12-06 19:08:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2556,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-06 19:36:58',
+                         'CTI',
+                         '2023-12-06 19:37:03',
+                         '2023-12-06 19:37:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2557,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-06 19:38:31',
+                         'CTI',
+                         '2023-12-06 19:38:36',
+                         '2023-12-06 19:38:36'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2558,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-06 19:41:53',
+                         'CTI',
+                         '2023-12-06 19:41:58',
+                         '2023-12-06 19:41:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2559,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-06 21:07:53',
+                         'CTI',
+                         '2023-12-06 21:07:58',
+                         '2023-12-06 21:07:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2560,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-06 21:11:27',
+                         'CTI',
+                         '2023-12-06 21:11:33',
+                         '2023-12-06 21:11:33'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2561,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-06 21:16:32',
+                         'CTI',
+                         '2023-12-06 21:16:38',
+                         '2023-12-06 21:16:38'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2562,
+                         'Entrada',
+                         'E2806890000040030B64CE64',
+                         '2023-12-06 21:50:58',
+                         'CTI',
+                         '2023-12-06 21:51:03',
+                         '2023-12-06 21:51:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2563,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-06 22:03:29',
+                         'CTI',
+                         '2023-12-06 22:03:34',
+                         '2023-12-06 22:03:34'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2564,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-06 22:23:10',
+                         'CTI',
+                         '2023-12-06 22:23:14',
+                         '2023-12-06 22:23:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2565,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-06 22:41:10',
+                         'CTI',
+                         '2023-12-06 22:41:14',
+                         '2023-12-06 22:41:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2566,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-06 22:57:11',
+                         'CTI',
+                         '2023-12-06 22:57:16',
+                         '2023-12-06 22:57:16'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2567,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-06 22:57:48',
+                         'CTI',
+                         '2023-12-06 22:57:52',
+                         '2023-12-06 22:57:52'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2568,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-06 23:01:26',
+                         'CTI',
+                         '2023-12-06 23:01:30',
+                         '2023-12-06 23:01:30'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2569,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-06 23:14:17',
+                         'CTI',
+                         '2023-12-06 23:14:23',
+                         '2023-12-06 23:14:23'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2570,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-06 23:55:06',
+                         'CTI',
+                         '2023-12-06 23:55:11',
+                         '2023-12-06 23:55:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2571,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-06 23:55:17',
+                         'CTI',
+                         '2023-12-06 23:55:21',
+                         '2023-12-06 23:55:21'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2572,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-07 02:33:51',
+                         'CTI',
+                         '2023-12-07 02:34:03',
+                         '2023-12-07 02:34:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2573,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-07 02:33:51',
+                         'CTI',
+                         '2023-12-07 02:34:03',
+                         '2023-12-07 02:34:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2574,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-07 04:15:28',
+                         'CTI',
+                         '2023-12-07 04:15:36',
+                         '2023-12-07 04:15:36'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2575,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-07 04:15:28',
+                         'CTI',
+                         '2023-12-07 04:15:37',
+                         '2023-12-07 04:15:37'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2576,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-07 05:13:36',
+                         'CTI',
+                         '2023-12-07 05:13:40',
+                         '2023-12-07 05:13:40'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2577,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-07 05:15:38',
+                         'CTI',
+                         '2023-12-07 05:15:42',
+                         '2023-12-07 05:15:42'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2578,
+                         'Saída',
+                         'E2806890000040030B64CE64',
+                         '2023-12-07 05:19:36',
+                         'CTI',
+                         '2023-12-07 05:19:41',
+                         '2023-12-07 05:19:41'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2579,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-07 05:33:35',
+                         'CTI',
+                         '2023-12-07 05:33:39',
+                         '2023-12-07 05:33:39'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2580,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-07 06:01:31',
+                         'CTI',
+                         '2023-12-07 06:01:36',
+                         '2023-12-07 06:01:36'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2581,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-07 06:01:51',
+                         'CTI',
+                         '2023-12-07 06:01:55',
+                         '2023-12-07 06:01:55'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2582,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-07 06:09:44',
+                         'CTI',
+                         '2023-12-07 06:09:48',
+                         '2023-12-07 06:09:48'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2583,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-07 06:40:45',
+                         'CTI',
+                         '2023-12-07 06:40:49',
+                         '2023-12-07 06:40:49'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2584,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-07 07:35:33',
+                         'CTI',
+                         '2023-12-07 07:35:37',
+                         '2023-12-07 07:35:37'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2585,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-07 07:35:34',
+                         'CTI',
+                         '2023-12-07 07:35:39',
+                         '2023-12-07 07:35:39'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2586,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-07 07:35:53',
+                         'CTI',
+                         '2023-12-07 07:35:57',
+                         '2023-12-07 07:35:57'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2587,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-07 08:07:41',
+                         'CTI',
+                         '2023-12-07 08:07:45',
+                         '2023-12-07 08:07:45'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2588,
+                         'Entrada',
+                         'E2806890000040030B64CE64',
+                         '2023-12-07 08:07:41',
+                         'CTI',
+                         '2023-12-07 08:07:45',
+                         '2023-12-07 08:07:45'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2589,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-07 08:07:42',
+                         'CTI',
+                         '2023-12-07 08:07:47',
+                         '2023-12-07 08:07:47'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2590,
+                         'Entrada',
+                         'E28068900000400598D824EF',
+                         '2023-12-07 10:16:01',
+                         'CTI',
+                         '2023-12-07 10:16:06',
+                         '2023-12-07 10:16:06'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2591,
+                         'Saída',
+                         'E28068900000400598D824EF',
+                         '2023-12-07 10:26:51',
+                         'CTI',
+                         '2023-12-07 10:26:55',
+                         '2023-12-07 10:26:55'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2592,
+                         'Entrada',
+                         'E28068900000400598D824EF',
+                         '2023-12-07 12:32:20',
+                         'CTI',
+                         '2023-12-07 12:32:24',
+                         '2023-12-07 12:32:24'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2593,
+                         'Saída',
+                         'E28068900000400598D824EF',
+                         '2023-12-07 13:34:34',
+                         'CTI',
+                         '2023-12-07 13:34:39',
+                         '2023-12-07 13:34:39'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2594,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-07 19:06:32',
+                         'CTI',
+                         '2023-12-07 19:06:36',
+                         '2023-12-07 19:06:36'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2595,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-07 22:17:41',
+                         'CTI',
+                         '2023-12-07 22:17:44',
+                         '2023-12-07 22:17:44'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2596,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-07 22:42:31',
+                         'CTI',
+                         '2023-12-07 22:42:34',
+                         '2023-12-07 22:42:34'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2597,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-07 22:57:06',
+                         'CTI',
+                         '2023-12-07 22:57:10',
+                         '2023-12-07 22:57:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2598,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-07 23:02:52',
+                         'CTI',
+                         '2023-12-07 23:02:55',
+                         '2023-12-07 23:02:55'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2599,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-07 23:08:10',
+                         'CTI',
+                         '2023-12-07 23:08:14',
+                         '2023-12-07 23:08:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2600,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-08 00:09:27',
+                         'CTI',
+                         '2023-12-08 00:09:30',
+                         '2023-12-08 00:09:30'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2601,
+                         'Entrada',
+                         'E28068900000400598D824EF',
+                         '2023-12-08 00:09:28',
+                         'CTI',
+                         '2023-12-08 00:09:30',
+                         '2023-12-08 00:09:30'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2602,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-08 02:36:28',
+                         'CTI',
+                         '2023-12-08 02:36:40',
+                         '2023-12-08 02:36:40'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2603,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-08 02:36:28',
+                         'CTI',
+                         '2023-12-08 02:36:41',
+                         '2023-12-08 02:36:41'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2604,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-08 07:23:00',
+                         'CTI',
+                         '2023-12-08 07:23:08',
+                         '2023-12-08 07:23:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2605,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-08 07:23:00',
+                         'CTI',
+                         '2023-12-08 07:23:09',
+                         '2023-12-08 07:23:09'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2606,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-08 10:11:59',
+                         'CTI',
+                         '2023-12-08 10:12:02',
+                         '2023-12-08 10:12:02'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2607,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-08 10:17:10',
+                         'CTI',
+                         '2023-12-08 10:17:11',
+                         '2023-12-08 10:17:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2608,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-08 10:22:14',
+                         'CTI',
+                         '2023-12-08 10:22:16',
+                         '2023-12-08 10:22:16'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2609,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-08 10:25:53',
+                         'CTI',
+                         '2023-12-08 10:25:54',
+                         '2023-12-08 10:25:54'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2610,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-08 10:31:11',
+                         'CTI',
+                         '2023-12-08 10:31:13',
+                         '2023-12-08 10:31:13'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2611,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-08 10:31:18',
+                         'CTI',
+                         '2023-12-08 10:31:19',
+                         '2023-12-08 10:31:19'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2612,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-08 10:32:07',
+                         'CTI',
+                         '2023-12-08 10:32:10',
+                         '2023-12-08 10:32:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2613,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-08 10:33:15',
+                         'CTI',
+                         '2023-12-08 10:33:16',
+                         '2023-12-08 10:33:16'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2614,
+                         'Saída',
+                         'E28068900000400598D824EF',
+                         '2023-12-08 12:23:48',
+                         'CTI',
+                         '2023-12-08 12:23:50',
+                         '2023-12-08 12:23:50'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2615,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-08 12:23:49',
+                         'CTI',
+                         '2023-12-08 12:23:50',
+                         '2023-12-08 12:23:50'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2616,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-08 15:19:53',
+                         'CTI',
+                         '2023-12-08 15:19:54',
+                         '2023-12-08 15:19:54'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2617,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-08 17:43:15',
+                         'CTI',
+                         '2023-12-08 17:43:16',
+                         '2023-12-08 17:43:16'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2618,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-08 19:25:53',
+                         'CTI',
+                         '2023-12-08 19:25:55',
+                         '2023-12-08 19:25:55'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2619,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-08 19:37:56',
+                         'CTI',
+                         '2023-12-08 19:37:56',
+                         '2023-12-08 19:37:56'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2620,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-08 22:18:19',
+                         'CTI',
+                         '2023-12-08 22:18:20',
+                         '2023-12-08 22:18:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2621,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-08 23:12:07',
+                         'CTI',
+                         '2023-12-08 23:12:09',
+                         '2023-12-08 23:12:09'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2622,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-08 23:13:10',
+                         'CTI',
+                         '2023-12-08 23:13:11',
+                         '2023-12-08 23:13:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2623,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-08 23:17:50',
+                         'CTI',
+                         '2023-12-08 23:17:52',
+                         '2023-12-08 23:17:52'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2624,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-08 23:17:50',
+                         'CTI',
+                         '2023-12-08 23:17:52',
+                         '2023-12-08 23:17:52'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2625,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-08 23:51:50',
+                         'CTI',
+                         '2023-12-08 23:51:52',
+                         '2023-12-08 23:51:52'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2626,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-09 10:14:15',
+                         'CTI',
+                         '2023-12-09 10:14:24',
+                         '2023-12-09 10:14:24'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2627,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-09 10:14:15',
+                         'CTI',
+                         '2023-12-09 10:14:24',
+                         '2023-12-09 10:14:24'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2628,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-09 10:14:15',
+                         'CTI',
+                         '2023-12-09 10:14:25',
+                         '2023-12-09 10:14:25'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2629,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-09 10:14:34',
+                         'CTI',
+                         '2023-12-09 10:14:33',
+                         '2023-12-09 10:14:33'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2630,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-09 10:25:22',
+                         'CTI',
+                         '2023-12-09 10:25:22',
+                         '2023-12-09 10:25:22'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2631,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-09 10:25:22',
+                         'CTI',
+                         '2023-12-09 10:25:22',
+                         '2023-12-09 10:25:22'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2632,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-09 15:13:27',
+                         'CTI',
+                         '2023-12-09 15:13:27',
+                         '2023-12-09 15:13:27'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2633,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-09 19:53:20',
+                         'CTI',
+                         '2023-12-09 19:53:19',
+                         '2023-12-09 19:53:19'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2634,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-09 20:35:55',
+                         'CTI',
+                         '2023-12-09 20:35:54',
+                         '2023-12-09 20:35:54'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2635,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-09 23:11:03',
+                         'CTI',
+                         '2023-12-09 23:11:02',
+                         '2023-12-09 23:11:02'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2636,
+                         'Saída',
+                         'E28068900000500598D5B522',
+                         '2023-12-09 23:25:21',
+                         'CTI',
+                         '2023-12-09 23:25:20',
+                         '2023-12-09 23:25:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2637,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-10 00:55:15',
+                         'CTI',
+                         '2023-12-10 00:55:15',
+                         '2023-12-10 00:55:15'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2638,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-10 01:28:20',
+                         'CTI',
+                         '2023-12-10 01:28:20',
+                         '2023-12-10 01:28:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2639,
+                         'Entrada',
+                         'E28068900000500598D5B522',
+                         '2023-12-10 02:39:04',
+                         'CTI',
+                         '2023-12-10 02:39:11',
+                         '2023-12-10 02:39:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2640,
+                         'Saída',
+                         'E28068900000500598D5B522',
+                         '2023-12-10 02:39:04',
+                         'CTI',
+                         '2023-12-10 02:39:12',
+                         '2023-12-10 02:39:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2641,
+                         'Saída',
+                         'E28068900000500598D5B522',
+                         '2023-12-10 06:18:51',
+                         'CTI',
+                         '2023-12-10 06:18:49',
+                         '2023-12-10 06:18:49'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2642,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-10 06:51:04',
+                         'CTI',
+                         '2023-12-10 06:51:03',
+                         '2023-12-10 06:51:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2643,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-10 07:22:30',
+                         'CTI',
+                         '2023-12-10 07:22:29',
+                         '2023-12-10 07:22:29'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2644,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-10 07:22:41',
+                         'CTI',
+                         '2023-12-10 07:22:39',
+                         '2023-12-10 07:22:39'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2645,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-10 07:22:56',
+                         'CTI',
+                         '2023-12-10 07:22:54',
+                         '2023-12-10 07:22:54'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2646,
+                         'Entrada',
+                         'E2806890000040030B64CE64',
+                         '2023-12-10 07:54:15',
+                         'CTI',
+                         '2023-12-10 07:54:14',
+                         '2023-12-10 07:54:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2647,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-10 07:59:18',
+                         'CTI',
+                         '2023-12-10 07:59:16',
+                         '2023-12-10 07:59:16'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2648,
+                         'Entrada',
+                         'E28068900000500598D5B522',
+                         '2023-12-10 07:59:19',
+                         'CTI',
+                         '2023-12-10 07:59:18',
+                         '2023-12-10 07:59:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2649,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-10 08:59:48',
+                         'CTI',
+                         '2023-12-10 08:59:46',
+                         '2023-12-10 08:59:46'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2650,
+                         'Saída',
+                         'E2806890000040030B64CE64',
+                         '2023-12-10 09:05:01',
+                         'CTI',
+                         '2023-12-10 09:05:00',
+                         '2023-12-10 09:05:00'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2651,
+                         'Entrada',
+                         'E2806890000040030B64CE64',
+                         '2023-12-10 09:55:59',
+                         'CTI',
+                         '2023-12-10 09:56:04',
+                         '2023-12-10 09:56:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2652,
+                         'Saída',
+                         'E2806890000040030B64CE64',
+                         '2023-12-10 09:55:59',
+                         'CTI',
+                         '2023-12-10 09:56:05',
+                         '2023-12-10 09:56:05'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2653,
+                         'Saída',
+                         'E2806890000040030B64CE64',
+                         '2023-12-10 10:06:32',
+                         'CTI',
+                         '2023-12-10 10:06:29',
+                         '2023-12-10 10:06:29'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2654,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-10 10:23:02',
+                         'CTI',
+                         '2023-12-10 10:22:59',
+                         '2023-12-10 10:22:59'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2655,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-10 10:23:19',
+                         'CTI',
+                         '2023-12-10 10:23:18',
+                         '2023-12-10 10:23:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2656,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-10 10:25:36',
+                         'CTI',
+                         '2023-12-10 10:25:35',
+                         '2023-12-10 10:25:35'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2657,
+                         'Entrada',
+                         'E2806890000040030B64CE64',
+                         '2023-12-10 10:29:43',
+                         'CTI',
+                         '2023-12-10 10:29:42',
+                         '2023-12-10 10:29:42'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2658,
+                         'Saída',
+                         'E2806890000040030B64CE64',
+                         '2023-12-10 10:29:44',
+                         'CTI',
+                         '2023-12-10 10:29:42',
+                         '2023-12-10 10:29:42'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2659,
+                         'Entrada',
+                         'E2806890000040030B64CE64',
+                         '2023-12-10 10:29:44',
+                         'CTI',
+                         '2023-12-10 10:29:42',
+                         '2023-12-10 10:29:42'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2660,
+                         'Entrada',
+                         'E2806890000040030B64CE64',
+                         '2023-12-10 10:29:53',
+                         'CTI',
+                         '2023-12-10 10:29:50',
+                         '2023-12-10 10:29:50'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2661,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-10 11:21:40',
+                         'CTI',
+                         '2023-12-10 11:21:38',
+                         '2023-12-10 11:21:38'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2662,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-10 11:41:09',
+                         'CTI',
+                         '2023-12-10 11:41:08',
+                         '2023-12-10 11:41:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2663,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-10 12:41:15',
+                         'CTI',
+                         '2023-12-10 12:41:14',
+                         '2023-12-10 12:41:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2664,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-10 12:58:34',
+                         'CTI',
+                         '2023-12-10 12:58:33',
+                         '2023-12-10 12:58:33'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2665,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-10 12:58:34',
+                         'CTI',
+                         '2023-12-10 12:58:33',
+                         '2023-12-10 12:58:33'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2666,
+                         'Saída',
+                         'E2806890000040030B64CE64',
+                         '2023-12-10 14:02:56',
+                         'CTI',
+                         '2023-12-10 14:02:54',
+                         '2023-12-10 14:02:54'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2667,
+                         'Entrada',
+                         'E2806890000040030B64CE64',
+                         '2023-12-10 14:25:43',
+                         'CTI',
+                         '2023-12-10 14:25:42',
+                         '2023-12-10 14:25:42'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2668,
+                         'Saída',
+                         'E2806890000040030B64CE64',
+                         '2023-12-10 14:28:02',
+                         'CTI',
+                         '2023-12-10 14:27:59',
+                         '2023-12-10 14:27:59'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2669,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-10 14:40:25',
+                         'CTI',
+                         '2023-12-10 14:40:22',
+                         '2023-12-10 14:40:22'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2670,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-10 14:40:29',
+                         'CTI',
+                         '2023-12-10 14:40:26',
+                         '2023-12-10 14:40:26'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2671,
+                         'Saída',
+                         'E28068900000500598D788D7',
+                         '2023-12-10 14:47:49',
+                         'CTI',
+                         '2023-12-10 14:47:46',
+                         '2023-12-10 14:47:46'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2672,
+                         'Entrada',
+                         'E28068900000500598D788D7',
+                         '2023-12-10 14:48:01',
+                         'CTI',
+                         '2023-12-10 14:47:58',
+                         '2023-12-10 14:47:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2673,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-10 15:06:06',
+                         'CTI',
+                         '2023-12-10 15:06:04',
+                         '2023-12-10 15:06:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2674,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-10 15:11:25',
+                         'CTI',
+                         '2023-12-10 15:11:23',
+                         '2023-12-10 15:11:23'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2675,
+                         'Entrada',
+                         'E2806890000040030B64CE64',
+                         '2023-12-10 15:22:31',
+                         'CTI',
+                         '2023-12-10 15:22:29',
+                         '2023-12-10 15:22:29'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2676,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-10 15:40:56',
+                         'CTI',
+                         '2023-12-10 15:40:55',
+                         '2023-12-10 15:40:55'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2677,
+                         'Saída',
+                         'E2806890000040030B64CE64',
+                         '2023-12-10 15:49:53',
+                         'CTI',
+                         '2023-12-10 15:49:52',
+                         '2023-12-10 15:49:52'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2678,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-10 15:53:20',
+                         'CTI',
+                         '2023-12-10 15:53:18',
+                         '2023-12-10 15:53:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2679,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-10 17:30:18',
+                         'CTI',
+                         '2023-12-10 17:30:16',
+                         '2023-12-10 17:30:16'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2680,
+                         'Entrada',
+                         'E2806890000040030B64CE64',
+                         '2023-12-10 17:43:58',
+                         'CTI',
+                         '2023-12-10 17:43:55',
+                         '2023-12-10 17:43:55'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2681,
+                         'Saída',
+                         'E28068900000500598D788D7',
+                         '2023-12-10 18:16:31',
+                         'CTI',
+                         '2023-12-10 18:16:29',
+                         '2023-12-10 18:16:29'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2682,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-10 18:32:27',
+                         'CTI',
+                         '2023-12-10 18:32:26',
+                         '2023-12-10 18:32:26'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2683,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-10 19:37:10',
+                         'CTI',
+                         '2023-12-10 19:37:09',
+                         '2023-12-10 19:37:09'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2684,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-10 19:52:29',
+                         'CTI',
+                         '2023-12-10 19:52:28',
+                         '2023-12-10 19:52:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2685,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-10 19:52:37',
+                         'CTI',
+                         '2023-12-10 19:52:36',
+                         '2023-12-10 19:52:36'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2686,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-10 19:53:35',
+                         'CTI',
+                         '2023-12-10 19:53:33',
+                         '2023-12-10 19:53:33'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2687,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-10 19:54:27',
+                         'CTI',
+                         '2023-12-10 19:54:26',
+                         '2023-12-10 19:54:26'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2688,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-10 20:09:33',
+                         'CTI',
+                         '2023-12-10 20:09:32',
+                         '2023-12-10 20:09:32'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2689,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-10 20:15:52',
+                         'CTI',
+                         '2023-12-10 20:15:51',
+                         '2023-12-10 20:15:51'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2690,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-10 20:16:29',
+                         'CTI',
+                         '2023-12-10 20:16:28',
+                         '2023-12-10 20:16:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2691,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-10 20:44:14',
+                         'CTI',
+                         '2023-12-10 20:44:13',
+                         '2023-12-10 20:44:13'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2692,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-10 21:12:44',
+                         'CTI',
+                         '2023-12-10 21:12:41',
+                         '2023-12-10 21:12:41'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2693,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-10 21:13:45',
+                         'CTI',
+                         '2023-12-10 21:13:44',
+                         '2023-12-10 21:13:44'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2694,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-10 21:46:24',
+                         'CTI',
+                         '2023-12-10 21:46:23',
+                         '2023-12-10 21:46:23'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2695,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-10 22:02:09',
+                         'CTI',
+                         '2023-12-10 22:02:09',
+                         '2023-12-10 22:02:09'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2696,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-10 22:47:54',
+                         'CTI',
+                         '2023-12-10 22:47:53',
+                         '2023-12-10 22:47:53'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2697,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-10 23:05:05',
+                         'CTI',
+                         '2023-12-10 23:05:04',
+                         '2023-12-10 23:05:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2698,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-10 23:16:23',
+                         'CTI',
+                         '2023-12-10 23:16:22',
+                         '2023-12-10 23:16:22'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2699,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-10 23:16:59',
+                         'CTI',
+                         '2023-12-10 23:16:57',
+                         '2023-12-10 23:16:57'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2700,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-10 23:21:26',
+                         'CTI',
+                         '2023-12-10 23:21:24',
+                         '2023-12-10 23:21:24'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2701,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-10 23:25:15',
+                         'CTI',
+                         '2023-12-10 23:25:13',
+                         '2023-12-10 23:25:13'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2702,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-10 23:31:06',
+                         'CTI',
+                         '2023-12-10 23:31:05',
+                         '2023-12-10 23:31:05'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2703,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-10 23:42:04',
+                         'CTI',
+                         '2023-12-10 23:42:03',
+                         '2023-12-10 23:42:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2704,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-10 23:46:22',
+                         'CTI',
+                         '2023-12-10 23:46:20',
+                         '2023-12-10 23:46:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2705,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-11 00:44:32',
+                         'CTI',
+                         '2023-12-11 00:44:30',
+                         '2023-12-11 00:44:30'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2706,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-11 01:42:32',
+                         'CTI',
+                         '2023-12-11 01:42:31',
+                         '2023-12-11 01:42:31'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2707,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-11 05:03:31',
+                         'CTI',
+                         '2023-12-11 05:03:38',
+                         '2023-12-11 05:03:38'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2708,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-11 05:03:31',
+                         'CTI',
+                         '2023-12-11 05:03:38',
+                         '2023-12-11 05:03:38'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2709,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-11 05:56:57',
+                         'CTI',
+                         '2023-12-11 05:56:54',
+                         '2023-12-11 05:56:54'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2710,
+                         'Saída',
+                         'E28068900000500598D5B522',
+                         '2023-12-11 07:15:12',
+                         'CTI',
+                         '2023-12-11 07:15:10',
+                         '2023-12-11 07:15:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2711,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 09:49:40',
+                         'CTI',
+                         '2023-12-11 09:49:38',
+                         '2023-12-11 09:49:38'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2712,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 10:16:59',
+                         'CTI',
+                         '2023-12-11 10:16:56',
+                         '2023-12-11 10:16:56'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2713,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 10:25:26',
+                         'CTI',
+                         '2023-12-11 10:25:23',
+                         '2023-12-11 10:25:23'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2714,
+                         'Entrada',
+                         '3BB00731A237A1F73B9ACA20',
+                         '2023-12-11 11:22:10',
+                         'CTI',
+                         '2023-12-11 11:22:07',
+                         '2023-12-11 11:22:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2715,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-11 12:32:54',
+                         'CTI',
+                         '2023-12-11 12:32:56',
+                         '2023-12-11 12:32:56'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2716,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-11 12:32:54',
+                         'CTI',
+                         '2023-12-11 12:32:56',
+                         '2023-12-11 12:32:56'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2717,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 13:04:08',
+                         'CTI',
+                         '2023-12-11 13:04:05',
+                         '2023-12-11 13:04:05'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2718,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 13:45:37',
+                         'CTI',
+                         '2023-12-11 13:45:34',
+                         '2023-12-11 13:45:34'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2719,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 14:01:45',
+                         'CTI',
+                         '2023-12-11 14:01:43',
+                         '2023-12-11 14:01:43'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2720,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 14:06:55',
+                         'CTI',
+                         '2023-12-11 14:06:52',
+                         '2023-12-11 14:06:52'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2721,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 14:07:46',
+                         'CTI',
+                         '2023-12-11 14:07:43',
+                         '2023-12-11 14:07:43'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2722,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 14:07:48',
+                         'CTI',
+                         '2023-12-11 14:07:45',
+                         '2023-12-11 14:07:45'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2723,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 14:08:47',
+                         'CTI',
+                         '2023-12-11 14:08:45',
+                         '2023-12-11 14:08:45'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2724,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 14:09:59',
+                         'CTI',
+                         '2023-12-11 14:09:56',
+                         '2023-12-11 14:09:56'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2725,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 14:13:35',
+                         'CTI',
+                         '2023-12-11 14:13:32',
+                         '2023-12-11 14:13:32'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2726,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 14:17:40',
+                         'CTI',
+                         '2023-12-11 14:17:37',
+                         '2023-12-11 14:17:37'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2727,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 14:52:23',
+                         'CTI',
+                         '2023-12-11 14:52:19',
+                         '2023-12-11 14:52:19'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2728,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 14:55:30',
+                         'CTI',
+                         '2023-12-11 14:55:27',
+                         '2023-12-11 14:55:27'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2729,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 16:15:20',
+                         'CTI',
+                         '2023-12-11 16:15:16',
+                         '2023-12-11 16:15:16'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2730,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 16:20:26',
+                         'CTI',
+                         '2023-12-11 16:20:23',
+                         '2023-12-11 16:20:23'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2731,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 16:26:44',
+                         'CTI',
+                         '2023-12-11 16:26:41',
+                         '2023-12-11 16:26:41'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2732,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 16:27:16',
+                         'CTI',
+                         '2023-12-11 16:27:13',
+                         '2023-12-11 16:27:13'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2733,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 17:03:53',
+                         'CTI',
+                         '2023-12-11 17:03:50',
+                         '2023-12-11 17:03:50'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2734,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 17:12:19',
+                         'CTI',
+                         '2023-12-11 17:12:15',
+                         '2023-12-11 17:12:15'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2735,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 17:13:21',
+                         'CTI',
+                         '2023-12-11 17:13:18',
+                         '2023-12-11 17:13:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2736,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 17:14:34',
+                         'CTI',
+                         '2023-12-11 17:14:31',
+                         '2023-12-11 17:14:31'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2737,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 17:49:12',
+                         'CTI',
+                         '2023-12-11 17:49:10',
+                         '2023-12-11 17:49:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2738,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 17:52:17',
+                         'CTI',
+                         '2023-12-11 17:52:14',
+                         '2023-12-11 17:52:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2739,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 18:11:15',
+                         'CTI',
+                         '2023-12-11 18:11:12',
+                         '2023-12-11 18:11:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2740,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 18:18:13',
+                         'CTI',
+                         '2023-12-11 18:18:10',
+                         '2023-12-11 18:18:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2741,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-11 18:18:13',
+                         'CTI',
+                         '2023-12-11 18:18:10',
+                         '2023-12-11 18:18:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2742,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-11 19:08:06',
+                         'CTI',
+                         '2023-12-11 19:08:02',
+                         '2023-12-11 19:08:02'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2743,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-11 19:31:28',
+                         'CTI',
+                         '2023-12-11 19:31:25',
+                         '2023-12-11 19:31:25'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2744,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-11 20:44:28',
+                         'CTI',
+                         '2023-12-11 20:44:24',
+                         '2023-12-11 20:44:24'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2745,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-11 21:04:46',
+                         'CTI',
+                         '2023-12-11 21:04:42',
+                         '2023-12-11 21:04:42'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2746,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-11 21:48:23',
+                         'CTI',
+                         '2023-12-11 21:48:20',
+                         '2023-12-11 21:48:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2747,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-11 22:01:02',
+                         'CTI',
+                         '2023-12-11 22:00:59',
+                         '2023-12-11 22:00:59'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2748,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-11 22:57:54',
+                         'CTI',
+                         '2023-12-11 22:57:51',
+                         '2023-12-11 22:57:51'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2749,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-12 07:04:21',
+                         'CTI',
+                         '2023-12-12 07:04:27',
+                         '2023-12-12 07:04:27'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2750,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-12 07:04:21',
+                         'CTI',
+                         '2023-12-12 07:04:27',
+                         '2023-12-12 07:04:27'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2751,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-12 07:07:43',
+                         'CTI',
+                         '2023-12-12 07:07:38',
+                         '2023-12-12 07:07:38'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2752,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-12 07:07:44',
+                         'CTI',
+                         '2023-12-12 07:07:40',
+                         '2023-12-12 07:07:40'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2753,
+                         'Entrada',
+                         '30155C97D4618DC0006880FC',
+                         '2023-12-12 07:07:59',
+                         'CTI',
+                         '2023-12-12 07:07:54',
+                         '2023-12-12 07:07:54'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2754,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-12 07:18:13',
+                         'CTI',
+                         '2023-12-12 07:18:10',
+                         '2023-12-12 07:18:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2755,
+                         'Saída',
+                         '30155C97D4618DC0006880FC',
+                         '2023-12-12 07:19:27',
+                         'CTI',
+                         '2023-12-12 07:19:22',
+                         '2023-12-12 07:19:22'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2756,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-12 07:35:44',
+                         'CTI',
+                         '2023-12-12 07:35:39',
+                         '2023-12-12 07:35:39'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2757,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-12 07:58:39',
+                         'CTI',
+                         '2023-12-12 07:58:35',
+                         '2023-12-12 07:58:35'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2758,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-12 07:58:40',
+                         'CTI',
+                         '2023-12-12 07:58:36',
+                         '2023-12-12 07:58:36'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2759,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-12 07:59:05',
+                         'CTI',
+                         '2023-12-12 07:59:01',
+                         '2023-12-12 07:59:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2760,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-12 07:59:58',
+                         'CTI',
+                         '2023-12-12 07:59:53',
+                         '2023-12-12 07:59:53'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2761,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-12 08:00:09',
+                         'CTI',
+                         '2023-12-12 08:00:05',
+                         '2023-12-12 08:00:05'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2762,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-12 08:01:51',
+                         'CTI',
+                         '2023-12-12 08:01:48',
+                         '2023-12-12 08:01:48'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2763,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-12 08:02:37',
+                         'CTI',
+                         '2023-12-12 08:02:32',
+                         '2023-12-12 08:02:32'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2764,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-12 08:06:25',
+                         'CTI',
+                         '2023-12-12 08:06:20',
+                         '2023-12-12 08:06:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2765,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-12 08:26:14',
+                         'CTI',
+                         '2023-12-12 08:26:10',
+                         '2023-12-12 08:26:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2766,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-12 08:26:24',
+                         'CTI',
+                         '2023-12-12 08:26:20',
+                         '2023-12-12 08:26:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2767,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-12 08:29:01',
+                         'CTI',
+                         '2023-12-12 08:28:58',
+                         '2023-12-12 08:28:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2768,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-12 08:32:53',
+                         'CTI',
+                         '2023-12-12 08:32:49',
+                         '2023-12-12 08:32:49'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2769,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-12 08:36:57',
+                         'CTI',
+                         '2023-12-12 08:36:53',
+                         '2023-12-12 08:36:53'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2770,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-12 08:38:52',
+                         'CTI',
+                         '2023-12-12 08:38:48',
+                         '2023-12-12 08:38:48'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2771,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-12 08:44:51',
+                         'CTI',
+                         '2023-12-12 08:44:47',
+                         '2023-12-12 08:44:47'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2772,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-12 08:57:52',
+                         'CTI',
+                         '2023-12-12 08:57:48',
+                         '2023-12-12 08:57:48'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2773,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-12 09:02:56',
+                         'CTI',
+                         '2023-12-12 09:02:52',
+                         '2023-12-12 09:02:52'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2774,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-12 09:04:23',
+                         'CTI',
+                         '2023-12-12 09:04:19',
+                         '2023-12-12 09:04:19'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2775,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-12 09:07:05',
+                         'CTI',
+                         '2023-12-12 09:07:00',
+                         '2023-12-12 09:07:00'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2776,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-12 09:08:39',
+                         'CTI',
+                         '2023-12-12 09:08:35',
+                         '2023-12-12 09:08:35'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2777,
+                         'Entrada',
+                         'E28068900000500598D5B522',
+                         '2023-12-12 09:19:34',
+                         'CTI',
+                         '2023-12-12 09:19:30',
+                         '2023-12-12 09:19:30'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2778,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-12 09:21:29',
+                         'CTI',
+                         '2023-12-12 09:21:25',
+                         '2023-12-12 09:21:25'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2779,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-12 09:57:05',
+                         'CTI',
+                         '2023-12-12 09:57:01',
+                         '2023-12-12 09:57:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2780,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-12 11:01:19',
+                         'CTI',
+                         '2023-12-12 11:01:14',
+                         '2023-12-12 11:01:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2781,
+                         'Saída',
+                         'E28068900000500598D5B522',
+                         '2023-12-12 11:01:21',
+                         'CTI',
+                         '2023-12-12 11:01:16',
+                         '2023-12-12 11:01:16'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2782,
+                         'Entrada',
+                         'E28068900000500598D5B522',
+                         '2023-12-12 11:11:24',
+                         'CTI',
+                         '2023-12-12 11:11:20',
+                         '2023-12-12 11:11:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2783,
+                         'Entrada',
+                         'E28068900000400598D824EF',
+                         '2023-12-12 11:12:27',
+                         'CTI',
+                         '2023-12-12 11:12:23',
+                         '2023-12-12 11:12:23'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2784,
+                         'Saída',
+                         'E28068900000500598D5B522',
+                         '2023-12-12 11:42:49',
+                         'CTI',
+                         '2023-12-12 11:42:44',
+                         '2023-12-12 11:42:44'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2785,
+                         'Entrada',
+                         'E28068900000500598D5B522',
+                         '2023-12-12 12:00:10',
+                         'CTI',
+                         '2023-12-12 12:00:06',
+                         '2023-12-12 12:00:06'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2786,
+                         'Saída',
+                         'E28068900000400598D824EF',
+                         '2023-12-12 12:11:00',
+                         'CTI',
+                         '2023-12-12 12:10:55',
+                         '2023-12-12 12:10:55'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2787,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-12 12:42:20',
+                         'CTI',
+                         '2023-12-12 12:42:15',
+                         '2023-12-12 12:42:15'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2788,
+                         'Saída',
+                         'E28068900000500598D5B522',
+                         '2023-12-12 14:33:36',
+                         'CTI',
+                         '2023-12-12 14:33:37',
+                         '2023-12-12 14:33:37'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2789,
+                         'Entrada',
+                         'E28068900000500598D5B522',
+                         '2023-12-12 14:33:36',
+                         'CTI',
+                         '2023-12-12 14:33:38',
+                         '2023-12-12 14:33:38'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2790,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-12 14:57:16',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2791,
+                         'Entrada',
+                         'E28068900000400598D824EF',
+                         '2023-12-12 15:00:28',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2792,
+                         'Saída',
+                         'E28068900000400598D824EF',
+                         '2023-12-12 15:09:45',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2793,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-12 15:14:19',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2794,
+                         'Entrada',
+                         'E28068900000500598D5B522',
+                         '2023-12-12 15:14:20',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2795,
+                         'Entrada',
+                         'E28068900000400598D824EF',
+                         '2023-12-12 16:17:42',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2796,
+                         'Entrada',
+                         'E28068900000500598D788D7',
+                         '2023-12-12 17:14:31',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2797,
+                         'Saída',
+                         'E28068900000500598D5B522',
+                         '2023-12-12 17:25:42',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2798,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-12 17:28:45',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2799,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-12 17:28:49',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2800,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-12 19:25:57',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2801,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-12 19:25:58',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2802,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-12 19:32:40',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2803,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-12 19:32:42',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2804,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-12 23:05:14',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2805,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-13 02:00:06',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2806,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-13 07:44:38',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2807,
+                         'Saída',
+                         'E2806890000040030B64CE64',
+                         '2023-12-13 07:50:13',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2808,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-13 07:57:26',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2809,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-13 07:59:07',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2810,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-13 07:59:37',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2811,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-13 08:01:59',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2812,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-13 08:09:00',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2813,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-13 08:12:15',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2814,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-13 08:15:07',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2815,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-13 08:19:17',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2816,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-13 08:51:16',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2817,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-13 08:59:56',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2818,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 09:14:15',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2819,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 09:15:34',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2820,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 09:16:59',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2821,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 09:20:22',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2822,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 09:21:31',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2823,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-13 09:22:05',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2824,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-13 09:23:30',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2825,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 09:24:16',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2826,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 10:01:55',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2827,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 11:03:32',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2828,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 11:03:32',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2829,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 11:04:21',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2830,
+                         'Saída',
+                         'E28068900000500598D788D7',
+                         '2023-12-13 11:43:48',
+                         'CTI',
+                         '2023-12-13 19:18:12',
+                         '2023-12-13 19:18:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2831,
+                         'Entrada',
+                         'E28068900000500598D788D7',
+                         '2023-12-13 11:43:59',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2832,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 11:54:05',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2833,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 12:08:52',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2834,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 12:12:16',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2835,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 14:15:04',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2836,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-13 14:18:11',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2837,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-13 14:18:11',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2838,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-13 14:18:12',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2839,
+                         'Entrada',
+                         'E2806890000040030B64CE64',
+                         '2023-12-13 14:18:12',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2840,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-13 14:20:12',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2841,
+                         'Entrada',
+                         'E28068900000500598D5B522',
+                         '2023-12-13 14:20:15',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2842,
+                         'Saída',
+                         'E28068900000400598D824EF',
+                         '2023-12-13 14:20:15',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2843,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-13 14:20:15',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2844,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 15:08:16',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2845,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 15:17:57',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2846,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 15:18:12',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2847,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 15:18:32',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2848,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 15:18:55',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2849,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 15:24:11',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2850,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 15:24:27',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2851,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 16:31:12',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2852,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 16:38:21',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2853,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 17:34:52',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2854,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 17:35:47',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2855,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 18:10:54',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2856,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 18:11:58',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2857,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 18:15:25',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2858,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 18:27:06',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2859,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-13 18:29:08',
+                         'CTI',
+                         '2023-12-13 19:18:14',
+                         '2023-12-13 19:18:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2860,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-13 21:47:58',
+                         'CTI',
+                         '2023-12-13 21:48:12',
+                         '2023-12-13 21:48:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2861,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-13 22:51:28',
+                         'CTI',
+                         '2023-12-13 22:51:43',
+                         '2023-12-13 22:51:43'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2862,
+                         'Entrada',
+                         'E2806890000040030B64E05B',
+                         '2023-12-14 07:55:21',
+                         'CTI',
+                         '2023-12-14 07:55:46',
+                         '2023-12-14 07:55:46'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2863,
+                         'Saída',
+                         'E2806890000040030B64E05B',
+                         '2023-12-14 07:55:21',
+                         'CTI',
+                         '2023-12-14 07:55:46',
+                         '2023-12-14 07:55:46'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2864,
+                         'Saída',
+                         'E2806890000040030B64E05B',
+                         '2023-12-14 07:55:21',
+                         'CTI',
+                         '2023-12-14 07:55:47',
+                         '2023-12-14 07:55:47'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2865,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-14 08:03:57',
+                         'CTI',
+                         '2023-12-14 08:04:11',
+                         '2023-12-14 08:04:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2866,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-14 08:19:04',
+                         'CTI',
+                         '2023-12-14 08:19:18',
+                         '2023-12-14 08:19:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2867,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-14 10:35:37',
+                         'CTI',
+                         '2023-12-14 10:35:50',
+                         '2023-12-14 10:35:50'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2868,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:56:25',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2869,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-16 07:56:45',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2870,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:57:24',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2871,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:58:03',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2872,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:58:41',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2873,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:59:20',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2874,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:59:59',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2875,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:00:37',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2876,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:01:16',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2877,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:01:55',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2878,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:03:12',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2879,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:04:29',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2880,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:05:07',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2881,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:05:46',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2882,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:06:25',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2883,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:07:03',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2884,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:07:42',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2885,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:07:43',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2886,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:08:21',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2887,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:10:16',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2888,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:10:17',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2889,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:10:56',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2890,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:11:34',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2891,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:12:13',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2892,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:12:52',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2893,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:13:31',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2894,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:14:10',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2895,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:14:10',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2896,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:14:49',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2897,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:15:28',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2898,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:15:28',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2899,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:16:07',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2900,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:16:46',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2901,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:16:46',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2902,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:17:25',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2903,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:18:04',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2904,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:18:43',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2905,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:18:43',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2906,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:19:22',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2907,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:19:23',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2908,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:20:02',
+                         'CTI',
+                         '2023-12-19 00:54:03',
+                         '2023-12-19 00:54:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2909,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:21:19',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2910,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:21:19',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2911,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:21:59',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2912,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:22:56',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2913,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:23:54',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2914,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:24:52',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2915,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:24:52',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2916,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:25:50',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2917,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:26:48',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2918,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:28:43',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2919,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:28:44',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2920,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:29:41',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2921,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:29:42',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2922,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:30:40',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2923,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:30:40',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2924,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:31:38',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2925,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:33:33',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2926,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:33:34',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2927,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:34:32',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2928,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:34:32',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2929,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:35:31',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2930,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:38:23',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2931,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:40:19',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2932,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:41:17',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2933,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:41:17',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2934,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:42:15',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2935,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:43:13',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2936,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:44:11',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2937,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:44:11',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2938,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:45:09',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2939,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:46:07',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2940,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:47:05',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2941,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:48:03',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2942,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:49:59',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2943,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:50:57',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2944,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:50:57',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2945,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:51:55',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2946,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:51:56',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2947,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:52:54',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2948,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:53:52',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2949,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:53:52',
+                         'CTI',
+                         '2023-12-19 00:54:07',
+                         '2023-12-19 00:54:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2950,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:54:51',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2951,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:55:49',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2952,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:55:49',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2953,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:57:06',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2954,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 08:58:23',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2955,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-16 08:58:23',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2956,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 09:00:57',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2957,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 09:02:14',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2958,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 09:04:47',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2959,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 09:06:04',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2960,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-16 09:06:05',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2961,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 09:07:22',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2962,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 09:08:39',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2963,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-16 09:08:39',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2964,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 09:12:29',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2965,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 09:13:46',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2966,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-16 09:13:46',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2967,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 09:15:03',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2968,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 09:16:20',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2969,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 09:17:38',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2970,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 09:18:55',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2971,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 09:20:12',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2972,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-16 09:20:12',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2973,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 09:21:29',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2974,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 09:22:46',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2975,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 09:24:03',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2976,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-16 09:24:04',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2977,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-16 09:25:21',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2978,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 09:25:21',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2979,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-16 09:26:38',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2980,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-16 09:27:55',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2981,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 09:27:56',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2982,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 07:50:32',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2983,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 07:53:06',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2984,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 07:54:23',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2985,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 07:55:40',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2986,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 07:56:58',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2987,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 07:58:15',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2988,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-17 07:58:15',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2989,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-17 07:58:16',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2990,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-17 07:59:33',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2991,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 07:59:33',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2992,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-17 07:59:34',
+                         'CTI',
+                         '2023-12-19 00:54:08',
+                         '2023-12-19 00:54:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2993,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-17 08:00:51',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2994,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:00:51',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2995,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:03:44',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2996,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-17 08:05:20',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2997,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:05:21',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2998,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 08:06:57',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         2999,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-17 08:06:57',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3000,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:06:58',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3001,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 08:08:34',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3002,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:08:34',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3003,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-17 08:08:34',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3004,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 08:10:11',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3005,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:10:11',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3006,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-17 08:10:11',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3007,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:11:47',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3008,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:13:24',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3009,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-17 08:15:00',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3010,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:15:00',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3011,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 08:15:01',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3012,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:16:37',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3013,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 08:18:13',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3014,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:18:13',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3015,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:23:01',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3016,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-17 08:23:01',
+                         'CTI',
+                         '2023-12-19 00:54:10',
+                         '2023-12-19 00:54:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3017,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 08:23:02',
+                         'CTI',
+                         '2023-12-19 00:54:11',
+                         '2023-12-19 00:54:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3018,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:24:38',
+                         'CTI',
+                         '2023-12-19 00:54:11',
+                         '2023-12-19 00:54:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3019,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 08:24:38',
+                         'CTI',
+                         '2023-12-19 00:54:11',
+                         '2023-12-19 00:54:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3020,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:26:15',
+                         'CTI',
+                         '2023-12-19 00:54:11',
+                         '2023-12-19 00:54:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3021,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-17 08:26:15',
+                         'CTI',
+                         '2023-12-19 00:54:11',
+                         '2023-12-19 00:54:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3022,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 08:26:16',
+                         'CTI',
+                         '2023-12-19 00:54:11',
+                         '2023-12-19 00:54:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3023,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-17 08:27:52',
+                         'CTI',
+                         '2023-12-19 00:54:11',
+                         '2023-12-19 00:54:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3024,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 08:27:52',
+                         'CTI',
+                         '2023-12-19 00:54:11',
+                         '2023-12-19 00:54:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3025,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-17 08:31:04',
+                         'CTI',
+                         '2023-12-19 00:54:11',
+                         '2023-12-19 00:54:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3026,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:31:05',
+                         'CTI',
+                         '2023-12-19 00:54:11',
+                         '2023-12-19 00:54:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3027,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 08:32:41',
+                         'CTI',
+                         '2023-12-19 00:54:11',
+                         '2023-12-19 00:54:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3028,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:32:41',
+                         'CTI',
+                         '2023-12-19 00:54:11',
+                         '2023-12-19 00:54:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3029,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-17 08:32:42',
+                         'CTI',
+                         '2023-12-19 00:54:11',
+                         '2023-12-19 00:54:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3030,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-17 08:34:18',
+                         'CTI',
+                         '2023-12-19 00:54:11',
+                         '2023-12-19 00:54:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3031,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 08:35:55',
+                         'CTI',
+                         '2023-12-19 00:54:11',
+                         '2023-12-19 00:54:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3032,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-17 08:35:55',
+                         'CTI',
+                         '2023-12-19 00:54:11',
+                         '2023-12-19 00:54:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3033,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:35:55',
+                         'CTI',
+                         '2023-12-19 00:54:11',
+                         '2023-12-19 00:54:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3034,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-18 06:17:08',
+                         'CTI',
+                         '2023-12-19 00:54:16',
+                         '2023-12-19 00:54:16'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3035,
+                         'Saída',
+                         'E28068900000400598D824EF',
+                         '2023-12-18 13:56:38',
+                         'CTI',
+                         '2023-12-19 00:54:16',
+                         '2023-12-19 00:54:16'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3036,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-18 15:06:44',
+                         'CTI',
+                         '2023-12-19 00:54:16',
+                         '2023-12-19 00:54:16'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3037,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-18 16:18:58',
+                         'CTI',
+                         '2023-12-19 00:54:16',
+                         '2023-12-19 00:54:16'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3038,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-18 20:42:48',
+                         'CTI',
+                         '2023-12-19 00:54:16',
+                         '2023-12-19 00:54:16'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3039,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-18 20:42:48',
+                         'CTI',
+                         '2023-12-19 00:54:16',
+                         '2023-12-19 00:54:16'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3040,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-14 12:23:43',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3041,
+                         'Saída',
+                         'E28068900000500598D788D7',
+                         '2023-12-14 14:29:58',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3042,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-14 14:29:59',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3043,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-14 14:29:59',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3044,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-15 14:00:16',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3045,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:42:42',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3046,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:43:02',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3047,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:43:41',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3048,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:44:01',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3049,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:44:20',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3050,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:44:40',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3051,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:44:59',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3052,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:45:19',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3053,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:45:38',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3054,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:45:58',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3055,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:46:18',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3056,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:46:56',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3057,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:47:16',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3058,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:47:35',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3059,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:47:55',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3060,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:48:15',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3061,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:48:34',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3062,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:48:54',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3063,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:49:13',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3064,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:49:33',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3065,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:49:53',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3066,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:50:12',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3067,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:50:32',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3068,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:50:52',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3069,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:51:11',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3070,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:51:31',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3071,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:51:51',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3072,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-16 07:52:11',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3073,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:52:30',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3074,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:52:50',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3075,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:53:10',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3076,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:53:49',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3077,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-16 07:54:47',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3078,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:54:48',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3079,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:55:07',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3080,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-16 07:56:06',
+                         'CTI',
+                         '2023-12-19 00:54:18',
+                         '2023-12-19 00:54:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3081,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:40:44',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3082,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:42:20',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3083,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:44:15',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3084,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 08:44:16',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3085,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:46:11',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3086,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-17 08:46:11',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3087,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-17 08:48:07',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3088,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 08:48:08',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3089,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:48:08',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3090,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 08:50:04',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3091,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:50:04',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3092,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 08:51:59',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3093,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:52:00',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3094,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-17 08:53:55',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3095,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 08:55:50',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3096,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:55:51',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3097,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-17 08:55:51',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3098,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:57:47',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3099,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-17 08:57:47',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3100,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-17 08:59:42',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3101,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-17 08:59:43',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3102,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 08:59:43',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3103,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-17 09:01:38',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3104,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-17 09:01:39',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3105,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-17 09:03:34',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3106,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-17 09:07:24',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3107,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-17 09:07:25',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3108,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-17 09:09:20',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3109,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-17 09:09:21',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3110,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 09:09:21',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3111,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 09:11:17',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3112,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-17 09:11:17',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3113,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-17 09:11:17',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3114,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-17 09:13:13',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3115,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-17 09:15:08',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3116,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-17 09:15:09',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3117,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 09:15:09',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3118,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-17 09:17:05',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3119,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-17 09:17:05',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3120,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-17 09:17:05',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3121,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2023-12-17 09:19:01',
+                         'CTI',
+                         '2023-12-19 00:54:20',
+                         '2023-12-19 00:54:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3122,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-19 00:58:07',
+                         'CTI',
+                         '2023-12-19 00:58:17',
+                         '2023-12-19 00:58:17'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3123,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-19 01:00:39',
+                         'CTI',
+                         '2023-12-19 01:00:47',
+                         '2023-12-19 01:00:47'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3124,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-19 02:22:52',
+                         'CTI',
+                         '2023-12-19 02:23:01',
+                         '2023-12-19 02:23:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3125,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-19 02:23:15',
+                         'CTI',
+                         '2023-12-19 02:23:24',
+                         '2023-12-19 02:23:24'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3126,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-19 02:23:35',
+                         'CTI',
+                         '2023-12-19 02:23:44',
+                         '2023-12-19 02:23:44'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3127,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-19 02:25:24',
+                         'CTI',
+                         '2023-12-19 02:25:34',
+                         '2023-12-19 02:25:34'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3128,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-19 05:54:07',
+                         'CTI',
+                         '2023-12-19 05:54:16',
+                         '2023-12-19 05:54:16'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3129,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-19 06:05:26',
+                         'CTI',
+                         '2023-12-19 06:05:34',
+                         '2023-12-19 06:05:34'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3130,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-19 06:11:50',
+                         'CTI',
+                         '2023-12-19 06:11:59',
+                         '2023-12-19 06:11:59'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3131,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-19 06:12:13',
+                         'CTI',
+                         '2023-12-19 06:12:22',
+                         '2023-12-19 06:12:22'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3132,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-19 08:06:33',
+                         'CTI',
+                         '2023-12-19 08:06:42',
+                         '2023-12-19 08:06:42'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3133,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-19 14:23:40',
+                         'CTI',
+                         '2023-12-19 14:23:49',
+                         '2023-12-19 14:23:49'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3134,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2023-12-19 14:23:41',
+                         'CTI',
+                         '2023-12-19 14:23:49',
+                         '2023-12-19 14:23:49'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3135,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-19 14:23:41',
+                         'CTI',
+                         '2023-12-19 14:23:49',
+                         '2023-12-19 14:23:49'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3136,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-19 14:23:42',
+                         'CTI',
+                         '2023-12-19 14:23:49',
+                         '2023-12-19 14:23:49'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3137,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-19 20:21:21',
+                         'CTI',
+                         '2023-12-19 20:21:39',
+                         '2023-12-19 20:21:39'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3138,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-19 20:21:21',
+                         'CTI',
+                         '2023-12-19 20:21:40',
+                         '2023-12-19 20:21:40'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3139,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-19 20:23:07',
+                         'CTI',
+                         '2023-12-19 20:23:15',
+                         '2023-12-19 20:23:15'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3140,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-19 20:39:20',
+                         'CTI',
+                         '2023-12-19 20:39:28',
+                         '2023-12-19 20:39:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3141,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-19 21:03:52',
+                         'CTI',
+                         '2023-12-19 21:04:00',
+                         '2023-12-19 21:04:00'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3142,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-19 21:07:39',
+                         'CTI',
+                         '2023-12-19 21:07:46',
+                         '2023-12-19 21:07:46'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3143,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-19 22:13:09',
+                         'CTI',
+                         '2023-12-19 22:13:16',
+                         '2023-12-19 22:13:16'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3144,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-19 23:06:41',
+                         'CTI',
+                         '2023-12-19 23:06:48',
+                         '2023-12-19 23:06:48'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3145,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-19 23:06:58',
+                         'CTI',
+                         '2023-12-19 23:07:06',
+                         '2023-12-19 23:07:06'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3146,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-19 23:13:27',
+                         'CTI',
+                         '2023-12-19 23:13:35',
+                         '2023-12-19 23:13:35'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3147,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-19 23:42:54',
+                         'CTI',
+                         '2023-12-19 23:43:01',
+                         '2023-12-19 23:43:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3148,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-19 23:43:01',
+                         'CTI',
+                         '2023-12-19 23:43:09',
+                         '2023-12-19 23:43:09'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3149,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-20 00:30:45',
+                         'CTI',
+                         '2023-12-20 00:30:52',
+                         '2023-12-20 00:30:52'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3150,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-20 00:30:54',
+                         'CTI',
+                         '2023-12-20 00:31:02',
+                         '2023-12-20 00:31:02'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3151,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-20 00:34:32',
+                         'CTI',
+                         '2023-12-20 00:34:38',
+                         '2023-12-20 00:34:38'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3152,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-20 00:39:02',
+                         'CTI',
+                         '2023-12-20 00:39:09',
+                         '2023-12-20 00:39:09'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3153,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-20 00:55:45',
+                         'CTI',
+                         '2023-12-20 00:55:51',
+                         '2023-12-20 00:55:51'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3154,
+                         'Saída',
+                         'E28068900000500598D5B522',
+                         '2023-12-20 07:17:35',
+                         'CTI',
+                         '2023-12-20 07:17:41',
+                         '2023-12-20 07:17:41'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3155,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-20 07:52:25',
+                         'CTI',
+                         '2023-12-20 07:52:31',
+                         '2023-12-20 07:52:31'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3156,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-20 09:21:13',
+                         'CTI',
+                         '2023-12-20 09:21:19',
+                         '2023-12-20 09:21:19'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3157,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-20 10:48:44',
+                         'CTI',
+                         '2023-12-20 10:48:51',
+                         '2023-12-20 10:48:51'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3158,
+                         'Entrada',
+                         'E28068900000500598D5B522',
+                         '2023-12-20 12:13:40',
+                         'CTI',
+                         '2023-12-20 12:13:46',
+                         '2023-12-20 12:13:46'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3159,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-20 12:36:54',
+                         'CTI',
+                         '2023-12-20 12:37:00',
+                         '2023-12-20 12:37:00'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3160,
+                         'Saída',
+                         'E28068900000500598D5B522',
+                         '2023-12-20 12:43:52',
+                         'CTI',
+                         '2023-12-20 12:43:58',
+                         '2023-12-20 12:43:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3161,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-20 12:49:27',
+                         'CTI',
+                         '2023-12-20 12:49:34',
+                         '2023-12-20 12:49:34'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3162,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-20 13:47:46',
+                         'CTI',
+                         '2023-12-20 13:47:52',
+                         '2023-12-20 13:47:52'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3163,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-20 13:47:47',
+                         'CTI',
+                         '2023-12-20 13:47:54',
+                         '2023-12-20 13:47:54'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3164,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-20 13:47:49',
+                         'CTI',
+                         '2023-12-20 13:47:56',
+                         '2023-12-20 13:47:56'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3165,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-20 13:47:53',
+                         'CTI',
+                         '2023-12-20 13:47:58',
+                         '2023-12-20 13:47:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3166,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-20 14:01:35',
+                         'CTI',
+                         '2023-12-20 14:01:41',
+                         '2023-12-20 14:01:41'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3167,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-20 14:01:36',
+                         'CTI',
+                         '2023-12-20 14:01:41',
+                         '2023-12-20 14:01:41'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3168,
+                         'Entrada',
+                         'E28068900000500598D5B522',
+                         '2023-12-20 14:39:39',
+                         'CTI',
+                         '2023-12-20 14:39:45',
+                         '2023-12-20 14:39:45'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3169,
+                         'Saída',
+                         'E28068900000500598D5B522',
+                         '2023-12-20 16:22:04',
+                         'CTI',
+                         '2023-12-20 16:22:10',
+                         '2023-12-20 16:22:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3170,
+                         'Entrada',
+                         'E28068900000500598D5B522',
+                         '2023-12-20 16:31:07',
+                         'CTI',
+                         '2023-12-20 16:31:13',
+                         '2023-12-20 16:31:13'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3171,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-20 17:46:02',
+                         'CTI',
+                         '2023-12-20 17:46:08',
+                         '2023-12-20 17:46:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3172,
+                         'Entrada',
+                         'E2806890000050030B649D63',
+                         '2023-12-20 19:29:21',
+                         'CTI',
+                         '2023-12-20 19:29:36',
+                         '2023-12-20 19:29:36'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3173,
+                         'Saída',
+                         'E2806890000050030B649D63',
+                         '2023-12-20 19:29:21',
+                         'CTI',
+                         '2023-12-20 19:29:36',
+                         '2023-12-20 19:29:36'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3174,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-20 22:47:26',
+                         'CTI',
+                         '2023-12-20 22:47:31',
+                         '2023-12-20 22:47:31'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3175,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-20 23:04:57',
+                         'CTI',
+                         '2023-12-20 23:05:03',
+                         '2023-12-20 23:05:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3176,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-21 07:23:28',
+                         'CTI',
+                         '2023-12-21 07:23:34',
+                         '2023-12-21 07:23:34'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3177,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-21 07:39:42',
+                         'CTI',
+                         '2023-12-21 07:39:47',
+                         '2023-12-21 07:39:47'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3178,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-21 07:46:40',
+                         'CTI',
+                         '2023-12-21 07:46:46',
+                         '2023-12-21 07:46:46'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3179,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-21 07:48:32',
+                         'CTI',
+                         '2023-12-21 07:48:37',
+                         '2023-12-21 07:48:37'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3180,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-21 07:50:52',
+                         'CTI',
+                         '2023-12-21 07:50:57',
+                         '2023-12-21 07:50:57'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3181,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-21 07:56:21',
+                         'CTI',
+                         '2023-12-21 07:56:26',
+                         '2023-12-21 07:56:26'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3182,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-21 08:13:31',
+                         'CTI',
+                         '2023-12-21 08:13:36',
+                         '2023-12-21 08:13:36'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3183,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-21 08:15:25',
+                         'CTI',
+                         '2023-12-21 08:15:30',
+                         '2023-12-21 08:15:30'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3184,
+                         'Saída',
+                         'E28068900000500598D64849',
+                         '2023-12-21 09:38:10',
+                         'CTI',
+                         '2023-12-21 09:38:14',
+                         '2023-12-21 09:38:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3185,
+                         'Entrada',
+                         'E28068900000500598D788D7',
+                         '2023-12-21 12:21:11',
+                         'CTI',
+                         '2023-12-21 12:21:16',
+                         '2023-12-21 12:21:16'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3186,
+                         'Saída',
+                         'E28068900000500598D788D7',
+                         '2023-12-21 12:47:25',
+                         'CTI',
+                         '2023-12-21 12:47:30',
+                         '2023-12-21 12:47:30'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3187,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-21 13:11:18',
+                         'CTI',
+                         '2023-12-21 13:11:22',
+                         '2023-12-21 13:11:22'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3188,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-21 13:55:06',
+                         'CTI',
+                         '2023-12-21 13:55:11',
+                         '2023-12-21 13:55:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3189,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-21 13:58:28',
+                         'CTI',
+                         '2023-12-21 13:58:33',
+                         '2023-12-21 13:58:33'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3190,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-21 14:11:30',
+                         'CTI',
+                         '2023-12-21 14:11:35',
+                         '2023-12-21 14:11:35'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3191,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-21 14:13:21',
+                         'CTI',
+                         '2023-12-21 14:13:25',
+                         '2023-12-21 14:13:25'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3192,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-21 15:25:45',
+                         'CTI',
+                         '2023-12-21 15:25:59',
+                         '2023-12-21 15:25:59'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3193,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-21 15:25:45',
+                         'CTI',
+                         '2023-12-21 15:26:00',
+                         '2023-12-21 15:26:00'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3194,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-21 15:31:43',
+                         'CTI',
+                         '2023-12-21 15:31:47',
+                         '2023-12-21 15:31:47'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3195,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-21 15:38:54',
+                         'CTI',
+                         '2023-12-21 15:38:58',
+                         '2023-12-21 15:38:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3196,
+                         'Entrada',
+                         'E28068900000500598D788D7',
+                         '2023-12-21 16:05:09',
+                         'CTI',
+                         '2023-12-21 16:05:14',
+                         '2023-12-21 16:05:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3197,
+                         'Saída',
+                         'E28068900000500598D788D7',
+                         '2023-12-21 16:05:22',
+                         'CTI',
+                         '2023-12-21 16:05:26',
+                         '2023-12-21 16:05:26'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3198,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-21 16:25:34',
+                         'CTI',
+                         '2023-12-21 16:25:38',
+                         '2023-12-21 16:25:38'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3199,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-21 16:25:34',
+                         'CTI',
+                         '2023-12-21 16:25:38',
+                         '2023-12-21 16:25:38'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3200,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-21 16:26:22',
+                         'CTI',
+                         '2023-12-21 16:26:26',
+                         '2023-12-21 16:26:26'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3201,
+                         'Entrada',
+                         'E28068900000500598D788D7',
+                         '2023-12-21 17:26:34',
+                         'CTI',
+                         '2023-12-21 17:26:37',
+                         '2023-12-21 17:26:37'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3202,
+                         'Saída',
+                         'E28068900000500598D788D7',
+                         '2023-12-21 17:27:27',
+                         'CTI',
+                         '2023-12-21 17:27:32',
+                         '2023-12-21 17:27:32'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3203,
+                         'Entrada',
+                         'E28068900000500598D788D7',
+                         '2023-12-21 17:48:15',
+                         'CTI',
+                         '2023-12-21 17:48:20',
+                         '2023-12-21 17:48:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3204,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-21 17:52:19',
+                         'CTI',
+                         '2023-12-21 17:52:24',
+                         '2023-12-21 17:52:24'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3205,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-21 17:52:19',
+                         'CTI',
+                         '2023-12-21 17:52:24',
+                         '2023-12-21 17:52:24'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3206,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-21 17:52:20',
+                         'CTI',
+                         '2023-12-21 17:52:24',
+                         '2023-12-21 17:52:24'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3207,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-21 17:54:47',
+                         'CTI',
+                         '2023-12-21 17:54:51',
+                         '2023-12-21 17:54:51'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3208,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-21 18:01:27',
+                         'CTI',
+                         '2023-12-21 18:01:32',
+                         '2023-12-21 18:01:32'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3209,
+                         'Entrada',
+                         'E28068900000500598D64849',
+                         '2023-12-21 18:01:27',
+                         'CTI',
+                         '2023-12-21 18:01:32',
+                         '2023-12-21 18:01:32'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3210,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-21 18:01:29',
+                         'CTI',
+                         '2023-12-21 18:01:34',
+                         '2023-12-21 18:01:34'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3211,
+                         'Saída',
+                         'E28068900000500598D788D7',
+                         '2023-12-21 18:16:02',
+                         'CTI',
+                         '2023-12-21 18:16:07',
+                         '2023-12-21 18:16:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3212,
+                         'Entrada',
+                         'E28068900000500598D788D7',
+                         '2023-12-21 18:18:05',
+                         'CTI',
+                         '2023-12-21 18:18:09',
+                         '2023-12-21 18:18:09'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3213,
+                         'Saída',
+                         'E28068900000500598D788D7',
+                         '2023-12-21 18:22:15',
+                         'CTI',
+                         '2023-12-21 18:22:19',
+                         '2023-12-21 18:22:19'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3214,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-21 18:37:55',
+                         'CTI',
+                         '2023-12-21 18:38:00',
+                         '2023-12-21 18:38:00'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3215,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-21 22:08:53',
+                         'CTI',
+                         '2023-12-21 22:09:03',
+                         '2023-12-21 22:09:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3216,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-21 22:08:53',
+                         'CTI',
+                         '2023-12-21 22:09:04',
+                         '2023-12-21 22:09:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3217,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-21 23:05:41',
+                         'CTI',
+                         '2023-12-21 23:05:45',
+                         '2023-12-21 23:05:45'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3218,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-21 23:41:54',
+                         'CTI',
+                         '2023-12-21 23:41:58',
+                         '2023-12-21 23:41:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3219,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-21 23:41:54',
+                         'CTI',
+                         '2023-12-21 23:41:58',
+                         '2023-12-21 23:41:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3220,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-22 06:38:03',
+                         'CTI',
+                         '2023-12-22 06:38:06',
+                         '2023-12-22 06:38:06'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3221,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-22 07:53:08',
+                         'CTI',
+                         '2023-12-22 07:53:11',
+                         '2023-12-22 07:53:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3222,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-22 14:12:07',
+                         'CTI',
+                         '2023-12-22 14:12:10',
+                         '2023-12-22 14:12:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3223,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-22 14:41:47',
+                         'CTI',
+                         '2023-12-22 14:41:50',
+                         '2023-12-22 14:41:50'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3224,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-22 14:47:57',
+                         'CTI',
+                         '2023-12-22 14:48:10',
+                         '2023-12-22 14:48:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3225,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-22 14:47:57',
+                         'CTI',
+                         '2023-12-22 14:48:10',
+                         '2023-12-22 14:48:10'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3226,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-22 14:47:57',
+                         'CTI',
+                         '2023-12-22 14:48:11',
+                         '2023-12-22 14:48:11'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3227,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-22 15:05:46',
+                         'CTI',
+                         '2023-12-22 15:05:49',
+                         '2023-12-22 15:05:49'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3228,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-22 21:28:51',
+                         'CTI',
+                         '2023-12-22 21:28:53',
+                         '2023-12-22 21:28:53'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3229,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-22 22:04:40',
+                         'CTI',
+                         '2023-12-22 22:04:42',
+                         '2023-12-22 22:04:42'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3230,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-22 22:09:30',
+                         'CTI',
+                         '2023-12-22 22:09:32',
+                         '2023-12-22 22:09:32'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3231,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2023-12-22 23:00:56',
+                         'CTI',
+                         '2023-12-22 23:01:06',
+                         '2023-12-22 23:01:06'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3232,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2023-12-22 23:00:56',
+                         'CTI',
+                         '2023-12-22 23:01:06',
+                         '2023-12-22 23:01:06'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3233,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-23 08:15:01',
+                         'CTI',
+                         '2023-12-23 08:15:03',
+                         '2023-12-23 08:15:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3234,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-23 08:15:02',
+                         'CTI',
+                         '2023-12-23 08:15:03',
+                         '2023-12-23 08:15:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3235,
+                         'Entrada',
+                         'E28068900000500598D788D7',
+                         '2023-12-23 08:18:55',
+                         'CTI',
+                         '2023-12-23 08:18:56',
+                         '2023-12-23 08:18:56'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3236,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-23 08:18:58',
+                         'CTI',
+                         '2023-12-23 08:18:58',
+                         '2023-12-23 08:18:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3237,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-23 12:28:47',
+                         'CTI',
+                         '2023-12-23 12:28:47',
+                         '2023-12-23 12:28:47'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3238,
+                         'Saída',
+                         'E28068900000500598D5B522',
+                         '2023-12-23 14:04:50',
+                         'CTI',
+                         '2023-12-23 14:04:50',
+                         '2023-12-23 14:04:50'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3239,
+                         'Entrada',
+                         'E28068900000500598D5B522',
+                         '2023-12-23 18:05:55',
+                         'CTI',
+                         '2023-12-23 18:06:05',
+                         '2023-12-23 18:06:05'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3240,
+                         'Saída',
+                         'E28068900000500598D5B522',
+                         '2023-12-23 18:05:55',
+                         'CTI',
+                         '2023-12-23 18:06:06',
+                         '2023-12-23 18:06:06'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3241,
+                         'Saída',
+                         'E28068900000500598D5B522',
+                         '2023-12-23 18:05:55',
+                         'CTI',
+                         '2023-12-23 18:06:07',
+                         '2023-12-23 18:06:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3242,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-24 07:18:18',
+                         'CTI',
+                         '2023-12-24 07:18:24',
+                         '2023-12-24 07:18:24'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3243,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2023-12-24 07:18:18',
+                         'CTI',
+                         '2023-12-24 07:18:25',
+                         '2023-12-24 07:18:25'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3244,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:24:29',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3245,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:24:49',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3246,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:26:06',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3247,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:26:45',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3248,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:27:24',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3249,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:28:03',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3250,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:28:42',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3251,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:30:38',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3252,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:31:16',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3253,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:31:55',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3254,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:32:34',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3255,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:36:24',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3256,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:37:41',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3257,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:40:15',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3258,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:41:32',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3259,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:44:06',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3260,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:46:40',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3261,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:55:37',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3262,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 12:00:44',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3263,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 12:05:51',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3264,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 12:07:46',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3265,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 12:16:44',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3266,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 12:18:39',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3267,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 12:25:03',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3268,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 12:28:54',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3269,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 12:32:45',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3270,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 12:37:53',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3271,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 12:39:10',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3272,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 12:48:08',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3273,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 12:50:42',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3274,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 12:53:55',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3275,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 13:02:15',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3276,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 13:09:19',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3277,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 13:17:40',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3278,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 13:21:31',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3279,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 13:23:27',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3280,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 13:28:35',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3281,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 13:31:10',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3282,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 13:32:28',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3283,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 13:36:19',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3284,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 13:41:28',
+                         'CTI',
+                         '2023-12-28 15:20:58',
+                         '2023-12-28 15:20:58'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3285,
+                         'Saída',
+                         'E28068900000500598D5D1DA',
+                         '2023-12-26 07:34:42',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3286,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-26 11:15:27',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3287,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 07:51:19',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3288,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 07:51:20',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3289,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 07:52:18',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3290,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 07:52:18',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3291,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 07:53:16',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3292,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 07:53:17',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3293,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 07:53:17',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3294,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 07:54:15',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3295,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 07:55:13',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3296,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 07:55:14',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3297,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 07:55:14',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3298,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 07:56:12',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3299,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 07:56:13',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3300,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 07:56:13',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3301,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 07:57:11',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3302,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 07:57:12',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3303,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 07:57:12',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3304,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 07:58:10',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3305,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 07:58:11',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3306,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 07:58:11',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3307,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 07:59:09',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3308,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 07:59:10',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3309,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 07:59:10',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3310,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:00:08',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3311,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:01:07',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3312,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:01:07',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3313,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 08:02:05',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3314,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 08:03:04',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3315,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:03:04',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3316,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 08:04:02',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3317,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:04:03',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3318,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:05:01',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3319,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:05:02',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3320,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:06:00',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3321,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:06:58',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3322,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 08:07:57',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3323,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:08:55',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3324,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:08:55',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3325,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 08:08:56',
+                         'CTI',
+                         '2023-12-28 15:21:01',
+                         '2023-12-28 15:21:01'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3326,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:10:52',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3327,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 08:10:52',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3328,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:10:53',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3329,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 08:14:25',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3330,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:14:25',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3331,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:14:26',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3332,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:15:43',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3333,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:15:43',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3334,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:17:01',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3335,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:17:01',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3336,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:18:18',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3337,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:18:19',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3338,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:20:53',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3339,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 08:23:28',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3340,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 08:24:45',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3341,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:27:19',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3342,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:28:37',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3343,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:29:54',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3344,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:29:54',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3345,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:31:12',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3346,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:31:12',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3347,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:32:30',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3348,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:35:04',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3349,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:35:04',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3350,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:36:22',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3351,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:37:39',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3352,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:41:30',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3353,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:42:48',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3354,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 08:42:48',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3355,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:44:06',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3356,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:44:06',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3357,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:46:40',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3358,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:46:41',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3359,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:47:58',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3360,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:49:16',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3361,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:49:16',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3362,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:50:34',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3363,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:50:34',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3364,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 08:51:52',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3365,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:51:52',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3366,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:51:53',
+                         'CTI',
+                         '2023-12-28 15:21:03',
+                         '2023-12-28 15:21:03'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3367,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:53:10',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3368,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:53:11',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3369,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:54:29',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3370,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:54:29',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3371,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 08:54:29',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3372,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:56:06',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3373,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:56:06',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3374,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 08:56:07',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3375,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 08:57:43',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3376,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 08:57:44',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3377,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 08:59:20',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3378,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 09:00:57',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3379,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 09:00:57',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3380,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 09:02:34',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3381,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 09:04:11',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3382,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 09:07:23',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3383,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 09:07:24',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3384,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 09:07:24',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3385,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 09:09:01',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3386,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 09:09:01',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3387,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 09:10:38',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3388,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 09:10:38',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3389,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 09:10:38',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3390,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 09:12:15',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3391,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 09:12:16',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3392,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 09:13:52',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3393,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 09:13:53',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3394,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 09:15:29',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3395,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 09:17:06',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3396,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 09:18:43',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3397,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 09:18:43',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3398,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 09:18:44',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3399,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 09:20:20',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3400,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 09:20:21',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3401,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 09:20:21',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3402,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 09:21:58',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3403,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-28 09:21:58',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3404,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 09:23:35',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3405,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 09:25:12',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3406,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2023-12-28 09:26:49',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3407,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 09:26:49',
+                         'CTI',
+                         '2023-12-28 15:21:04',
+                         '2023-12-28 15:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3408,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-28 09:28:26',
+                         'CTI',
+                         '2023-12-28 15:21:05',
+                         '2023-12-28 15:21:05'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3409,
+                         'Saída',
+                         'E28068900000400598D61106',
+                         '2023-12-28 09:28:26',
+                         'CTI',
+                         '2023-12-28 15:21:05',
+                         '2023-12-28 15:21:05'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3410,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:12:28',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3411,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:12:49',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3412,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:13:08',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3413,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:13:28',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3414,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:14:25',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3415,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:14:45',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3416,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:15:05',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3417,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:15:44',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3418,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:16:41',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3419,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:17:01',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3420,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:17:21',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3421,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:17:41',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3422,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:18:19',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3423,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:18:39',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3424,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:18:59',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3425,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:19:18',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3426,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:19:38',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3427,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:20:17',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3428,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:20:37',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3429,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:20:57',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3430,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:21:35',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3431,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:21:55',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3432,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:22:15',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3433,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:22:35',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3434,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:23:14',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3435,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:23:33',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3436,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:23:53',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3437,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:24:13',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3438,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:24:33',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3439,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:25:12',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3440,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:25:32',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3441,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:25:52',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3442,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:26:12',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3443,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:26:31',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3444,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-24 09:26:51',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3445,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:22:29',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3446,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:22:49',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3447,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:23:09',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3448,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:23:29',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3449,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:23:49',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3450,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-24 11:24:09',
+                         'CTI',
+                         '2023-12-28 15:21:07',
+                         '2023-12-28 15:21:07'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3451,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-28 21:05:49',
+                         'CTI',
+                         '2023-12-28 21:05:59',
+                         '2023-12-28 21:05:59'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3452,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-28 23:01:53',
+                         'CTI',
+                         '2023-12-28 23:02:05',
+                         '2023-12-28 23:02:05'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3453,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-29 05:37:26',
+                         'CTI',
+                         '2023-12-29 05:37:36',
+                         '2023-12-29 05:37:36'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3454,
+                         'Saída',
+                         'E2806890000050030B649D63',
+                         '2023-12-29 07:28:58',
+                         'CTI',
+                         '2023-12-29 07:29:08',
+                         '2023-12-29 07:29:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3455,
+                         'Entrada',
+                         'E2806890000050030B649D63',
+                         '2023-12-29 07:29:15',
+                         'CTI',
+                         '2023-12-29 07:29:25',
+                         '2023-12-29 07:29:25'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3456,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-29 07:29:21',
+                         'CTI',
+                         '2023-12-29 07:29:31',
+                         '2023-12-29 07:29:31'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3457,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-29 07:29:21',
+                         'CTI',
+                         '2023-12-29 07:29:33',
+                         '2023-12-29 07:29:33'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3458,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-29 08:25:30',
+                         'CTI',
+                         '2023-12-29 08:25:39',
+                         '2023-12-29 08:25:39'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3459,
+                         'Saída',
+                         'E28068900000400598D5F621',
+                         '2023-12-29 09:22:11',
+                         'CTI',
+                         '2023-12-29 09:22:21',
+                         '2023-12-29 09:22:21'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3460,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-29 12:12:31',
+                         'CTI',
+                         '2023-12-29 12:12:40',
+                         '2023-12-29 12:12:40'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3461,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-29 12:13:32',
+                         'CTI',
+                         '2023-12-29 12:13:41',
+                         '2023-12-29 12:13:41'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3462,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-29 12:14:34',
+                         'CTI',
+                         '2023-12-29 12:14:45',
+                         '2023-12-29 12:14:45'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3463,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2023-12-29 12:15:58',
+                         'CTI',
+                         '2023-12-29 12:16:08',
+                         '2023-12-29 12:16:08'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3464,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-29 19:27:54',
+                         'CTI',
+                         '2023-12-29 19:28:04',
+                         '2023-12-29 19:28:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3465,
+                         'Saída',
+                         'E2806890000050030B649D63',
+                         '2023-12-29 19:39:37',
+                         'CTI',
+                         '2023-12-29 19:39:47',
+                         '2023-12-29 19:39:47'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3466,
+                         'Entrada',
+                         'E2806890000050030B649D63',
+                         '2023-12-29 19:39:50',
+                         'CTI',
+                         '2023-12-29 19:39:59',
+                         '2023-12-29 19:39:59'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3467,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-29 21:15:22',
+                         'CTI',
+                         '2023-12-29 21:15:33',
+                         '2023-12-29 21:15:33'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3468,
+                         'Saída',
+                         'E2806890000050030B649D63',
+                         '2023-12-29 21:17:42',
+                         'CTI',
+                         '2023-12-29 21:17:51',
+                         '2023-12-29 21:17:51'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3469,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-29 22:07:22',
+                         'CTI',
+                         '2023-12-29 22:07:31',
+                         '2023-12-29 22:07:31'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3470,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-29 22:07:22',
+                         'CTI',
+                         '2023-12-29 22:07:31',
+                         '2023-12-29 22:07:31'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3471,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-29 23:06:41',
+                         'CTI',
+                         '2023-12-29 23:06:51',
+                         '2023-12-29 23:06:51'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3472,
+                         'Entrada',
+                         'E2806890000050030B649D63',
+                         '2023-12-30 02:20:06',
+                         'CTI',
+                         '2023-12-30 02:20:15',
+                         '2023-12-30 02:20:15'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3473,
+                         'Saída',
+                         'E2806890000050030B649D63',
+                         '2023-12-30 02:29:49',
+                         'CTI',
+                         '2023-12-30 02:29:57',
+                         '2023-12-30 02:29:57'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3474,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-30 06:05:09',
+                         'CTI',
+                         '2023-12-30 06:05:18',
+                         '2023-12-30 06:05:18'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3475,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-30 06:25:39',
+                         'CTI',
+                         '2023-12-30 06:25:47',
+                         '2023-12-30 06:25:47'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3476,
+                         'Entrada',
+                         'E28068900000400598D5F621',
+                         '2023-12-30 07:15:34',
+                         'CTI',
+                         '2023-12-30 07:15:43',
+                         '2023-12-30 07:15:43'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3477,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-30 07:36:31',
+                         'CTI',
+                         '2023-12-30 07:36:40',
+                         '2023-12-30 07:36:40'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3478,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-30 07:36:31',
+                         'CTI',
+                         '2023-12-30 07:36:40',
+                         '2023-12-30 07:36:40'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3479,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-30 07:55:14',
+                         'CTI',
+                         '2023-12-30 07:55:23',
+                         '2023-12-30 07:55:23'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3480,
+                         'Entrada',
+                         'E2806890000050030B649D63',
+                         '2023-12-30 08:57:13',
+                         'CTI',
+                         '2023-12-30 08:57:22',
+                         '2023-12-30 08:57:22'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3481,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2023-12-30 08:57:14',
+                         'CTI',
+                         '2023-12-30 08:57:22',
+                         '2023-12-30 08:57:22'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3482,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2023-12-30 08:57:17',
+                         'CTI',
+                         '2023-12-30 08:57:26',
+                         '2023-12-30 08:57:26'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3483,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-30 09:32:05',
+                         'CTI',
+                         '2023-12-30 09:32:12',
+                         '2023-12-30 09:32:12'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3484,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-30 09:34:14',
+                         'CTI',
+                         '2023-12-30 09:34:23',
+                         '2023-12-30 09:34:23'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3485,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-30 09:34:15',
+                         'CTI',
+                         '2023-12-30 09:34:23',
+                         '2023-12-30 09:34:23'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3486,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-30 10:35:47',
+                         'CTI',
+                         '2023-12-30 10:35:56',
+                         '2023-12-30 10:35:56'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3487,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-30 11:08:08',
+                         'CTI',
+                         '2023-12-30 11:08:16',
+                         '2023-12-30 11:08:16'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3488,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-30 11:15:46',
+                         'CTI',
+                         '2023-12-30 11:15:54',
+                         '2023-12-30 11:15:54'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3489,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-30 11:22:48',
+                         'CTI',
+                         '2023-12-30 11:22:56',
+                         '2023-12-30 11:22:56'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3490,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-30 11:57:41',
+                         'CTI',
+                         '2023-12-30 11:57:48',
+                         '2023-12-30 11:57:48'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3491,
+                         'Saída',
+                         'E2806890000050030B649D63',
+                         '2023-12-30 14:16:06',
+                         'CTI',
+                         '2023-12-30 14:16:14',
+                         '2023-12-30 14:16:14'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3492,
+                         'Entrada',
+                         'E2806890000050030B649D63',
+                         '2023-12-30 14:20:51',
+                         'CTI',
+                         '2023-12-30 14:21:00',
+                         '2023-12-30 14:21:00'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3493,
+                         'Saída',
+                         'E28068900000400598D8192B',
+                         '2023-12-30 14:20:52',
+                         'CTI',
+                         '2023-12-30 14:21:00',
+                         '2023-12-30 14:21:00'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3494,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2023-12-30 14:20:52',
+                         'CTI',
+                         '2023-12-30 14:21:00',
+                         '2023-12-30 14:21:00'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3495,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2023-12-30 14:20:53',
+                         'CTI',
+                         '2023-12-30 14:21:02',
+                         '2023-12-30 14:21:02'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3496,
+                         'Entrada',
+                         '30155C97D4618DC0006880FC',
+                         '2023-12-30 14:20:56',
+                         'CTI',
+                         '2023-12-30 14:21:04',
+                         '2023-12-30 14:21:04'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3497,
+                         'Saída',
+                         '30155C97D4618DC0006880FC',
+                         '2023-12-30 14:25:12',
+                         'CTI',
+                         '2023-12-30 14:25:20',
+                         '2023-12-30 14:25:20'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3498,
+                         'Entrada',
+                         'E28068900000500598D72D24',
+                         '2023-12-30 15:18:38',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3499,
+                         'Saída',
+                         'E28068900000500598D72D24',
+                         '2023-12-31 12:27:17',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3500,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2023-12-31 12:27:17',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3501,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2024-01-01 12:11:12',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3502,
+                         'Saída',
+                         'E28068900000500598D5B522',
+                         '2024-01-01 12:11:13',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3503,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2024-01-01 12:11:13',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3504,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2024-01-01 12:11:14',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3505,
+                         'Entrada',
+                         'E28068900000400598D61106',
+                         '2024-01-01 12:11:14',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3506,
+                         'Entrada',
+                         'E2806890000040030B64AE2A',
+                         '2024-01-01 17:23:32',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3507,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2024-01-02 07:59:30',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3508,
+                         'Saída',
+                         'E28068900000500598D75060',
+                         '2024-01-02 08:00:28',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3509,
+                         'Entrada',
+                         'E28068900000400598D661A1',
+                         '2024-01-02 08:21:28',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3510,
+                         'Saída',
+                         'E2806890000050030B649D63',
+                         '2024-01-02 21:28:19',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3511,
+                         'Entrada',
+                         'E2806890000050030B649D63',
+                         '2024-01-03 06:37:27',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3512,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2024-01-03 08:01:32',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3513,
+                         'Entrada',
+                         'E28068900000400598D8192B',
+                         '2024-01-03 10:31:48',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3514,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2024-01-03 13:45:03',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3515,
+                         'Saída',
+                         'E28068900000400598D77559',
+                         '2024-01-03 14:18:47',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3516,
+                         'Saída',
+                         'E28068900000400598D7CDE2',
+                         '2024-01-03 14:29:09',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3517,
+                         'Saída',
+                         'E2806890000040030B64AE2A',
+                         '2024-01-03 14:29:16',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3518,
+                         'Saída',
+                         'E2806890000040030B64E05B',
+                         '2024-01-03 14:29:18',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3519,
+                         'Entrada',
+                         'E28068900000500598D75060',
+                         '2024-01-03 14:29:20',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3520,
+                         'Entrada',
+                         'E28068900000400598D7CDE2',
+                         '2024-01-03 14:29:22',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3521,
+                         'Saída',
+                         'E28068900000400598D661A1',
+                         '2024-01-03 16:07:27',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3522,
+                         'Entrada',
+                         'E28068900000400598D824EF',
+                         '2024-01-03 17:59:53',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3523,
+                         'Entrada',
+                         'E28068900000400598D77559',
+                         '2024-01-03 20:15:02',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3524,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2024-01-03 21:47:36',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3525,
+                         'Saída',
+                         'E28068900000500598D84D3A',
+                         '2024-01-03 21:56:23',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
+INSERT INTO leituras (
+                         id,
+                         tipo,
+                         EPC,
+                         Data,
+                         company_id,
+                         created_at,
+                         updated_at
+                     )
+                     VALUES (
+                         3526,
+                         'Entrada',
+                         'E28068900000500598D84D3A',
+                         '2024-01-03 22:41:06',
+                         'CTI',
+                         '2024-01-04 00:17:28',
+                         '2024-01-04 00:17:28'
+                     );
+
 
 -- Tabela: locals
 CREATE TABLE IF NOT EXISTS locals (
@@ -44578,12 +64433,12 @@ INSERT INTO sessions (
                          last_activity
                      )
                      VALUES (
-                         'XpPh5q0EdmPBOllVhG5UO5lkafOD62Zp1M9A2PxR',
-                         1,
+                         '3aKJM7927KFFsNPO37SkXfMf99ljshuXwlMxBDvN',
+                         NULL,
                          '192.168.1.104',
-                         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
-                         'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiSElxeW9VU3BRMVRrSVdkSHJycTE2WlpIUjRhaUdqNVMwTWNaRlBkaCI7czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEwJDJJMGhzWFFHRVBjZVM2NHRqUzZuZy5XT2ZVRC5OcTB1QkJmeDlkbGJaa0YvTFdWaWV4VHhlIjtzOjk6Il9wcmV2aW91cyI7YToxOntzOjM6InVybCI7czozMzoiaHR0cDovLzE5Mi4xNjguMS4xMDQ6ODAwMC9sZWl0dXJhIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319fQ==',
-                         1701378158
+                         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                         'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiVjJXNGx5dkU3b0hzTnFrVGZqdnlXUkxLdDJCMWtRcDJYR253SlNrNyI7czo4OiJtZW5zYWdlbSI7czoyNjoiT3BlcmHDp8OjbyBuw6NvIHBlcm1pdGlkYSEiO3M6NjoiX2ZsYXNoIjthOjI6e3M6MzoibmV3IjthOjA6e31zOjM6Im9sZCI7YToxOntpOjA7czo4OiJtZW5zYWdlbSI7fX1zOjk6Il9wcmV2aW91cyI7YToxOntzOjM6InVybCI7czozMzoiaHR0cDovLzE5Mi4xNjguMS4xMDQ6ODAwMC9sZWl0dXJhIjt9fQ==',
+                         1703886615
                      );
 
 INSERT INTO sessions (
@@ -44595,12 +64450,12 @@ INSERT INTO sessions (
                          last_activity
                      )
                      VALUES (
-                         'KlWfeHbTpmN0BFJAyYFfIN9VXKe9vQbGSN1hkGvq',
-                         1,
+                         '4jUNYilgzxewnZ8f9k2QyQSTRcWAimD4TWDvumw5',
+                         NULL,
                          '192.168.1.104',
-                         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
-                         'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiTUtBMlliaVA1YzVNNTZJUlpBeE5HQVVTRm03WUlzVXhFRUMwc1BaWiI7czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEwJDJJMGhzWFFHRVBjZVM2NHRqUzZuZy5XT2ZVRC5OcTB1QkJmeDlkbGJaa0YvTFdWaWV4VHhlIjtzOjk6Il9wcmV2aW91cyI7YToxOntzOjM6InVybCI7czozNToiaHR0cDovLzE5Mi4xNjguMS4xMDQ6ODAwMC9kYXNoYm9hcmQiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX1zOjIxOiJwYXNzd29yZF9oYXNoX3NhbmN0dW0iO3M6NjA6IiQyeSQxMCQySTBoc1hRR0VQY2VTNjR0alM2bmcuV09mVUQuTnEwdUJCZng5ZGxiWmtGL0xXVmlleFR4ZSI7fQ==',
-                         1701551584
+                         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                         'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiejRJa1h1aHY0SGtXVU5ueHVpNkdLMWxjblVqOUZpSmFpOEVNSmwyNCI7czo4OiJtZW5zYWdlbSI7czoyNjoiT3BlcmHDp8OjbyBuw6NvIHBlcm1pdGlkYSEiO3M6NjoiX2ZsYXNoIjthOjI6e3M6MzoibmV3IjthOjA6e31zOjM6Im9sZCI7YToxOntpOjA7czo4OiJtZW5zYWdlbSI7fX1zOjk6Il9wcmV2aW91cyI7YToxOntzOjM6InVybCI7czozMzoiaHR0cDovLzE5Mi4xNjguMS4xMDQ6ODAwMC9sZWl0dXJhIjt9fQ==',
+                         1703886615
                      );
 
 INSERT INTO sessions (
@@ -44612,12 +64467,29 @@ INSERT INTO sessions (
                          last_activity
                      )
                      VALUES (
-                         'lpKkgwtFcLWrPsxRzPVT0NuDlKWzz5lgCpPM0WrZ',
+                         'J1A3RbW0JD9mJXgqk1tmtA9lSERyEtdaNimxRXzn',
                          1,
                          '192.168.1.104',
-                         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
-                         'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiNmtIN1h4UTE5a1lnVU5OM2cyUzExZWlYWEIyQXpXUVZSb0ZPQkFQZyI7czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEwJDJJMGhzWFFHRVBjZVM2NHRqUzZuZy5XT2ZVRC5OcTB1QkJmeDlkbGJaa0YvTFdWaWV4VHhlIjtzOjk6Il9wcmV2aW91cyI7YToxOntzOjM6InVybCI7czozMzoiaHR0cDovLzE5Mi4xNjguMS4xMDQ6ODAwMC9sZWl0dXJhIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319fQ==',
-                         1701662993
+                         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                         'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiRGM0cDl5SE8zd2hXR2cwNG5RUXhnZjk1QXlveWQ1SHloOXdmbGtvVCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJuZXciO2E6MDp7fXM6Mzoib2xkIjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzU6Imh0dHA6Ly8xOTIuMTY4LjEuMTA0OjgwMDAvZGFzaGJvYXJkIjt9czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTtzOjIxOiJwYXNzd29yZF9oYXNoX3NhbmN0dW0iO3M6NjA6IiQyeSQxMCQySTBoc1hRR0VQY2VTNjR0alM2bmcuV09mVUQuTnEwdUJCZng5ZGxiWmtGL0xXVmlleFR4ZSI7czoxNzoicGFzc3dvcmRfaGFzaF93ZWIiO3M6NjA6IiQyeSQxMCQySTBoc1hRR0VQY2VTNjR0alM2bmcuV09mVUQuTnEwdUJCZng5ZGxiWmtGL0xXVmlleFR4ZSI7fQ==',
+                         1703889957
+                     );
+
+INSERT INTO sessions (
+                         id,
+                         user_id,
+                         ip_address,
+                         user_agent,
+                         payload,
+                         last_activity
+                     )
+                     VALUES (
+                         'XrIBA4Zj9Ze9giRquoXGikGzWZqK79MjXIYzfK7s',
+                         1,
+                         '192.168.1.104',
+                         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                         'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiYTVjM1hod3ZmZk1NU2tYRERONmd4WDZ0eTN3YUdZSGZIREpGVlpGSSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzM6Imh0dHA6Ly8xOTIuMTY4LjEuMTA0OjgwMDAvbGVpdHVyYSI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoyMToicGFzc3dvcmRfaGFzaF9zYW5jdHVtIjtzOjYwOiIkMnkkMTAkMkkwaHNYUUdFUGNlUzY0dGpTNm5nLldPZlVELk5xMHVCQmZ4OWRsYlprRi9MV1ZpZXhUeGUiO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTAkMkkwaHNYUUdFUGNlUzY0dGpTNm5nLldPZlVELk5xMHVCQmZ4OWRsYlprRi9MV1ZpZXhUeGUiO30=',
+                         1704339251
                      );
 
 
@@ -45092,7 +64964,7 @@ INSERT INTO users (
                       'ayronpaiva@outlook.com',
                       NULL,
                       '$2y$10$2I0hsXQGEPceS64tjS6ng.WOfUD.Nq0uBBfx9dlbZkF/LWViexTxe',
-                      'DSMuWyA766pM8BJsfbUIYxK9CCLF9NHDZGoCHK6dtnoMiM5FLxoD8L66UGi5',
+                      'aMjLtxuSUKdHiSLAvNj2eUfF9TQmE4Go0JJNW0A185vxbOwTiO9MIfXFtkY5',
                       'administrator',
                       NULL,
                       NULL,
