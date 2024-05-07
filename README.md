@@ -11,12 +11,20 @@ O projeto envolve a criação de um sistema para gerenciamento de enxovais e ite
 
 ## 📚 Requisitos da Linguagem
 
+PHP 8,1 - 8,3
+
+Composer version 2.5.5 ou superior
+
 
 ## Passo para utilização
 
-1 - Inicialização do servidor, abra a pasta do código e digite o seguinte comando no terminal `Php Artisan Serve`.
+1- O código pode ser clonado diretamente desse repositorio.
 
-2 -  Acesse o servidor em qualquer navegador por meio do IP padrão `http://127.0.0.1:8000/`. 
+2 - Abra a pasta clonada e acesse a seguinte subpasta `cd jetstream/app`
+
+3 - Inicialização do servidor, abra a pasta do código e digite o seguinte comando no terminal `Php Artisan Serve`.
+
+4 -  Acesse a aplicação em qualquer navegador por meio do IP padrão `http://127.0.0.1:8000/`. 
 
 
 
