@@ -1,83 +1,75 @@
-# 🖥️ Gestmi 
+**Sistema Integrado Viaonda RFID**
 
-O projeto envolve a criação de um sistema para gerenciamento de enxovais e itens em geral, integrado juntamente  com a tecnologia `RFID`
+Este repositório contém o código-fonte de um sistema integrado com antena RFID desenvolvido para a empresa Viaonda. O sistema utiliza o framework Laravel e opera na faixa de frequência de 900 Hz.
 
-# 🛠️ Tecnologias Utilizadas
+### Descrição
 
-* [Laravel](https://laravel.com/): Laravel é um framework de aplicação web com sintaxe expressiva e elegante.
-* [Bootstrap](https://getbootstrap.com/): Kit de ferramentas de front-end poderoso, extensível e repleto de recursos.
-* [VsCode](https://code.visualstudio.com/): Livre. Construído em código aberto. Corre em todos os lugares.
+O sistema integrado Viaonda RFID foi desenvolvido para permitir a leitura e gerenciamento de tags RFID em uma variedade de aplicações, desde controle de acesso até rastreamento de inventário. Utilizando a tecnologia RFID na faixa de frequência de 900 Hz, o sistema é capaz de identificar e rastrear objetos em tempo real, proporcionando uma solução robusta e eficiente para as necessidades da empresa Viaonda.
 
+### Recursos Principais
 
-## 📚 Requisitos da Linguagem
+- **Leitura de Tags RFID**: Capacidade de ler e interpretar dados de tags RFID na faixa de frequência de 900 Hz.
+  
+- **Gerenciamento de Inventário**: Funcionalidade para gerenciar o inventário de forma eficiente, permitindo a identificação rápida e precisa de itens.
 
-PHP 8,1 - 8,3
+- **Controle de Acesso**: Possibilidade de integração com sistemas de controle de acesso para permitir ou negar a entrada com base na identificação por RFID.
 
-Composer version 2.5.5 ou superior
+- **API RESTful**: Interface de programação de aplicativos (API) RESTful para integração com outros sistemas e serviços.
 
+### Tecnologias Utilizadas
 
-## Passo para utilização
+- **Laravel**: Framework PHP moderno e robusto, proporcionando uma base sólida para o desenvolvimento do sistema.
 
-1- O código pode ser clonado diretamente desse repositorio.
+- **PHP**: Linguagem de programação backend utilizada pelo framework Laravel.
 
-2 - Abra a pasta clonada e acesse a seguinte subpasta `cd jetstream/app`
+- **MySQL**: Sistema de gerenciamento de banco de dados relacional para armazenamento de dados.
 
-3 - Inicialização do servidor, abra a pasta do código e digite o seguinte comando no terminal `Php Artisan Serve`.
+- **HTML/CSS/JavaScript**: Tecnologias padrão da web para construção da interface de usuário e interações dinâmicas.
 
-4 -  Acesse a aplicação em qualquer navegador por meio do IP padrão `http://127.0.0.1:8000/`. 
+### Instalação e Uso
 
+1. Clone este repositório em sua máquina local:
 
+   ```
+   git clone https://github.com/seuusuario/nome-do-repositorio.git
+   ```
 
+2. Instale as dependências do Composer:
 
-## 🧬 Estrutura do Projeto
+   ```
+   composer install
+   ```
 
-O projeto foi dividido em 3 partes, separadas em analisador léxico, analisador sintático e semântico, e gerador de código intermediário.
+3. Copie o arquivo `.env.example` para `.env` e configure as variáveis de ambiente, incluindo a conexão com o banco de dados.
 
-### 🔍 Analisador Léxico
+4. Gere a chave de aplicativo do Laravel:
 
-O analisador léxico é responsável por analisar a sequência de caracteres do código fonte e transformá-la em uma sequência de tokens.
-Os tokens são estruturas que representam os elementos da linguagem, como palavras reservadas, identificadores, números, operadores, etc.
-Em nossa implementação essa etapa é realizada pelo arquivo `muxtela.l`.
+   ```
+   php artisan key:generate
+   ```
 
-### 🧩 Analisador Sintático e Semântico
-Essa etapa é responsável por analisar a sequência de tokens gerada pelo analisador léxico e verificar se ela está de acordo com a gramática da linguagem.
-Além disso, o analisador semântico verifica se as operações realizadas no código são válidas.
-Em nossa implementação essa etapa é realizada pelo arquivo `muxtela.y`.
+5. Execute as migrações do banco de dados para criar as tabelas necessárias:
 
-### 🔄 Gerador de Código Intermediário
-Essa etapa é responsável por gerar um código intermediário que será utilizado para a geração do código final.
-O código intermediário é uma representação simplificada do código fonte, que é mais fácil de ser manipulada.
-Por fim, o código intermediário é utilizado para a geração do código final.
-Além disso, esta etapa está incluída no arquivo `muxtela.y`.
+   ```
+   php artisan migrate
+   ```
 
-## 🧪 Testes Personalizados
+6. Inicie o servidor de desenvolvimento:
 
-Para testar o compilador, foram criados alguns arquivos de teste que estão localizados na pasta raíz do projeto.
-Porém é possível criar novos arquivos de teste e executá-los utilizando o compilador.
-Devemos selecionar qual arquivo `.txt` será utilizado para a execução do compilador, e em seguida executar o comando `./muxtela.exe seu_codigo.txt`.
+   ```
+   php artisan serve
+   ```
 
-## 🚀 Executando o Projeto
+7. Acesse o sistema em seu navegador no endereço `http://localhost:8000`.
 
-Para executar o projeto, é necessário ter o `flex` e o `bison` instalados em sua máquina.
-Após a instalação, basta executar os seguintes comandos:
+### Contribuição
 
-```bash
-flex muxtela.l
-bison -d muxtela.y
-gcc -o muxtela muxtela.tab.c lex.yy.c
-./muxtela.exe < arquivo_de_teste.txt
-```
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue para relatar bugs, sugerir novos recursos ou enviar pull requests.
 
-Obs: É interessante ressaltar que os comandos geram arquivos interdependentes, e por isso é necessário executá-los na ordem correta 
-e com um tempo de espera entre eles.
+### Licença
 
-## 🤝 Contribuições
+Este projeto está licenciado sob a [MIT License](LICENSE).
 
-Sinta-se à vontade para contribuir com este projeto criando solicitações de pull (pull requests) ou relatando problemas por meio de issues, caso encontre algum.
+---
 
-
-
-
-
-
-
+Para mais informações sobre o sistema integrado Viaonda RFID, entre em contato com a equipe de desenvolvimento da Viaonda.
