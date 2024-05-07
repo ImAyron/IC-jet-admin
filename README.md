@@ -15,6 +15,7 @@ O projeto envolve a criação de um sistema para gerenciamento de enxovais e ite
 ## Passo para utilização
 
 1 - Inicialização do servidor, abra a pasta do código e digite o seguinte comando no terminal `Php Artisan Serve`.
+
 2 -  Acesse o servidor em qualquer navegador por meio do IP padrão `http://127.0.0.1:8000/`. 
 
 
