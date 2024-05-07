@@ -1,10 +1,10 @@
 **Sistema Integrado Viaonda RFID**
 
-Este repositório contém o código-fonte de um sistema integrado com antena RFID desenvolvido para a empresa Viaonda. O sistema utiliza o framework Laravel e opera na faixa de frequência de 900 Hz.
+Este repositório contém o código-fonte de um sistema integrado com antena RFID . O sistema utiliza o framework Laravel e opera na faixa de frequência de 900 Hz.
 
 ### Descrição
 
-O sistema integrado Viaonda RFID foi desenvolvido para permitir a leitura e gerenciamento de tags RFID em uma variedade de aplicações, desde controle de acesso até rastreamento de inventário. Utilizando a tecnologia RFID na faixa de frequência de 900 Hz, o sistema é capaz de identificar e rastrear objetos em tempo real, proporcionando uma solução robusta e eficiente para as necessidades da empresa Viaonda.
+O sistema integrado  foi desenvolvido para permitir a leitura e gerenciamento de tags RFID em uma variedade de aplicações, desde controle de acesso até rastreamento de inventário. Utilizando a tecnologia RFID na faixa de frequência de 900 Hz, o sistema é capaz de identificar e rastrear objetos em tempo real, proporcionando uma solução robusta e eficiente para as necessidades da empresa Viaonda.
 
 ### Recursos Principais
 
@@ -22,7 +22,7 @@ O sistema integrado Viaonda RFID foi desenvolvido para permitir a leitura e gere
 
 - **PHP**: Linguagem de programação backend utilizada pelo framework Laravel.
 
-- **MySQL**: Sistema de gerenciamento de banco de dados relacional para armazenamento de dados.
+- **SQlite**: Sistema de gerenciamento de banco de dados relacional para armazenamento de dados.
 
 - **HTML/CSS/JavaScript**: Tecnologias padrão da web para construção da interface de usuário e interações dinâmicas.
 
@@ -31,7 +31,7 @@ O sistema integrado Viaonda RFID foi desenvolvido para permitir a leitura e gere
 1. Clone este repositório em sua máquina local:
 
    ```
-   git clone https://github.com/seuusuario/nome-do-repositorio.git
+   git clone https://github.com/seuusuario/IC-jet-admin
    ```
 
 2. Instale as dependências do Composer:
