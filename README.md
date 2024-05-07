@@ -89,4 +89,3 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ---
 
-Para mais informações sobre o sistema integrado Viaonda RFID, entre em contato com a equipe de desenvolvimento da Viaonda.
