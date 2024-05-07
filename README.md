@@ -1,4 +1,4 @@
-**Sistema Integrado Viaonda RFID**
+**Sistema Integrado Gestmi**
 
 Este repositório contém o código-fonte de um sistema integrado com antena RFID . O sistema utiliza o framework Laravel e opera na faixa de frequência de 900 Hz.
 
