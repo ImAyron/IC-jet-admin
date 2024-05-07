@@ -4,20 +4,21 @@ O projeto envolve a criação de um sistema para gerenciamento de enxovais e ite
 
 # 🛠️ Tecnologias Utilizadas
 
-* [Laravel](https://www.gnu.org/software/flex/): Ferramenta para gerar analisadores léxicos.
-* [Bootstrap](https://www.gnu.org/software/bison/): Ferramenta para gerar analisadores sintáticos.
-* [](https://gcc.gnu.org/): Compilador de código fonte.
-* [C](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html): Linguagem de programação utilizada para a implementação do compilador.
+* [Laravel](https://laravel.com/): Laravel é um framework de aplicação web com sintaxe expressiva e elegante.
+* [Bootstrap](https://getbootstrap.com/): Kit de ferramentas de front-end poderoso, extensível e repleto de recursos.
+* [VsCode](https://code.visualstudio.com/): Livre. Construído em código aberto. Corre em todos os lugares.
+
 
 ## 📚 Requisitos da Linguagem
 
-A linguagem a ser compilada deverá aderir às seguintes convenções para a definição de nomes de variáveis e funções:
 
-* Variáveis globais devem ser nomeadas utilizando letras maiúsculas (ex: `VARIAVEL_GLOBAL`).
+## Passo para utilização
 
-* Variáveis locais devem ser nomeadas utilizando letras minúsculas (ex: `variavel_local`).
+1 - Inicialização do servidor, abra a pasta do código e digite o seguinte comando no terminal `Php Artisan Serve`.
+2 -  Acesse o servidor em qualquer navegador por meio do IP padrão `http://127.0.0.1:8000/`. 
 
-* Nomes de funções devem ser escolhidos com um verbo concatenado a um significado que se inicia com letra maiúscula (ex: `calcularSoma()`, `exibirResultado()`, etc.).
+
+
 
 ## 🧬 Estrutura do Projeto
 
