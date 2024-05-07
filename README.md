@@ -6,6 +6,23 @@ Este repositório contém o código-fonte de um sistema integrado com antena RFI
 
 O sistema integrado  foi desenvolvido para permitir a leitura e gerenciamento de tags RFID em uma variedade de aplicações, desde controle de acesso até rastreamento de inventário. Utilizando a tecnologia RFID na faixa de frequência de 900 Hz, o sistema é capaz de identificar e rastrear objetos em tempo real, proporcionando uma solução robusta e eficiente para as necessidades da empresa Viaonda.
 
+### Como Funciona o RFID (Identificação por Radiofrequência)
+
+
+1. **Tag RFID**: Cada objeto a ser rastreado é equipado com uma pequena etiqueta eletrônica, chamada de tag RFID. Esta tag contém um microchip que armazena dados e uma antena para comunicação sem fio.
+
+2. **Leitor RFID**: O sistema inclui uma ou mais antenas RFID conectadas a leitores. Estes leitores emitem sinais de rádio de baixa potência através das antenas, criando uma zona de detecção conhecida como campo de leitura.
+
+3. **Comunicação sem Fio**: Quando uma tag RFID entra no campo de leitura, ela recebe energia do sinal de rádio emitido pelo leitor RFID. Utilizando essa energia, a tag responde ao leitor enviando os dados armazenados em seu microchip.
+
+4. **Identificação Única**: Cada tag RFID possui um identificador único, que é lido pelo leitor RFID. Este identificador único permite que o sistema distinga entre diferentes tags e, assim, identifique objetos individuais.
+
+5. **Processamento de Dados**: Os dados lidos pelo leitor RFID são processados pelo sistema integrado , que pode executar uma variedade de ações, como armazenamento em banco de dados, verificação de acesso, atualização de inventário, entre outras.
+
+6. **Feedback ou Ações Automáticas**: Com base nos dados lidos, o sistema pode fornecer feedback ao usuário, como exibir informações sobre o objeto identificado, ou pode acionar ações automáticas, como abrir uma porta de acesso ou atualizar o status de um item no inventário.
+
+Em resumo, o RFID permite uma identificação rápida e sem contato de objetos por meio de sinais de rádio, proporcionando uma solução eficiente e versátil para uma variedade de aplicações, desde controle de estoque até controle de acesso e rastreamento de ativos.
+
 ### Recursos Principais
 
 - **Leitura de Tags RFID**: Capacidade de ler e interpretar dados de tags RFID na faixa de frequência de 900 Hz.
