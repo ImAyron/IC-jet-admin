@@ -111,7 +111,7 @@
 @stop
 
 @section('css')
-<meta http-equiv='refresh' content='80'>
+
 <style>
   select:hover {
     background-color: white;
