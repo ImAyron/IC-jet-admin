@@ -86,7 +86,7 @@
                 $badgeClass = $o->tipo == 'Entrada' ? 'bg-success' : 'bg-danger';
             @endphp
             <td>
-                <span class="badge {{ $badgeClass }}">{{ htmlentities($o->tipo) }}</span>
+                <span class="badge {{ $badgeClass }}">{{ (($o->tipo == "Entrada") ? $o->tipo : 'Saída') }}</span>
             </td>
         </tr>
     @endforeach
