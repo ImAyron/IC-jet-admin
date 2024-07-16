@@ -23,7 +23,17 @@
 <link rel="stylesheet" href="./dist/css/adminlte.min.css">
 
 
-<a href="{{route('leitura.index')}}">Voltar</a>
+<div class="d-flex justify-content-between mb-2">
+    <a href="{{ route('leitura.index') }}" type="button" class="btn btn-outline-primary">Voltar</a>
+    <p>
+        Última atualização: <strong>{{ $ultimaLeitura->date  }}</strong> <br>
+        Detectada em: <strong>{{ $ultimaLeitura->company_id }}</strong>
+    </p>
+    <h3>
+        {{ $ultimaLeitura->item->descricao . ' - ' . $ultimaLeitura->item->codigo }}
+    </h3>
+</div>
+
 
 <table id="example1" class="table table-bordered table-striped table-responsive-sm">
   <caption>Ultimas leituras</caption>
@@ -101,10 +111,11 @@
 
     }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
     $('#example1').DataTable({
-     
+
       "autoWidth": false,
       "responsive": true,
     });
   });
 </script>
 @stop
+
