@@ -7,6 +7,7 @@ use App\Models\leitura;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use App\Models\Tag;
+use App\Models\Item;
 
 class LeituraController extends Controller
 {
@@ -17,7 +18,7 @@ class LeituraController extends Controller
         $data1 = $request->input('data');
         $time = $request->input('time');
         $data_begin=$data1 . ' ' .$time.':00';
-        
+
         //data Fim
         $data2 = $request->input('data2');
         $time1 = $request->input('time1');
@@ -28,10 +29,10 @@ class LeituraController extends Controller
         // $leituras= DB::table('leituras')->whereDate('created_at', '=', '2023-09-06 06:53:33')->get();
         //$leituras1  = leitura::select()->where('created_at', '=', $data1 . ' ' .$time.':33')->orderBy('created_at', 'desc')->get();
         $leituras1 = DB::table('leituras')->whereBetween('data', [$data_begin, $data_end])->get();
-        
-        
+
+
         return view("leitura.filter",['leituras1'=>$leituras1]);
-        
+
     }
 
 
@@ -41,10 +42,17 @@ class LeituraController extends Controller
         if (Auth::check()) {
             $leituras2 = leitura::where('id', $leitura->id)->get();
             $leituras1 = leitura::where('EPC', $leituras2[0]->EPC)->orderBy('Data')->get();
-            
 
+            $ultimaLeitura = leitura::where('EPC', $leituras2[0]->EPC)->orderBy('Data', 'desc')->first();
+            $ultimaLeitura->date = date( 'd/m/Y  H:i:s' , strtotime($ultimaLeitura->Data));
+            $ultimaLeitura->item = Item::findOrFail(Tag::where('codigo', $ultimaLeitura->EPC)->first()->item_id);
 
-            return view('leitura.show', ['leitura'=>$leitura,'leituras' => $leituras1]);
+            $days = 220;
+            if (strtotime($ultimaLeitura->Data) <= strtotime('-' . $days . 'days')) {
+                $ultimaLeitura->date = "Sem leitura nos últimos $days dias";
+            }
+
+            return view('leitura.show', ['leitura'=>$leitura,'leituras' => $leituras1, 'ultimaLeitura' => $ultimaLeitura]);
         } else {
             session()->flash('mensagem', 'Operação não permitida!');
             return redirect()->route('login');
@@ -63,25 +71,25 @@ class LeituraController extends Controller
 
             //A consulta está correta?;
             $lastPassage1 = leitura::select('tipo')->where('EPC', $leitura1["reading_epc_hex"])->max('Data');
-            
-            
+
+
             $lastPassage = DB::table('leituras')->select('tipo')->where('Data', $lastPassage1)->get();
-           
+
             if ($lastPassage1 != NULL) {
-               
+
                 if ($lastPassage->get('0')->tipo == 'Saída' || $lastPassage->get('0')->tipo == NULL || NAN) {
                     $leitura->tipo = 'Entrada';
-                    
+
                 }
                 if ($lastPassage->get('0')->tipo == 'Entrada') {
                     $leitura->tipo = 'Saída';
-                    
+
                 }
             }
             else{
-                $leitura->tipo='Entrada';  
+                $leitura->tipo='Entrada';
             }
-           
+
             $leitura->EPC = $leitura1["reading_epc_hex"];
             $leitura->Data = $leitura1["reading_created_at"];
             $leitura->company_id = $leitura1["reading_company_id"];
@@ -97,19 +105,19 @@ class LeituraController extends Controller
     public function index()
     {
         if (Auth::check()) {;
-           
+
             $tagsLidas = leitura::all()->unique('EPC');
-           
+
             $tags=Tag::orderBy('id')->get();
-            
+
             $tagsLidas2 = leitura::distinct()->count('EPC');
 
             foreach($tags as $t){
-                
+
                 $tagName[$t->id]=leitura::select()->Where('EPC',$t->codigo)->get();
-                
+
             }
-           
+
             $tagsCadastrads=Tag::orderBy('id')->count();
             $leituras1  = leitura::orderBy('created_at', 'desc')->get();
             return view('leitura.index', ['count'=>$tagsCadastrads,'tagName'=>$tagName,'tags'=>$tags,'leituras' => $leituras1, 'tagsLidas' => $tagsLidas, 'tagsLidas2' => $tagsLidas2]);
