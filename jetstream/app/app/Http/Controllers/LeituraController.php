@@ -95,29 +95,37 @@ class LeituraController extends Controller
     }
 
     public function index()
-    {
-        if (Auth::check()) {;
-           
-            $tagsLidas = leitura::all()->unique('EPC');
-           
-            $tags=Tag::orderBy('id')->get();
-            
-            $tagsLidas2 = leitura::distinct()->count('EPC');
+{
+    if (Auth::check()) {
+        $tags = Tag::orderBy('id')->get();
+        $tagName = [];
 
-            foreach($tags as $t){
-                
-                $tagName[$t->id]=leitura::select()->Where('EPC',$t->codigo)->get();
-                
+        foreach ($tags as $t) {
+            $tagLeitura = Leitura::where('EPC', $t->codigo)->first();
+            if ($tagLeitura) {
+                $tagName[$t->id] = $tagLeitura->id;
             }
-           
-            $tagsCadastrads=Tag::orderBy('id')->count();
-            $leituras1  = leitura::orderBy('created_at', 'desc')->get();
-            return view('leitura.index', ['count'=>$tagsCadastrads,'tagName'=>$tagName,'tags'=>$tags,'leituras' => $leituras1, 'tagsLidas' => $tagsLidas, 'tagsLidas2' => $tagsLidas2]);
-        } else {
-            session()->flash('mensagem', 'Operação não permitida!');
-            return redirect()->route('login');
         }
+
+        $tagsCadastrads = Tag::count();
+        $leituras1 = Leitura::orderBy('created_at', 'desc')->get();
+        $tagsLidas = Leitura::distinct('EPC')->get();
+        $tagsLidas2 = leitura::distinct()->count('EPC');
+
+        return view('leitura.index', [
+            'count' => $tagsCadastrads,
+            'tagName' => $tagName,
+            'tags' => $tags,
+            'leituras' => $leituras1,
+            'tagsLidas' => $tagsLidas,
+            'tagsLidas2' => $tagsLidas2
+        ]);
+    } else {
+        session()->flash('mensagem', 'Operação não permitida!');
+        return redirect()->route('login');
     }
+}
+
     public static function ExibirTag($epc)
     {
         if (Auth::check()) {

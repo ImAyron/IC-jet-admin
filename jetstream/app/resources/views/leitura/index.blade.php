@@ -33,9 +33,12 @@
       <option selected style="color: #17A2B8;">Tags do Sistema</option>
 
       @foreach($tags as $t)
-        <option class="option" value="{{route('leitura.show',$tagName[$t->id][0]->id)}}">
-            {{$t->codigo}} - {{$t->item->descricao}}
+   
+      @if(isset($tagName[$t->id]))
+        <option class="option" value="{{ route('leitura.show', $tagName[$t->id]) }}">
+            {{ $t->codigo }} - {{ $t->item->descricao }}
         </option>
+      @endif
       @endforeach
     </select>
     <form action="{{ route('route_post.php') }}">
