@@ -50,15 +50,18 @@ class TagController extends Controller
         
         return $count;
     }
+    
     public function cadastroAutomatico(Request $request){
         foreach ($request->json() as $leitura1) {
          //se a tag não existir no sistema cadastra automatico   
-         if(DB::table('tags')->where('codigo', $leitura1["reading_epc_hex"])->count() == 0)            
+         
+         if(DB::table('tags')->where('codigo', $leitura1["reading_epc_hex"])->count() == 0) {     
+             
             $leitura = new Tag;
             $leitura->codigo = $leitura1["reading_epc_hex"];
-            $leitura->item_id= 1;       
+            $leitura->item_id= 35;       
             $leitura->dataFab = $leitura1["reading_created_at"];
-            $leitura->save();
+            $leitura->save();}
         }
 
         return response()->json([
@@ -81,7 +84,7 @@ class TagController extends Controller
 
     public function update(Request $request, Tag $tag)
     {
-        //dd($request->all());
+       
         $tag->fill($request->all());
         $tag->save();
 
@@ -91,16 +94,11 @@ class TagController extends Controller
 
     public function destroy(Tag $tag)
     {
-     #   if($tag->item->count() > 0){
-
-      #      session()->flash('mensagem', 'Exclusão não permitida! Existem itens associadas.');
-      #      return redirect()->route('tag.index');
-      #  }else{
 
         $tag->delete();
         session()->flash('mensagem', 'Tag excluída com sucesso!');
         return redirect()->route('tag.index');
    
-     #   }
+   
     }
 }
