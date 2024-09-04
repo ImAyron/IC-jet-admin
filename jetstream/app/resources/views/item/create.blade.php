@@ -34,13 +34,14 @@
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <label>Descrição</label>
-                                    <Select  class="form-control" placeholder="Enter ..." name="descricao" id="descricao"required>
+                                    <input type="text" class="form-control" placeholder="Enter ..." name="descricao" id="descricao"required>
+                                    <!-- <Select  class="form-control" placeholder="Enter ..." name="descricao" id="descricao"required>
                                         <option value="Privativo Tamanho M">Privativo Tamanho M</option>
                                         <option value="Toalha de Banho">Toalha de Banho</option>
                                         <option value="Cobertores de Microfibra">Cobertores de Microfibra</option>
                                         <option value="Lençois de maca">Lençois de maca</option>
                                         <option value="Camisola Verde aguá adulto">Camisola Verde aguá adulto</option>
-                                    </Select>
+                                    </Select> -->
                                 </div>
                             </div>
                         </div>

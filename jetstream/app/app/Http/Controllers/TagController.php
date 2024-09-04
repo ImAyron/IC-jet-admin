@@ -59,7 +59,7 @@ class TagController extends Controller
              
             $leitura = new Tag;
             $leitura->codigo = $leitura1["reading_epc_hex"];
-            $leitura->item_id= 35;       
+            $leitura->item_id= 69;       
             $leitura->dataFab = $leitura1["reading_created_at"];
             $leitura->save();}
         }

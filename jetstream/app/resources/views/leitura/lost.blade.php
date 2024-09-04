@@ -1,16 +1,12 @@
 @extends('adminlte::page')
 
-
 @section('title', 'Dashboard')
 
 @section('content_header')
 <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.3.2/css/buttons.dataTables.min.css">
 @stop
 
-
 @section('content')
-
-<!-- Reload Página-->
 <!-- Google Font: Source Sans Pro -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
 <!-- Font Awesome -->
@@ -21,52 +17,31 @@
 <link rel="stylesheet" href="./plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
 <!-- Theme style -->
 <link rel="stylesheet" href="./dist/css/adminlte.min.css">
+
 <div>
-</div>
-<div class="card-body">
-
-    <table id="example1" class="table table-bordered table-striped table-responsive-sm">
-        <caption>Ultimas leituras</caption>
-        <thead>
-
+    <h3>Tags (EPC) não lidas nos últimos 30 dias</h3>
+    <table id="tagsTable" class="table table-striped table-bordered">
+        <thead class="thead-dark">
             <tr>
-                <th scope="col">Id</th>
-                <th scope="col">Tag</th>
-                <th scope="col">Data</th>
-                <th scope="col">Antena</th>
-                <th scope="col">Tipo</th>
-
-
-
+                <th>#</th>
+                <th>Tag (EPC)</th>
+                <th>Última Leitura</th>
+                <th>Local</th>
             </tr>
         </thead>
         <tbody>
-
-            @foreach($leituras1 as $o)
-            <tr>
-
-                <td>{{ $o->id}}</td>
-
-                <td><a class="text-info" href="{{ route('tag.show', $o->EPC) }}">{{$o->EPC}}</a></td>
-                <td> {{date( 'd/m/Y  H:i:s' , strtotime($o->Data))  }}</td>
-                <td>{{ $o->company_id }} </td>
-                <?php
-                if ($o->tipo == 'Entrada') { ?>
-                    <td><span class="badge bg-success">{{ $o->tipo }}</span> </td>
-                <?php  } else { ?>
-
-
-                    <td><span class="badge bg-danger">{{ $o->tipo }}</span> </td>
-                <?php  } ?>
-            </tr>
+            @foreach($tagsNaoLidas as $tag => $info)
+                <tr>
+                    <td>{{ $loop->iteration }}</td>
+                    <td>
+                        <a class="text-info" href="{{ route('tag.show', $tag) }}">{{$tag}}</a>
+                    </td>
+                    <td>{{ \Carbon\Carbon::parse($info['data'])->format('d/m/Y H:i:s') }}</td>
+                    <td>{{ $info['company_id'] }}</td> <!-- Exibe o company_id -->
+                </tr>
             @endforeach
         </tbody>
     </table>
-
-
-</div>
-</div>
-
 @stop
 
 @section('css')
@@ -76,6 +51,12 @@
 @section('js')
 
 <!-- jQuery -->
+<script src="./plugins/jquery/jquery.min.js"></script>
+<!-- DataTables & Plugins -->
+<script src="./plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="./plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+<script src="./plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+<script src="./plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
 <script src="./plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
 <script src="./plugins/datatables-buttons/js/buttons.html5.min.js"></script>
 <script src="./plugins/datatables-buttons/js/buttons.print.min.js"></script>
@@ -83,24 +64,15 @@
 <script src="./plugins/pdfmake/pdfmake.min.js"></script>
 <script src="./plugins/pdfmake/vfs_fonts.js"></script>
 <script src="./plugins/jszip/jszip.min.js"></script>
-<!-- Page specific script -->
+
 <script>
     $(function() {
-        $("#example1").DataTable({
+        $("#tagsTable").DataTable({
             "responsive": true,
             "lengthChange": false,
             "autoWidth": false,
             "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
-        }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
-        $('#example2').DataTable({
-            "paging": true,
-            "lengthChange": false,
-            "searching": false,
-            "ordering": true,
-            "info": true,
-            "autoWidth": false,
-            "responsive": true,
-        });
+        }).buttons().container().appendTo('#tagsTable_wrapper .col-md-6:eq(0)');
     });
 </script>
 @stop

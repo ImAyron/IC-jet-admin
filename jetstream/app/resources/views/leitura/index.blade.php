@@ -26,6 +26,15 @@
   <div class="col"></div>
 
   <div class="col">
+  <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <a href="http://192.168.0.21:8000/leitura/lost" class="btn btn-warning">
+                    Tags Perdidas 30 dias
+                </a>
+            </div>
+        </div>
+    </div>
     <p class="text-center fw-bold text-info">Tags Cadastradas {{$count}}</p>
     <p class="text-center fw-bold text-danger">Total de tags {{$tagsLidas2}}</p>
 

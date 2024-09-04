@@ -31,7 +31,7 @@
                             <b>ID</b> <a class="float-right text-info">{{  $tag->id }}</a>
                         </li>
                         <li class="list-group-item">
-                            <b>Código</b> <a class="float-right text-info "> {{ $tag->codigo  }}</a>
+                            <b>Código</b> <a href="{{ route('leitura.show', $tag->codigo) }}" class="float-right text-info "> {{ $tag->codigo  }}</a>
                         </li>
                         <li class="list-group-item">
                             <b>Descrição do Item Associado - ID</b> <a class="float-right text-info " href="{{ route('item.show', $tag->item->id) }}"> {{ $tag->item->id ." - ".  $tag->item->descricao }}</a>

@@ -24,7 +24,16 @@
 
 
 <a href="{{route('leitura.index')}}">Voltar</a>
-
+<div class="d-flex justify-content-between mb-2">
+    
+    <p>
+        Última atualização: <strong>{{ $ultimaLeitura->date  }}</strong> <br>
+        Detectada em: <strong>{{ $ultimaLeitura->company_id }}</strong>
+    </p>
+    <h3>
+        {{ $ultimaLeitura->item->descricao . ' - ' . $ultimaLeitura->item->codigo }}
+    </h3>
+</div>
 <table id="example1" class="table table-bordered table-striped table-responsive-sm">
   <caption>Ultimas leituras</caption>
   <thead>

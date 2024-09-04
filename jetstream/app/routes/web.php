@@ -53,6 +53,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/teste', function () {
 
 Route::post('/leitura/filter','App\Http\Controllers\LeituraController@filter')->name('route_post.php');
 Route::get('/leitura/filter','App\Http\Controllers\LeituraController@filter');
+Route::get('/leitura/lost','App\Http\Controllers\LeituraController@lost');
 
 Route::resource('/antena', AntenaController::class);
 Route::resource('/item', ItemController::class);
