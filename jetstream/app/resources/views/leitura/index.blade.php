@@ -99,9 +99,9 @@
         @php
         $badgeClass = $o->tipo == 'Entrada' ? 'bg-success' : 'bg-danger';
     @endphp
-        <td data-placement="top" title="Esse tipo de leitura so funciona para O CTI ">
+        <td data-toggle="tooltip"  data-placement="top" title="Esse tipo de leitura so funciona para O CTI ">
 
-        <span  data-toggle="tooltip" 
+        <span  
              class="badge {{ $badgeClass }}" >{{ (($o->tipo == "Entrada") ? $o->tipo : 'Saída') }}</span>
         </td>
       </tr>

@@ -31,7 +31,7 @@
                             <div class="icon">
                                 <i class="ion ion-bag"></i>
                             </div>
-                            <a href="item" class="small-box-footer">Mais Informações <i
+                            <a  data-toggle="tooltip"  data-placement="top" title="Clique para saber mais sobre os itens cadastrados " href="item" class="small-box-footer">Mais Informações <i
                                     class="fas fa-arrow-circle-right"></i></a>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                         <div class="small-box bg-danger">
                             <div class="inner">
                                 <h3>{{ $lavanderia }}</h3>
-
+    
                                 <p>Itens na lavanderia </p>
                             </div>
                             <div class="icon">
