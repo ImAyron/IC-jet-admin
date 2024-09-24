@@ -15,8 +15,11 @@ class LeituraController extends Controller
 
     
     public function lost(Request $resquest){
-        $tagsCadastradas = Tag::pluck('codigo')->toArray();
-        $ultimaLeituraPorTag = leitura::select('EPC', 'Data', 'company_id')
+        // Pega todas as tags cadastradas
+    $tagsCadastradas = Tag::pluck('codigo')->toArray();
+
+    // Obtém a última leitura por tag (EPC)
+    $ultimaLeituraPorTag = leitura::select('EPC', 'Data', 'company_id')
         ->whereIn('EPC', $tagsCadastradas) // Filtra pelas tags cadastradas
         ->whereIn('Data', function($query) {
             $query->selectRaw('MAX(Data)')
@@ -32,10 +35,10 @@ class LeituraController extends Controller
             ];
         })
         ->toArray();
-    
-    // Verificar se a última leitura foi feita nos últimos 30 dias
+
+    // Verifica se a última leitura foi feita há mais de 30 dias
     $tagsNaoLidas = [];
-    $trintaDiasAtras = now()->subDays(); // Calcula a data de 30 dias atrás
+    $trintaDiasAtras = now()->subDays(30); // Calcula a data de 30 dias atrás
 
     foreach ($ultimaLeituraPorTag as $epc => $info) {
         $dataLeitura = \Carbon\Carbon::parse($info['data']); // Converte a data para Carbon
@@ -48,6 +51,7 @@ class LeituraController extends Controller
         }
     }
 
+    // Retorna a view com as tags não lidas há mais de 30 dias
     return view("leitura.lost", ['tagsNaoLidas' => $tagsNaoLidas]);
     }
 
